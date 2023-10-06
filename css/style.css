@@ -1,0 +1,134 @@
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-content: center;
+
+
+}
+
+
+#container {
+    display: inline-block;
+    /* align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  */
+}
+
+
+/* 
+#color-options {
+    display:flex;
+    display: inline-flex;
+    align-items:flex-end; 
+    gap: 16px;
+    flex-direction: row;
+
+}
+
+.color {
+    cursor: pointer;
+
+}  */
+
+
+/*
+#color-options {
+    display:inline-flex;
+    justify-content:right 30rem;
+    margin: 20px;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.color {
+    cursor: pointer;
+    padding:1dvw;
+    margin: 0 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+*/
+
+
+
+
+/* 
+#image-container {
+    margin-top: 20px;
+
+}
+
+#displayed-image {
+    max-width: 20%;
+    height: auto;
+} */
+
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align image to the left */
+    margin-top: 20px;
+}
+
+#displayed-image {
+    max-width: 20%;
+    height: auto;
+    margin-left: 10dvw; /* Add margin for spacing */
+}
+
+/* ------ */
+
+
+.orange-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #F15B39;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .green-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #51B2A2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  
+  .blue-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #1E407A;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .yellow-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #FECD3E;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .pink-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #E990B9;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  
