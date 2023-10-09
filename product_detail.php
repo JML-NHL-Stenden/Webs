@@ -22,7 +22,7 @@
             
             <!-- Image container -->
             <div id="image-container">
-                <img id="displayed-image" src="default-image.jpg" alt="Default Image">
+                <img id="displayed-image" src="../Webs/img/Sunny_socks_blue.jpg" alt="Default Image">
             </div>
             
             <script>
@@ -57,9 +57,5 @@
             </script>
     </div>
     
-    <p>This is Fjodor Smorodins</p>
-    <p>This is Zhi Cheng</p>
-    <p>This is BULLsh</p>
-
 </body>
 </html>
