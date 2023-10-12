@@ -10,8 +10,8 @@
     
     <!-- Color options -->
 
-
-    <div class="container">
+<div class="color-img-container">
+    <div class="color-container">
             <div id="color-options">
                 <div class="color" onclick="changeImage('red')"><span class="orange-dot"></span></div>
                 <div class="color" onclick="changeImage('green')"><span class="green-dot"></span></div>
@@ -19,6 +19,7 @@
                 <div class="color" onclick="changeImage('yellow')"><span class="yellow-dot"></span></div>
                 <div class="color" onclick="changeImage('pink')"><span class="pink-dot"></span></div>
             </div>
+    </div>
             
             <!-- Image container -->
             <div id="image-container">
@@ -55,7 +56,10 @@
                     imageElement.src = imagePath;
                 }
             </script>
-    </div>
+
+</div>
+
     
 </body>
 </html>
+
