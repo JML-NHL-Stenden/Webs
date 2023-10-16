@@ -1,0 +1,568 @@
+/* clear up default setting for the whole page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* to make sure the box model doesn't get stretched or become larger when padding or font size becomes larger */
+}
+
+@font-face {
+    font-family: nexaBold;
+    src:  url(./Fonts/nexa_bold.otf);
+    }
+
+@font-face {
+    font-family: nexaLight;
+    src:  url(./Fonts/nexa-light.otf);
+    }
+
+
+li {
+    list-style: none;
+    /* clear up list existing style */
+}
+
+a {
+    text-decoration: none;
+    /* clear up default style of anchor */
+}
+
+
+/* Yellow top section */
+
+.top-section {
+    background-color: #FECD3E;
+    text-align: center;
+}
+
+.top-section h5 {
+    font-family: nexaBold;
+}
+
+.top-section h5 a {
+    color:#fff;
+}
+
+
+/* Heading section */
+
+.heading {
+    display: flex;
+    background-color: antiquewhite;
+    height: 100px;
+    align-items: center;
+}
+
+
+.logo {
+    display: block;
+    background-image:url(./pictures/sunny_logos_slogan_blue.ico);
+    width: 140px;
+    height: 50px;
+    font-size: 0px;
+    margin-left: 40px;
+
+}
+
+/* navigation bar */
+
+.navbar ul {
+    display: flex;
+    margin-left: 60px;
+}
+
+.navbar ul li {
+    padding:12px 14px;
+   
+}
+
+.navbar ul a {
+    font-size: 16px;
+    font-family: nexaBold;
+    color: #000;
+}
+
+.searchbar {
+    display: flex;
+    margin-left: 40px;
+    width: 600px;
+    height: auto 48px;
+    padding: 12px 16px;
+    background-color: #F0F0F0;
+    border-radius: 62px;
+
+}
+
+.searchbar input {
+    flex: 1;
+    border:0px;
+    outline: none;
+    background-color: #F0F0F0;
+}
+
+.button {
+    width: 24px;
+    height: 24px;
+    background-image: url(./pictures/search\ button.svg);
+    margin-right: 12px;
+}
+
+/* User section  */
+
+.user {
+    display: flex;
+    width: 90px;
+    height: 48px;
+    margin-left: 40px;
+    padding: 10px 16px;
+}
+
+.cart {
+    background-image: url(./pictures/shopping\ cart.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.user-icon {
+    background-image: url(./pictures/person\ icon.svg);
+    width: 24px;
+    height: 24px;
+    margin-left: 14px;
+}
+
+/* Big banner */
+
+.top-banner img {
+    height: 400px;
+    width: 100%;
+}
+
+/* Company value */
+
+.company-value {
+    margin-bottom: 130px;
+    height: 580px;
+}
+
+
+.hd {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.hd h3 {
+    font-family: nexaBold;
+    font-size: 40px;
+}
+
+.hd h5 {
+    color:#5C8692
+}
+
+.bd {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+   
+}
+
+.bd ul {
+    width: 458px;
+    height: 124px;
+}
+
+.bd ul li {
+    display: flex;
+    border-bottom: solid #D3D3D3 2px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.bd ul li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 32px;
+}
+
+.bd div h4, p {
+    text-align: left;
+}
+
+.bd div h4 {
+    font-family: nexaBold;
+    margin-bottom: 8px;
+}
+
+.bd div p {
+    font-family: nexaLight;
+}
+
+/* Vision section */
+
+.vision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+    background: rgba(233, 144, 185, 0.50);
+    box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.02);
+}
+
+.inner-box {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 900px;
+    height: 440px;
+    background-color: #1E407A;
+}
+
+
+.side-bar {
+    background-color: #1E2C30;
+    width: 45px;
+    height: 340px;
+    
+}
+
+.picture img {
+    display: block;
+    width: 360px;
+    height: 440px;   
+}
+
+.inner-text {
+    background-color: #1E2C30;
+    width: 495px;
+    height: 270px;
+    font-family: nexaBold;
+    color: #fff;
+    text-align: left;
+    padding:74px 80px;
+}
+
+.inner-text h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.inner-text p {
+    font-size: 25px;
+}
+
+/* Expert introduction */
+
+.expert-section {
+    height: 580px;
+    background: #fff;;
+    box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.02);
+}
+
+.title {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 33px;
+}
+
+.title h3 {
+    font-family: nexaBold;
+    color:#5C8692;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.title p {
+    font-family: nexaBold;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.profile {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.profile h3 {
+    font-family: nexaBold;
+    padding-top: 8px;
+}
+
+.profile h5 {
+    font-family: nexaLight;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.profile p {
+    font-family: nexaLight;
+    width: 260px;
+    height: 67px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.showroom {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+
+}
+
+.showroom ul {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    background-color: #fff;
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.media a img {
+    width: 15px;
+    height: 15px;
+}
+
+.media a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Product recommendation */
+
+.available {
+    height: 520px;
+    background: rgba(233, 144, 185, 0.50);
+    box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.02);
+}
+
+.subject {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 33px;
+}
+
+.subject h3 {
+    font-family: nexaBold;
+    color:#5C8692;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.subject p {
+    font-family: nexaBold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.detail img {
+    width: 16px;
+    height: 16px;
+}
+
+.person img {
+    width: 68px;
+    height: 68px;
+
+}
+
+ .comma img {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+
+ }
+
+.box-1, .box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 270px;
+    background-color: #1E407A;
+
+}
+
+.box-1 {
+    margin-right: 42px;
+}
+
+.top-part {
+    background-color: #fff;
+    width: 425px;
+}
+
+.top-part p {
+    padding: 30px 42px;
+    font-size: 19px;
+}
+
+ .bottom-part {
+    display: flex;
+    justify-content: center;
+    height: 120px ;
+ }
+
+ .person {
+    margin: 20px 10px;
+ }
+
+ .detail {
+    margin: 20px 0px;
+    color:#fff;
+    font-family: nexaLight;
+ }
+
+ .detail h3 {
+    font-size: 16px;
+ }
+
+ .detail p {
+    margin-top: 4px;
+    font-size: 14px;
+ }
+
+
+ .big-box {
+    display: flex;
+    justify-content: center;
+ }
+
+/* share section */
+
+.big-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 600px;
+
+}
+
+.part-1, .part-2 {
+    width: 425px;
+    height: 450px;
+}
+
+.part-1 {
+    background-color: #fff;
+    margin-right: 42px;
+}
+
+.part-2 {
+    background-color: #fff;
+}
+
+.share-info {
+    height: 160px;
+}
+
+.share-info img{
+    width: 100%;
+    height: 302px;
+}
+
+.part-2 img {
+    width: 100%;
+    height: 220px;
+}
+
+.sock-pic-2 {
+    margin-top: 10px;
+}
+
+
+.share-info h3 {
+    color: #1E407A;
+    font-family: nexaBold;
+    font-size: 13px;
+}
+
+.follow-slogan {
+    font-family: nexaBold;
+    font-size: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.follow-detail {
+    font-family: nexaLight;
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #F15B39;
+}
+
+.foot-part-1 img {
+    width: 182px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.foot-part-1 {
+    width: 363px;
+    height: 200px;
+    font-family: nexaBold;
+}
+
+
+.foot-part-2 ul li {
+    padding-bottom: 15px;
+}
+
+.foot-part-2 ul li a {
+    font-family: nexaBold;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.footer h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    font-family: nexaBold;
+}
+.foot-part-2 a img {
+    width: 24px;
+    height: 24px;
+}
+
+.resources img {
+    width: 80px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.hema {
+    margin-left: 30px;
+}
+
+.pay-ways img {
+    width: 50px;
+    height: 30px;
+}
+
+
+
+
+
