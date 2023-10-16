@@ -1,0 +1,204 @@
+@font-face {
+    font-family: NexaBold, NexaLight;
+    src: url(../Fonts/);
+}
+
+/* filters section */
+
+.filter-flex{
+    display: flex;
+
+    width: 295px;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    border: 0.5px solid rgb(188, 188, 188);
+}
+
+.filters {
+    display: flex;
+
+    padding-left: 40px;
+    
+}
+
+.color-spacing {
+    display: flex;
+
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+/* arrivals section */
+
+.grid-container {
+    display: grid;
+
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+
+}
+
+.flex-items {
+    display: flex;
+
+    border: solid;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    width: 200px;
+    height: 150px;
+}
+
+.flex-items img {
+    display: flex;
+
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.row-1 {
+    display: flex;
+
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.row-2 {
+    display: flex;
+
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.row-3 {
+    display: flex;
+
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+/* box */
+
+.bs-box {
+    text-align: center;
+}
+
+.gs-box {
+    text-align: center;
+}
+
+.ps-box {
+    text-align: center;
+}
+
+.rs-box {
+    text-align: center;
+}
+
+.bu-box {
+    text-align: center;
+}
+
+.gu-box {
+    text-align: center;
+}
+
+.pu-box {
+    text-align: center;
+}
+
+.ru-box {
+    text-align: center;
+}
+
+.ys-box {
+    text-align: center;
+}
+
+/* The filter section style */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+/* Heading Styling */
+
+.h3-style {
+    position: relative;
+    padding-left: 45px;
+}
+
+.h2-astyle {
+    border: solid;
+
+    width: 300px;
+    height: 150px;
+}
+
+/* Choosing the color circle element*/
+
+.green-circle {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red-circle {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow-circle {
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue-circle {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pink-circle {
+    height: 30px;
+    width: 30px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
