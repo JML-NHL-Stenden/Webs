@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../index.css">
+<link rel="stylesheet" href="css/header.css">
        
        
        <!-- Yellow top section -->
