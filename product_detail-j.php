@@ -2,28 +2,29 @@
 <html>
 <head>
     <link rel="stylesheet" href="../Webs/css/style.css">
-    <link rel="stylesheet" href="master/css/header.css">
     <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="master/css/header.css">
+    <link rel="stylesheet" href="master/css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Socks</title>
 
 
 </head>
 
-<nav>
-
 <?php
-
-include "master/header.php"
-
+include './master/header.php';
 ?>
 
-</nav>
+
 
 <body>
 
+
+
     <!-- Color options -->
     <div class="product-custom">
+
+    
     
     <div class="prod-info-holder">
 
@@ -153,8 +154,14 @@ include "master/header.php"
 
 
 
-          
-    
 </body>
+
+<footer>
+          
+<?php
+include './master/footer.php';
+?>
+
+    </footer>
 </html>
 
