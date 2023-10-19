@@ -2,21 +2,23 @@
 <html>
 <head>
     <link rel="stylesheet" href="../Webs/css/style.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Socks</title>
 
 
 </head>
+
+<nav>
+
+
+</nav>
+
 <body>
 
-    
     <!-- Color options -->
-    
-
     <div class="product-custom">
     
-  
-
     <div class="prod-info-holder">
 
         <h1> Sunny’s Striped Socks</h1>
@@ -39,9 +41,6 @@
        
         </fieldset>
 
-      
-
-    
     <script>
         const rating = document.querySelector('.rate');
         const currentRating = document.getElementById('current-rating');
@@ -113,8 +112,6 @@
                     imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_blue.jpg';
             }
 
-            
-
             // Update the image sources
             imageElement.src = imagePath;
             imageElement2.src = imagePath2;
@@ -122,7 +119,7 @@
             
         }
     </script>
-</div>
+<!-- </div>
 
 <div class="h-nav">
 <div class =" s-nav ">
@@ -146,7 +143,7 @@
     </section>
     <script src="js/script.js"></script>
 
-    </div>
+    </div> -->
 
 
 

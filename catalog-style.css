@@ -38,9 +38,14 @@
     display: grid;
 
     background-color: white;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 40px;
 
+}
+
+.selections {
+    grid-column: 2/5;
 }
 
 .flex-items {
