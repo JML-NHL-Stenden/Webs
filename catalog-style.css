@@ -42,6 +42,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 40px;
 
+    
 }
 
 .selections {
@@ -162,8 +163,7 @@ a:hover {
 .h2-astyle {
     border: solid;
 
-    width: 300px;
-    height: 150px;
+    height: 120px;
 }
 
 /* Choosing the color circle element*/

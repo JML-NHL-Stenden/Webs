@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Socks</title>
 
 </head>
@@ -27,14 +27,16 @@
                 </div><br>
                 <div class="color">
                     <input type="radio" name="color" id="pink-id" value="pink" onclick="changeImage('pink')"><span class="pink-dot"></span>
-                </div><br>     
+                </div><br> 
+            </div>    
+            <!-- Pair count -->
             <div id="enter-pair-number">
                 <label for="num-input">Pair count: </label>
                 <input type="number" id="number-input" name="number-input" min="0" max="100">
             </div>
             <!-- Image container -->
             <div id="image-container">
-                <img id="displayed-image" src="img/Sunny_socks_blue.jpg" alt="Default Image">
+                <img id="displayed-image" src="../img/Sunny_socks_blue.jpg" alt="Default Image">
             </div>
                 
             <input class="add-to-cart-button" type="submit" value="Add to the cart">
@@ -43,26 +45,27 @@
                 function changeImage(color) {
                     var imageElement = document.getElementById('displayed-image');
                     var imagePath;
+                    var typeofsocks = "strips"
                         
                     // Set the image path based on the selected color
                     switch (color) {
                         case 'red':
-                                imagePath = 'img/Sunny_socks_red.jpg';
+                                imagePath = '../img/Sunny_socks_red.jpg';
                                 break;
                         case 'blue':
-                                imagePath = 'img/Sunny_socks_blue.jpg';
+                                imagePath = '../img/Sunny_socks_blue.jpg';
                                 break;
                         case 'green':
-                                imagePath = 'img/Sunny_socks_green.jpg';
+                                imagePath = '../img/Sunny_socks_green.jpg';
                                 break;
                         case 'yellow':
-                                imagePath = 'img/Sunny_socks_yellow.jpg';
+                                imagePath = '../img/Sunny_socks_yellow.jpg';
                                 break;
                         case 'pink':
-                                imagePath = 'img/Sunny_socks_pink_01.jpg';
+                                imagePath = '../img/Sunny_socks_pink.jpg';
                                 break;
                         default:
-                                imagePath = 'img/Sunny_socks_blue.jpg';
+                                imagePath = '../img/Sunny_socks_blue.jpg';
                     }
                         
                     // Update the image source
