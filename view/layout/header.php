@@ -24,10 +24,19 @@
                 </ul>
             </div>
             <!-- Search bar -->
-            <div class="searchbar">
+            <!-- <div class="searchbar">
                 <a href="#" class="button"></a>
                 <input type="text" placeholder="Search for products...">
+            </div> -->
+
+            <div class="searchbar">
+            <form action="action_page.php" method="POST">
+                <button class ="button" type="submit"></button>
+                <input type="text" placeholder="Search for products..." name="search" style="width: 500px;">
+                
+              </form>
             </div>
+              
             <div class="user">
                 <a href="#" class="cart"></a>
                 <a href="#" class="user-icon"></a>
