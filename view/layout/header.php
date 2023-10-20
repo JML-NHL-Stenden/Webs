@@ -4,8 +4,8 @@
         <meta chraset="UTF-8">
         <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
         <title>header</title>
-        <link rel="stylesheet" href="css/common.css">
-        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/header.css">
     </head>
     <body>
         <!-- Yellow top section -->

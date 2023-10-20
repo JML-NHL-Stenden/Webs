@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="../Webs/css/style.css">
-    <!-- <link rel="stylesheet" href="index.css"> -->
-    <link rel="stylesheet" href="master/css/header.css">
-    <link rel="stylesheet" href="master/css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Socks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+    <link rel ="stylesheet" href = "./css/strip_prod_style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<?php
-include './master/header.php';
-?>
 
 
 
 <body>
+
+<!-- --------------------------------- HEADER ------------------------------- -->
+<header>
+<?php
+include "./view/layout/header.php"
+?>
+</header>
+<!-- --------------------------------- HEADER - END  ------------------------------- -->
+
+
 
 
 
@@ -126,6 +132,7 @@ include './master/header.php';
             
         }
     </script>
+
 <!-- </div>
 
 <div class="h-nav">
@@ -154,14 +161,29 @@ include './master/header.php';
 
 
 
-</body>
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------------------- FOOTER ------------------------------- -->
 
 <footer>
-          
 <?php
-include './master/footer.php';
+include "./view/layout/footer.php"
 ?>
+</footer>
+<!-- --------------------------------- FOOTER - END ------------------------------- -->
+    
 
-    </footer>
+</body>
+
+
+
+
 </html>
-
