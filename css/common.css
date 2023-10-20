@@ -1,0 +1,29 @@
+/* clear up default setting for the whole page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* to make sure the box model doesn't get stretched or become larger when padding or font size becomes larger */
+}
+
+@font-face {
+    font-family: nexaBold;
+    src:  url(../Fonts/nexa_bold.otf);
+    }
+
+@font-face {
+    font-family: nexaLight;
+    src:  url(../Fonts/nexa-light.otf);
+    }
+
+
+li {
+    list-style: none;
+    /* clear up list existing style */
+}
+
+a {
+    text-decoration: none;
+    /* clear up default style of anchor */
+}

@@ -25,7 +25,7 @@ include "./view/layout/header.php"
 
 
 
-
+<main>
 
     <!-- Color options -->
     <div class="product-custom">
@@ -163,7 +163,7 @@ include "./view/layout/header.php"
 
 
 
-
+    </main>
 
 
 
@@ -179,7 +179,8 @@ include "./view/layout/footer.php"
 ?>
 </footer>
 <!-- --------------------------------- FOOTER - END ------------------------------- -->
-    
+
+
 
 </body>
 
