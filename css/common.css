@@ -9,12 +9,12 @@
 
 @font-face {
     font-family: nexaBold;
-    src:  url(./Fonts/nexa_bold.otf);
+    src:  url(../Fonts/nexa_bold.otf);
     }
 
 @font-face {
     font-family: nexaLight;
-    src:  url(./Fonts/nexa-light.otf);
+    src:  url(../Fonts/nexa-light.otf);
     }
 
 
