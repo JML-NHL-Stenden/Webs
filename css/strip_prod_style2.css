@@ -15,7 +15,7 @@
   .product-custom{
     display: grid;
     grid-template-columns: 1fr 1fr 4fr 4fr 0fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr ;
     position: relative;
   }
 
@@ -168,8 +168,8 @@
 
 
 .h-nav {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   
   .s-nav {
@@ -182,9 +182,10 @@
   }
   
   .menu {
-    display:grid;
-    grid-column: 2/4;
-    grid-row:4/6;
+    /* display:grid;
+    grid-column: 2/5;
+    grid-row:4/5; */
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -222,11 +223,11 @@
 
   /* ------------------- Footer ---------------------- */
 
-  .footer {
+  /* .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;           
-  }
+  } */
 
   /* ------------------- Footer - END ---------------------- */

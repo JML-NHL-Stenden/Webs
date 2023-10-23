@@ -1,3 +1,5 @@
+// This is for single product detail page second navigation bar
+
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll("section");
     const menuLinks = document.querySelectorAll(".menu a");

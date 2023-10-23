@@ -32,7 +32,7 @@
             <div class="searchbar">
             <form action="action_page.php" method="POST">
                 <button class ="button" type="submit"></button>
-                <input type="text" placeholder="Search for products..." name="search" style="width: 500px;">
+                <input type="text" placeholder="Search for products..." name="search">
                 
               </form>
             </div>

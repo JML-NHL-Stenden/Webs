@@ -76,6 +76,7 @@
     height: 3dvh;
     background-image: url(../img/header_pic/search_button.svg);
     margin-right: 12px;
+    margin-top: 4px;
     border: none;
 }
 

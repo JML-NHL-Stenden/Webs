@@ -133,7 +133,7 @@ include "./view/layout/header.php"
         }
     </script>
 
-<!-- </div>
+</div>
 
 <div class="h-nav">
 <div class =" s-nav ">
@@ -157,7 +157,7 @@ include "./view/layout/header.php"
     </section>
     <script src="js/script.js"></script>
 
-    </div> -->
+    </div>
 
 
 
