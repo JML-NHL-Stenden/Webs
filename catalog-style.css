@@ -5,72 +5,67 @@
 }
 
 @font-face {
-    font-family: NexaBold, NexaLight;
-    src: url(../Fonts/);
-}
+    font-family: nexaBold;
+    src:  url(../Fonts/nexa_bold.otf);
+    }
+
+@font-face {
+    font-family: nexaLight;
+    src:  url(../Fonts/nexa-light.otf);
+    }
 
 /* main grid container */
 .grid-container {
     display: grid;
-
-    background-color: gray;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    padding: 40px;
+    padding: 50px;
 
     padding-block: 2rem;
     gap: 1.5em;
     margin-inline: auto;
 
 }
-/* filters section */
 
+/* filters section */
 .filter-grid {
     display: grid;
 
     grid-row: 1 / 3;
-    
 }
 
 .filter-flex{
     display: flex;
 
     width: 295px;
-    padding: 20px 24px;
+    padding: 20px;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
 
-    
+    grid-auto-rows: minmax(100px, auto);
     border: 0.5px solid rgb(188, 188, 188);
 }
 
 .filters {
     display: flex;
-
     padding-left: 40px;
 }
 
 .color-spacing {
     display: flex;
-
     justify-content: space-around;
     padding: 10px;
 }
 
-
 /* arrivals section */
-
 .flex-items {
     display: flex;
 
-    border: solid;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    padding: 10px;
 
-    width: 320px;
+    width: 340px;
     height: 340px;
 }
 
@@ -102,36 +97,67 @@
     grid-column-start: 4;
 }
 
-/* span elements */
-
-alalal
-
 /* box */
 
+.bs-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.gs-box {
+    border: 1px solid rgb(188, 188, 188);
+}
+.ps-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.rs-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.bu-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.gu-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.pu-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.ru-box{
+    border: 1px solid rgb(188, 188, 188);
+}
+.ys-box{
+    border: 1px solid rgb(188, 188, 188);
+}
 
 /* The filter section style */
-ul {
+
+/* ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+} */
+
+li {
+    list-style: none;
 }
 
 li a {
     display: block;
     text-decoration: none;
-    padding-left: 35px;
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
-a:hover {
-    background-color: gray;
+.line-style{
+    width: 250px;
+    border: 0.5px solid rgb(188, 188, 188);
 }
 
 /* Heading Styling */
+.h4-astyle {
+    display: grid;
+    grid-column-start: 4; 
+}
 
 .h3-style {
     position: relative;
@@ -140,14 +166,17 @@ a:hover {
 
 .h2-astyle {
     display: grid;
-
-    border: solid;
-    grid-column: span;
     grid-column-start: 2;
-
-    height: 120px;
+    height: 90px;
 }
 
+.home-title{
+    display: flex;
+
+    padding: 16px;
+    padding-left: 70px;
+    justify-content: flex-start;
+}
 /* Choosing the color circle element*/
 
 .green-circle {
