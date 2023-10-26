@@ -135,34 +135,151 @@ include "./view/layout/header.php"
 
 </div>
 
-<div class="h-nav">
-<div class =" s-nav ">
-        <ul class="menu">
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
+
+<div class="row-2">
+
+<div class="content-nav">
+        <ul>
+            <li><a href="#section1">Product Details</a></li>
+            <li><a href="#section2">Rating & Reviews</a></li>
+            <li><a href="#section3">FAQs</a></li>
         </ul>
     </div>
-    <section id="section1">
-        <h1>Section 1</h1>
-        <p>This is the content of Section 1.</p>
-    </section>
-    <section id="section2">
-        <h1>Section 2</h1>
-        <p>This is the content of Section 2.</p>
-    </section>
-    <section id="section3">
-        <h1>Section 3</h1>
-        <p>This is the content of Section 3.</p>
-    </section>
-    <script src="js/script.js"></script>
+    <div class="sections">
+        <section class="section" id="section1">
+            <h2>Product Details</h2>
+                <div class="prod-d pd-1">
+                    <h3>Samantha D.</h3>
+                    <p>"I absolutely love this t-shirt! 
+                        The design is unique and the fabric feels so comfortable. 
+                        As a fellow designer, I appreciate the attention to detail. 
+                        It's become my favorite go-to shirt.".</p>
+                    <br>
+                    <p>Posted on August 14, 2023</p>
+                    </div>
+                
+                
+        </section>
+
+        <!-- <section class="section" id="section2">
+            <h2>All Review</h2>
+            <div class="comment c-1">
+                    <h3>Samantha D.</h3>
+                    <p>"I absolutely love this t-shirt! 
+                        The design is unique and the fabric feels so comfortable. 
+                        As a fellow designer, I appreciate the attention to detail. 
+                        It's become my favorite go-to shirt.".</p>
+                    <br>
+                    <p>Posted on August 14, 2023</p>
+                    </div>
+
+            <div class="comment c-2">
+                    <h3>Samantha D.</h3>
+                    <p>"I absolutely love this t-shirt! 
+                        The design is unique and the fabric feels so comfortable. 
+                        As a fellow designer, I appreciate the attention to detail. 
+                        It's become my favorite go-to shirt.".</p>
+                    <br>
+                    <p>Posted on August 14, 2023</p>
+                    </div>
+                </section> -->
+
+
+
+
+                <section class="section" id="section2">
+    <h2>All Reviews</h2>
+    <div class="comment-row">
+        <div class="comment c-1">
+                    <h3>Samantha D.</h3>
+                    <p>"I absolutely love this t-shirt! 
+                        The design is unique and the fabric feels so comfortable. 
+                        As a fellow designer, I appreciate the attention to detail. 
+                        It's become my favorite go-to shirt.".</p>
+                    <br>
+                    <p>Posted on August 14, 2023</p>
+                    
+        </div>
+        <div class="comment c-2">
+        <h3>Alex M.</h3>
+                    <p>"The t-shirt exceeded my expectations! 
+                        The colors are vibrant and the print quality is top-notch.
+                         Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+                        <br>
+                    <p>Posted on August 15, 2023</p>
+                 
+        </div>
+    </div>
+
+  
+
+    <!-- Add more comments in pairs as needed -->
+    
+    <div class="comments-hidden" id="hidden-comments">
+        <!-- Additional comments will be displayed here when the "Display More" button is clicked -->
+
+        <div class="comment-row">
+        <div class="comment c-3">
+            <!-- Comment content here -->
+        </div>
+        <div class="comment c-4">
+            <!-- Comment content here -->
+        </div>
+    </div>
+
+    <div class="comment-row">
+        <div class="comment c-5">
+            <!-- Comment content here -->
+        </div>
+        <div class="comment c-6">
+            <!-- Comment content here -->
+        </div>
+    </div>
 
     </div>
 
+    <button id="display-more-btn">Load More Review</button>
+</section>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const displayMoreBtn = document.getElementById("display-more-btn");
+        const hiddenComments = document.getElementById("hidden-comments");
+        let isHidden = true;
+
+        displayMoreBtn.addEventListener("click", function () {
+            if (isHidden) {
+                hiddenComments.style.display = "block";
+                displayMoreBtn.textContent = "Show Less Review";
+            } else {
+                hiddenComments.style.display = "none";
+                displayMoreBtn.textContent = "Load More Review";
+            }
+            isHidden = !isHidden;
+        });
+    });
+</script>
 
 
 
 
+
+        <section class="section" id="section3">
+            <h2>Frequent Asked Question/s</h2>
+            <div class="question q-1">
+                    <h3>Samantha D.</h3>
+                    <p>"I absolutely love this t-shirt! 
+                        The design is unique and the fabric feels so comfortable. 
+                        As a fellow designer, I appreciate the attention to detail. 
+                        It's become my favorite go-to shirt.".</p>
+                    <br>
+                    <p>Posted on August 14, 2023</p>
+                    </div>
+        </section>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</div>
     </main>
 
 
