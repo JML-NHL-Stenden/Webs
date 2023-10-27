@@ -310,6 +310,41 @@
   background-color: #0E3066;
 }
 
+/* --------------------- Recommendation section ------------------------ */
+
+.rec-img-container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(3,1fr);
+  align-content: center;
+
+ 
+}
+
+.rec {
+  display: flex;
+ background-color: rgb(123, 123, 123);;
+}
+
+.rec-img {
+  max-width: 25dvw;
+  height: 30dvh;
+  margin-left: 4dvw;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- Recommendation section - END ------------------------ */
 
 
 

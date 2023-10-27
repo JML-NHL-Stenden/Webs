@@ -88,7 +88,7 @@ include "./view/layout/header.php"
 
     <!-- Image container for the second image -->
     <div id="image-container-2">
-        <img id="displayed-image-2" src='../Webs/img/packaging/catalogus_sokken_stripes_blue.jpg' alt="Second Image">
+        <img id="displayed-image-2" src='../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg' alt="Second Image">
     </div>
 
     <script>
@@ -102,27 +102,27 @@ include "./view/layout/header.php"
             switch (circle) {
                 case 'red':
                     imagePath = '../Webs/img/Sunny_socks_red.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_red.jpg' ;
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_red.jpg' ;
                     break;
                 case 'blue':
                     imagePath = '../Webs/img/Sunny_socks_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_blue.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
                     break;
                 case 'green':
                     imagePath = '../Webs/img/Sunny_socks_green.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_green.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_green.jpg';
                     break;
                 case 'yellow':
                     imagePath = '../Webs/img/Sunny_socks_yellow.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_yellow.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg';
                     break;
                 case 'pink':
                     imagePath = '../Webs/img/Sunny_socks_pink_01.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_pink.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_pink.jpg';
                     break;
                 default:
                     imagePath = '../Webs/img/Sunny_socks_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/catalogus_sokken_stripes_blue.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
             }
 
             // Update the image sources
@@ -150,10 +150,10 @@ include "./view/layout/header.php"
             <h2>Product Details</h2>
                 <div class="prod-d pd-1">
                     <h3>Samantha D.</h3>
-                    <p>"I absolutely love this t-shirt! 
+                    <p>"I absolutely love this uni-color socks! 
                         The design is unique and the fabric feels so comfortable. 
                         As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite go-to shirt.".</p>
+                        It's become my favorite uni-color socks.".</p>
                     <br>
                     <p>Posted on August 14, 2023</p>
                     </div>
@@ -161,50 +161,25 @@ include "./view/layout/header.php"
                 
         </section>
 
-        <!-- <section class="section" id="section2">
-            <h2>All Review</h2>
-            <div class="comment c-1">
-                    <h3>Samantha D.</h3>
-                    <p>"I absolutely love this t-shirt! 
-                        The design is unique and the fabric feels so comfortable. 
-                        As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite go-to shirt.".</p>
-                    <br>
-                    <p>Posted on August 14, 2023</p>
-                    </div>
-
-            <div class="comment c-2">
-                    <h3>Samantha D.</h3>
-                    <p>"I absolutely love this t-shirt! 
-                        The design is unique and the fabric feels so comfortable. 
-                        As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite go-to shirt.".</p>
-                    <br>
-                    <p>Posted on August 14, 2023</p>
-                    </div>
-                </section> -->
-
-
-
 
                 <section class="section" id="section2">
     <h2>All Reviews</h2>
     <div class="comment-row">
         <div class="comment c-1">
                     <h3>Samantha D.</h3>
-                    <p>"I absolutely love this t-shirt! 
+                    <p>"I absolutely love this uni-color socks! 
                         The design is unique and the fabric feels so comfortable. 
                         As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite go-to shirt.".</p>
+                        It's become my favorite go-to uni-color socks.".</p>
                     <br>
                     <p>Posted on August 14, 2023</p>
                     
         </div>
         <div class="comment c-2">
         <h3>Alex M.</h3>
-                    <p>"The t-shirt exceeded my expectations! 
+                    <p>"The uni-color socks exceeded my expectations! 
                         The colors are vibrant and the print quality is top-notch.
-                         Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+                         Being a UI/UX designer myself, I'm quite picky about aesthetics, and this uni-color socks definitely gets a thumbs up from me."
                         <br>
                     <p>Posted on August 15, 2023</p>
                  
@@ -220,19 +195,34 @@ include "./view/layout/header.php"
 
         <div class="comment-row">
         <div class="comment c-3">
-            <!-- Comment content here -->
+        <h3>Derek O.</h3>
+                    <p>"The uni-color socks have the best quality material and very durable!"
+                    <br>
+                    <p>Posted on August 17, 2023</p>
+       
         </div>
+
         <div class="comment c-4">
-            <!-- Comment content here -->
+        <h3>Jim M.</h3>
+                    <p> "The uni-color socks are very lovely and I like the socks especially with the white stripes!"</p>
+                    <br>
+                    <p>Posted on September 13, 2023</p>
         </div>
     </div>
 
     <div class="comment-row">
         <div class="comment c-5">
-            <!-- Comment content here -->
+        <h3>Alejandro N.</h3>
+                    <p>"Very unique color shades from these uni-color socks, and it offer a variety of options!""
+                    <br>
+                    <p>Posted on September 16, 2023</p>
+ 
         </div>
         <div class="comment c-6">
-            <!-- Comment content here -->
+        <h3>Raif K.</h3>
+                    <p>"These unique uni-color socks are my favorites, it fits to any special activity events or I can even wear it every day!."</p>
+                    <br>
+                    <p>Posted on October 29, 2023</p>
         </div>
     </div>
 
@@ -263,8 +253,6 @@ include "./view/layout/header.php"
 
 
 
-
-
         <section class="section" id="section3">
             <h2>Frequent Asked Question/s</h2>
             <div class="question q-1">
@@ -280,6 +268,37 @@ include "./view/layout/header.php"
     </div>
     <!-- <script src="script.js"></script> -->
 </div>
+
+
+<div class ="recommend-section">
+
+
+<h1> You might also like</h1>
+
+<div class= "rec-img-container">
+
+    <div class="rec rec-cont-1">
+        <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
+    </div>
+
+    <div class="rec rec-cont-2">
+    <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
+  
+    </div>
+
+    <div class="rec rec-cont-3">
+    <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
+  
+    </div>
+
+    <div class="rec rec-cont-4">
+    <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
+  
+    </div>
+</div>
+
+</div>
+
     </main>
 
 
