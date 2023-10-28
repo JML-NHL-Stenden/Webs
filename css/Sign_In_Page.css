@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url("./Fonts/nexa_bold.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Nexa Light';
+  src: url("./Fonts/nexa-light.otf") format("truetype");
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -240,6 +249,7 @@ height: 250px;
 flex-shrink: 0;
 background-color: #F15B39;
 margin-top: -160px;
+position: fixed;
   }
   .slogan img{
 background-blend-mode: darken;

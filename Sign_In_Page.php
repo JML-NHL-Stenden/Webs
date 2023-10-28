@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Sign In!</title>
-    <link rel="stylesheet" href="Sign_In_Page.css">
+    <link rel="stylesheet" href="./css/Sign_In_Page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/Sunny_socks_Pink.png">
 </head>
@@ -44,100 +44,19 @@
     <div class="content_container">
         <div class="picture"><img src="img/sunny1.png" alt=""></div>
         <div class="form">
-            <form action="Sign_In_Page.php" method="POST">
+            <form action="contact_details.php" method="POST">
             <h1>Sign In Page</h1>
+            <p>User Name</p>
+            <input type="text" name="username" id="username" placeholder="Text here...">
+            <p>Phone Number</p>
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="Text here...">
             <p>Email address</p>
-            <input type="text" name="email" id="email" placeholder="Text here...">
-            <?php  
-           
-            if($_SERVER['REQUEST_METHOD'] == "POST"){
-                $email = filter_input(INPUT_POST, "email");    
-            if(strlen($email) == 0){
-            echo "<style>
-            h5{
-                color: red;
-                font-family: Nexa Light;
-                font-size: 10spx;}
-            </style>
-            <h5>Please enter your Email address...</h5>";}
-            else{
-                if(!strpos($_POST["email"], "@" || !strpos($_POST["email"], ".com"))){
-                   echo "<style>
-                   h5{
-                       color: red;
-                       font-family: Nexa Light;
-                       font-size: 10spx;}
-                   </style>
-                   <h5>Wrong email address!</h5>";
-                }
-            }           
-    }
-?>
+            <input type="text" name="email" id="email" placeholder="Text here...">           
             <p>Password</p>
             <input type="password" name="password" id="password">
-            <?php
-                        if($_SERVER['REQUEST_METHOD'] == "POST"){
-                            if (empty($_POST["password"])) {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Please enter your password...</h5>";
-                            }
-                            if (strlen($_POST["password"]) <= '8') {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Your Password Must Contain At Least 8 Characters!</h5>";
-                            }
-                            elseif(!preg_match("/[0-9]+/",$password)) {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Your Password Must Contain At Least 1 Number!</h5>";
-                            }
-                            elseif(!preg_match("/[A-Z]+/",$password)) {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Your Password Must Contain At Least 1 Capital Letter!</h5>";
-                            }
-                            elseif(!preg_match("/[a-z]+/",$password)) {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Your Password Must Contain At Least 1 Lowercase Letter!</h5>";
-                            }
-                            elseif(!preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $_POST["password"])) {
-                                echo "<style>
-                                h5{
-                                    color: red;
-                                    font-family: Nexa Light;
-                                    font-size: 10spx;}
-                                </style>
-                                <h5>Your Password Must Contain At Least 1 Special Character!</h5>";}
-                            else {
-                                echo readfile("");
-                        }}
-
-            ?>
             <input id="Sign_in_btn" type="submit" name="submit" value="Sign In">
-            </form>
             <p>Don’t have an account? <a href="Sign_Up_Page.php" target="_blank">Sign up</a> </p>
+            </form>
         </div>
     </div>
     <div class="footer-container">

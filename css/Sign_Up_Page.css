@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url("./Fonts/nexa_bold.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Nexa Light';
+  src: url("./Fonts/nexa-light.otf") format("truetype");
+}
 html{
     scroll-behavior: smooth;
 }

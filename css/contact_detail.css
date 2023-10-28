@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("./Fonts/nexa_bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Nexa Light';
+    src: url("./Fonts/nexa-light.otf") format("truetype");
+  }
+.nav_bar{
+display: inline-flex;
+align-items: center;
+gap: 15px;
+margin: 150px 0 56px 101px;
+
+}
+.home{
+color: #807D7E;
+font-family: Nexa Light;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.my_account{
+color: #3C4242;
+font-family: Nexa Bold;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.content_container{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 2/5;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 20px 0 0 72px;
+
+}
+.name h1{
+    margin: 0 0 10px 0px;
+    height: 100%;
+    color: #3C4242;
+    font-family: Nexa Bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5px; /* 119.643% */
+    letter-spacing: 0.56px;
+}
+.name h1:hover{
+    border-left: 4px solid #E990B9;
+    transition: all 0.1s;
+}
+.name p{
+margin: 0 0 27px 0px;
+width: 215px;
+height: 20px;
+flex-shrink: 0;
+color: #807D7E;
+font-family: Nexa Bold;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.5px; /* 239.286% */
+letter-spacing: 0.28px;
+
+}
+.name h3{
+border-left: 2px solid black;
+background-color: #f6f6f6;
+width: 295px;
+height: 30px;
+flex-shrink: 0;
+padding-top: 4px;
+margin-bottom: 36px;
+color: #807D7E;
+font-family: Nexa Bold;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.name h4{
+    width: 295px;
+    height: 30px;
+    flex-shrink: 0;
+    padding-top: 4px;
+    margin-bottom: 36px;
+    font-family: Nexa Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.name h4 a{
+    text-decoration: none;
+    color: black;
+}
+.name h4:hover{
+    border-left: 2px solid black;
+    background-color: #f6f6f6;
+    transition: all 0.1s;
+}
+.name h4 a:hover{
+color: red;
+}
+.info{
+    width: 3/5;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 171px;
+}
+.info h1{
+    width: 183px;
+height: 31px;
+flex-shrink: 0;
+color: #3C4242;
+font-family: Nexa Bold;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.5px; /* 119.643% */
+letter-spacing: 0.56px;
+}
+.info h2{
+    width: 180px;
+height: 31px;
+flex-shrink: 0;
+color: #3C4242;
+font-family: Nexa Bold;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.5px; /* 152.273% */
+letter-spacing: 0.44px;
+margin-top: 20px;
+}
+
+.info p{
+color: #807D7E;
+font-family: Nexa Bold;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 36px;
+}
+.info h3{
+    color: #3C4242;
+    font-family: Nexa Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 42px;
+}
+hr{
+    width: 100%;
+}
+body{
+    background-image: url("./img/sunny.png");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+  }
