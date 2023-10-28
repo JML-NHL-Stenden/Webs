@@ -72,7 +72,7 @@ include "./view/layout/header.php"
             <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
 
             <p>Select colors</p>
-<form action="shopping_cart.php" method="post">
+<form action="shoppingcart.php" method="post">
 
 <div class="circle-container">
     <div class="custom-radio" id="red" onclick="changeImage('red')">
