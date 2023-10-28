@@ -67,7 +67,7 @@ include "./view/layout/header.php"
                         ?>
                     </div>
                 </div>
-            <a href="single_stripes_prod_detail-j.php" class="go-to-checkout">
+            <a href="Sunny_web_checkout/checkout.php" class="go-to-checkout">
                 Go to checkout →
             </a>
         </div>
