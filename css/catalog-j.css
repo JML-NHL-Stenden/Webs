@@ -84,6 +84,17 @@
      
   }
 
+  .all-img-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.img-container {
+    text-align: center; /* Center the images within their containers */
+}
+
+
   #img-container-1{
     max-width: 25dvw;
     height: 30dvh;

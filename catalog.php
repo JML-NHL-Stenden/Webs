@@ -29,10 +29,15 @@
                             <div class="line-style"><hr></div>
                                 <div class="filters">
                                     <nav>
-                                        <p><a href="">Uni-Color</a></p>
+                                        <!-- <p><a href="">Uni-Color</a></p>
                                         <p><a hred="">Striped</a></p>
                                         <p><a href="">New Arrivals &nbsp ></a></p>
-                                        <p><a href="">Outstanding Products</a></p>
+                                        <p><a href="">Outstanding Products</a></p> -->
+                                        <p class="phfil unicolor" onclick="changeImage('unicolor')">Uni-color</p>
+                                        <p class="phfil strip-s" onclick="changeImage('strip-socks')">Striped</p>
+                                        <p class="phfil n-arrivals" onclick="changeImage('new-arrivals')">New Arrivals</p>
+                                        <p class="phfil outstanding-p" onclick="changeImage('outstanding-products')">Outstanding Products</p>
+
                                     </nav>
                                 </div>
                             <!-- some line inside the thing -->
@@ -49,12 +54,13 @@
                                     </div> -->
 
                                     <div class="color-spacing">
-                                        <span class="circle green-circle" onclick="changeImage('green')"></span>
-                                        <span class="circle red-circle" onclick="changeImage('red')"></span>
-                                        <span class="circle yellow-circle" onclick="changeImage('yellow')"></span>
-                                        <span class="circle blue-circle" onclick="changeImage('blue')"></span>
-                                        <span class="circle pink-circle" onclick="changeImage('pink')"></span>
-                                    </div>
+                                    <div class="circle green-circle" onclick="changeImage('green')"></div>
+                                    <div class="circle red-circle" onclick="changeImage('red')"></div>
+                                    <div class="circle yellow-circle" onclick="changeImage('yellow')"></div>
+                                    <div class="circle blue-circle" onclick="changeImage('blue')"></div>
+                                    <div class="circle pink-circle" onclick="changeImage('pink')"></div>
+                        
+                                </div>
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>

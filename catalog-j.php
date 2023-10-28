@@ -34,34 +34,34 @@
 
         <div class="all-img-cont">
             <div id="images-holder-1">
-                <img id="img-container-1" src="./img/Sunny_socks_uni_green.jpg" alt="">
+                <img id="img-container-1" class="image-container" src="./img/Sunny_socks_uni_green.jpg" alt="">
             </div>
             <div id="images-holder-2">
-                <img id="img-container-2" src="./img/Sunny_socks_uni_red.jpg" alt="">
+                <img id="img-container-2" class="image-container" src="./img/Sunny_socks_uni_red.jpg" alt="">
             </div>
             <div id="images-holder-3">
-                <img id="img-container-3" src="./img/Sunny_socks_uni_yellow.jpg" alt="">
+                <img id="img-container-3" class="image-container" src="./img/Sunny_socks_uni_yellow.jpg" alt="">
             </div>
             <div id="images-holder-4">
-                <img id="img-container-4" src="./img/Sunny_socks_uni_blue.jpg" alt="">
+                <img id="img-container-4" class="image-container" src="./img/Sunny_socks_uni_blue.jpg" alt="">
             </div>
             <div id="images-holder-5">
-                <img id="img-container-5" src="./img/Sunny_socks_uni_pink.jpg" alt="">
+                <img id="img-container-5" class="image-container" src="./img/Sunny_socks_uni_pink.jpg" alt="">
             </div>
             <div id="images-holder-6">
-                <img id="img-container-6" src="./img/Sunny_socks_green.jpg" alt="">
+                <img id="img-container-6" class="image-container" src="./img/Sunny_socks_green.jpg" alt="">
             </div>
             <div id="images-holder-7">
-                <img id="img-container-7" src="./img/Sunny_socks_red.jpg" alt="">
+                <img id="img-container-7" class="image-container" src="./img/Sunny_socks_red.jpg" alt="">
             </div>
             <div id="images-holder-8">
-                <img id="img-container-8" src="./img/Sunny_socks_yellow.jpg" alt="">
+                <img id="img-container-8" class="image-container" src="./img/Sunny_socks_yellow.jpg" alt="">
             </div>
             <div id="images-holder-9">
-                <img id="img-container-9" src="./img/Sunny_socks_blue.jpg" alt="">
+                <img id="img-container-9" class="image-container" src="./img/Sunny_socks_blue.jpg" alt="">
             </div>
             <div id="images-holder-10">
-                <img id="img-container-10" src="./img/Sunny_socks_pink_01.jpg" alt="">
+                <img id="img-container-10" class="image-container" src="./img/Sunny_socks_pink_01.jpg" alt="">
             </div>
         </div>
 
