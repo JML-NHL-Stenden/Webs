@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: nexaLight;
 }
 
 @font-face {
@@ -44,19 +43,13 @@
     align-items: flex-start;
     gap: 24px;
 
-    grid-auto-rows: minmax(100px, auto);
+    /* grid-auto-rows: minmax(100px,auto); */
     border: 0.5px solid rgb(188, 188, 188);
 }
 
 .filters {
     display: flex;
     padding-left: 40px;
-}
-
-.color-spacing {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
 }
 
 /* arrivals section */
@@ -97,7 +90,7 @@
 
 /* box */
 
-.bs-box{
+/* .bs-box{
     border: 1px solid rgb(188, 188, 188);
 }
 .gs-box {
@@ -123,7 +116,7 @@
 }
 .ys-box{
     border: 1px solid rgb(188, 188, 188);
-}
+} */
 
 /* The filter section style */
 
@@ -148,14 +141,21 @@ a {
 
 .line-style{
     width: 250px;
-    border: 0.5px solid rgb(188, 188, 188);
+    border: 0.1px solid rgb(188, 188, 188);
 }
 
 /* Heading Styling */
 .h4-astyle {
     display: grid;
     grid-column-start: 4;
-    position: relative; 
+}
+
+.h4-move {
+    display: flex;
+
+    text-align: end;
+    justify-content: flex-end;
+    align-items: end;
 }
 
 .h3-style {
@@ -175,7 +175,17 @@ a {
     padding-left: 70px;
 
 }
+
+/* stars rating */
+.checked {
+    color: orange;
+}
 /* Choosing the color circle element*/
+.color-spacing {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 
 .green-circle {
     height: 30px;
