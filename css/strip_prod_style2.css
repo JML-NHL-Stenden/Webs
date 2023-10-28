@@ -97,38 +97,98 @@
   line-height: 22px; /* 95.652% */
   }
 
+/* color selector */
+
+.custom-radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.custom-radio input[type="radio"] {
+  display: none; /* Hide the default radio input */
+}
+
+.custom-radio label {
+  position: relative;
+  padding-left: 25px; /* Space for the custom radio button */
+  cursor: pointer;
+}
+
+.custom-radio label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px; /* Size of the custom radio button */
+  height: 20px;
+  border-radius: 50%; /* Make it a circle */
+}
+
+#red label::before {
+  background-color: #F15B39;
+}
+
+#green label::before {
+  background-color: #51B2A2;
+}
+
+#blue label::before {
+  background-color: #1E407A;
+}
+
+#yellow label::before {
+background-color: #FECD3E;
+}
+
+#pink label::before {
+background-color: #E990B9;
+}
+
+.custom-radio input[type="radio"]:checked + label::before {
+  border: 2px solid #000; /* Border color */
+}
+
+
 .circle-container {
-    display: grid;
-    grid-template-columns: repeat(5, 30px);
-    margin-top: 10px; 
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(5, 30px);
+  margin-top: 10px; 
+}
+
 .circle {
-    width: 25px;
-    height: 25px;
-    background-color: #1E407A;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .circle.red {
-    background-color: #F15B39;
-  }
-  
-  .circle.green {
-    background-color: #51B2A2;
-  }
-  
-  .circle.blue {
-    background-color: #1E407A;
-  }
-  
-  .circle.yellow {
-    background-color: #FECD3E;
-  }
-  
-  .circle.pink {
-    background-color: #E990B9;
+  width: 25px;
+  height: 25px;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle.red {
+  background-color: #F15B39;
+}
+
+.circle.green {
+  background-color: #51B2A2;
+}
+
+.circle.blue {
+  background-color: #1E407A;
+}
+
+.circle.yellow {
+  background-color: #FECD3E;
+}
+
+.circle.pink {
+  background-color: #E990B9;
+}
+
+
+  /* sumbit and counter */
+
+  #submit-and-counter {
+    grid-column: 4/4;
+    grid-row: 3/3;
   }
   
   /* -------------   Select color functions - END ---------------------- */
