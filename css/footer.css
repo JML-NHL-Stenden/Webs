@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("./Fonts/nexa_bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Nexa Light';
+    src: url("./Fonts/nexa-light.otf") format("truetype");
+  }
 .footer {
     display: flex;
     justify-content: space-around;
@@ -16,7 +24,7 @@
 .foot-part-1 {
     width: 363px;
     height: 200px;
-    font-family: nexaBold;
+    font-family: Nexa Bold;
 }
 
 .foot-part-2, .foot-part-3{
@@ -32,7 +40,7 @@
 }
 
 .foot-part-2 ul li a {
-    font-family: nexaBold;
+    font-family: Nexa Bold;
     color: rgba(0, 0, 0, 0.60);
 }
 
@@ -40,7 +48,7 @@
     font-size: 20px;
     padding-bottom: 15px;
     margin-top: 30px;
-    font-family: nexaBold;
+    font-family: Nexa Bold;
 }
 .foot-part-2 a img {
     width: 24px;
@@ -58,7 +66,6 @@
 .hema {
     margin-left: 30px;
 }
-
 
 .pay-ways img {
     width: 50px;
