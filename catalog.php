@@ -25,6 +25,7 @@
                 <div class="filter-grid">
                     <div class="filter-flex">
                         <h3 class="h3-style">Filters</h3>
+                         <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
                                 <div class="filters">
                                     <nav>
@@ -36,12 +37,12 @@
                                         <p class="phfil strip-s" onclick="changeImage('strip-socks')">Striped</p>
                                         <p class="phfil n-arrivals" onclick="changeImage('new-arrivals')">New Arrivals</p>
                                         <p class="phfil outstanding-p" onclick="changeImage('outstanding-products')">Outstanding Products</p>
-
                                     </nav>
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
                             <div class="line-style"><hr></div>
+
                             <h3 class="h3-style">Colors</h3>
                                 <div class="filters">
                                     <!-- <div class="colors-spacing">
@@ -51,15 +52,13 @@
                                         <span class="circle blue-circle"><a href=""></a></span>
                                         <span class="circle pink-circle"><a href=""></a></span>
                                     </div> -->
-
                                     <div class="color-spacing">
-                                    <div class="circle green-circle" onclick="changeImage('green')"></div>
-                                    <div class="circle red-circle" onclick="changeImage('red')"></div>
-                                    <div class="circle yellow-circle" onclick="changeImage('yellow')"></div>
-                                    <div class="circle blue-circle" onclick="changeImage('blue')"></div>
-                                    <div class="circle pink-circle" onclick="changeImage('pink')"></div>
-                        
-                                </div>
+                                        <div class="circle green-circle" onclick="changeImage('green')"></div>
+                                        <div class="circle red-circle" onclick="changeImage('red')"></div>
+                                        <div class="circle yellow-circle" onclick="changeImage('yellow')"></div>
+                                        <div class="circle blue-circle" onclick="changeImage('blue')"></div>
+                                        <div class="circle pink-circle" onclick="changeImage('pink')"></div>
+                                    </div>
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
@@ -82,7 +81,6 @@
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
-                            <!-- include -->
                     </div>
                 </div>
                 <!-- end of filet and start of the second section -->
