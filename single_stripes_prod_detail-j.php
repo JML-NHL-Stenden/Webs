@@ -72,14 +72,42 @@ include "./view/layout/header.php"
             <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
 
             <p>Select colors</p>
-    <div class="circle-container">
-        <div class="circle red" onclick="changeImage('red')"></div>
-        <div class="circle green" onclick="changeImage('green')"></div>
-        <div class="circle blue" onclick="changeImage('blue')"></div>
-        <div class="circle yellow" onclick="changeImage('yellow')"></div>
-        <div class="circle pink" onclick="changeImage('pink')"></div>
+<form action="shoppingcart.php" method="post">
+
+<div class="circle-container">
+    <div class="custom-radio" id="red" onclick="changeImage('red')">
+        <input type="radio" id="red-c" name="color" value="red">
+        <label for="red-c"></label>
     </div>
+    <div class="custom-radio" id="green" onclick="changeImage('green')">
+        <input type="radio" id="green-c" name="color" value="green">
+        <label for="green-c"></label>
     </div>
+    <div class="custom-radio" id="blue" onclick="changeImage('blue')">
+        <input type="radio" id="blue-c" name="color" value="blue">
+        <label for="blue-c"></label>
+    </div>
+    <div class="custom-radio" id="yellow" onclick="changeImage('yellow')">
+        <input type="radio" id="yellow-c" name="color" value="yellow">
+        <label for="yellow-c"></label>
+    </div>
+    <div class="custom-radio" id="pink" onclick="changeImage('pink')">
+        <input type="radio" id="pink-c" name="color" value="pink">
+        <label for="pink-c"></label>
+    </div>
+</div>
+</div>
+
+<!-- Pair counter -->
+
+<div id="submit-and-counter">
+    <div id="enter-pair-number">
+        <label for="num-input">Pair count: </label>
+        <input type="number" id="number-input" name="number-input" min="0" max="100">
+    </div>
+    <input class="add-to-cart-button" type="submit" value="Add to the cart">
+</div>
+</form>
 
     <!-- Image container for the first image -->
     <div id="image-container">
