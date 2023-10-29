@@ -21,6 +21,7 @@
             <div class="hd">
                 <h5>Our Value</h5>
                 <h3>The work values we thrive for</h3>
+            </div>
             <div class="bd">
                 <ul>
                     <li>
