@@ -17,8 +17,7 @@
         <!-- end of header starting with main now -->
         <main>
             <div class="home-title">
-                <p><a href="main.html"> Home &nbsp > </a></p> 
-                <p> &nbsp Shop</p>
+                <p><a href="main.html"> Home &nbsp > </a>&nbsp Shop</p> 
             </div>
             <!-- start of whole code, below is the grid container for everything -->
             <div class="grid-container">
@@ -26,6 +25,7 @@
                 <div class="filter-grid">
                     <div class="filter-flex">
                         <h3 class="h3-style">Filters</h3>
+                         <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
                                 <div class="filters">
                                     <nav>
@@ -37,12 +37,12 @@
                                         <p class="phfil strip-s" onclick="changeImage('strip-socks')">Striped</p>
                                         <p class="phfil n-arrivals" onclick="changeImage('new-arrivals')">New Arrivals</p>
                                         <p class="phfil outstanding-p" onclick="changeImage('outstanding-products')">Outstanding Products</p>
-
                                     </nav>
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
                             <div class="line-style"><hr></div>
+
                             <h3 class="h3-style">Colors</h3>
                                 <div class="filters">
                                     <!-- <div class="colors-spacing">
@@ -52,15 +52,13 @@
                                         <span class="circle blue-circle"><a href=""></a></span>
                                         <span class="circle pink-circle"><a href=""></a></span>
                                     </div> -->
-
                                     <div class="color-spacing">
-                                    <div class="circle green-circle" onclick="changeImage('green')"></div>
-                                    <div class="circle red-circle" onclick="changeImage('red')"></div>
-                                    <div class="circle yellow-circle" onclick="changeImage('yellow')"></div>
-                                    <div class="circle blue-circle" onclick="changeImage('blue')"></div>
-                                    <div class="circle pink-circle" onclick="changeImage('pink')"></div>
-                        
-                                </div>
+                                        <div class="circle green-circle" onclick="changeImage('green')"></div>
+                                        <div class="circle red-circle" onclick="changeImage('red')"></div>
+                                        <div class="circle yellow-circle" onclick="changeImage('yellow')"></div>
+                                        <div class="circle blue-circle" onclick="changeImage('blue')"></div>
+                                        <div class="circle pink-circle" onclick="changeImage('pink')"></div>
+                                    </div>
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
@@ -83,12 +81,10 @@
                                 </div>
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
-                            <div class="filters"><input type="submit" value="Apply Filter"></div>
-                            <!-- include -->
                     </div>
                 </div>
                 <!-- end of filet and start of the second section -->
-                    <div class="h2-astyle"><h2>Arrivals</h2></div>
+                    <div class="h2-astyle h2-move"><h2>Arrivals</h2></div>
                     <div class="h4-astyle h4-move"><h4>Showing 1-9 Products</h4></div>
                         <!-- column 2 starts here -->
                         <div class="column-2">
@@ -110,7 +106,7 @@
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <i class="fa fa-star-half-full"></i>
                                     <p>&euro;3.99</p>
                                 </div>
@@ -125,6 +121,11 @@
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="button-move">
+                                <div class="button-styling">
+                                    <p><a href="#">Previous</a></p>
                                 </div>
                             </div>
                         </div>
@@ -165,6 +166,9 @@
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
+                            <div class="butt-num">
+                                <p><a href="#">1</a> &nbsp &nbsp &nbsp<a href="#">2</a></p>
+                            </div>
                         </div>
                         <!-- column 4 start below -->
                         <div class="column-4">
@@ -175,8 +179,8 @@
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
@@ -202,10 +206,12 @@
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            
-                        </div>     
+                            <div class="button-move">
+                                <div class="button-styling">
+                                    <p><a href="#">Next</a></p>
+                                </div>
+                            </div>
+                        </div>   
                 <!-- end of the second section "arrivals" -->
             </div>
             <!-- end of the main grid class for everything -->

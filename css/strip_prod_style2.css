@@ -375,7 +375,7 @@ background-color: #E990B9;
 .rec-img-container{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: 1fr 0.5fr;
   align-content: center;
 
  
@@ -383,6 +383,7 @@ background-color: #E990B9;
 
 .rec {
   display: flex;
+  justify-content: space-evenly;
  background-color: rgb(123, 123, 123);;
 }
 

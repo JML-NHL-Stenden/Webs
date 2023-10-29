@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 999x;
+}
+
 @font-face {
     font-family: nexaBold;
     src:  url(../Fonts/nexa_bold.otf);
@@ -18,10 +28,10 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    /* grid-auto-rows: minmax(0px, auto); */
     padding: 50px;
 
-    padding-block: 2rem;
+    padding-block: 0.5em;
     gap: 1.5em;
     margin-inline: auto;
 
@@ -38,12 +48,12 @@
     display: flex;
 
     width: 295px;
+    height: 600px;
     padding: 20px;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
 
-    /* grid-auto-rows: minmax(100px,auto); */
     border: 0.5px solid rgb(188, 188, 188);
 }
 
@@ -88,36 +98,6 @@
     grid-column-start: 4;
 }
 
-/* box */
-
-/* .bs-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.gs-box {
-    border: 1px solid rgb(188, 188, 188);
-}
-.ps-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.rs-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.bu-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.gu-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.pu-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.ru-box{
-    border: 1px solid rgb(188, 188, 188);
-}
-.ys-box{
-    border: 1px solid rgb(188, 188, 188);
-} */
-
 /* The filter section style */
 
 /* ul {
@@ -144,18 +124,48 @@ a {
     border: 0.1px solid rgb(188, 188, 188);
 }
 
+.button-styling {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 35px;
+
+    border: 0.1px solid rgb(188, 188, 188);
+    padding: 20px;
+}
+
+.button-move {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.butt-num {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+}
+
 /* Heading Styling */
-.h4-astyle {
+.h4-move {
     display: grid;
     grid-column-start: 4;
 }
 
-.h4-move {
+.h4-astyle {
     display: flex;
 
-    text-align: end;
     justify-content: flex-end;
-    align-items: end;
+    text-align: center;
+    align-items: center;
+    height: 35px;
 }
 
 .h3-style {
@@ -164,6 +174,15 @@ a {
 }
 
 .h2-astyle {
+    display: flex;
+
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    height: 35px;
+}
+
+.h2-move {
     display: grid;
     grid-column-start: 2;
     line-height: normal;
@@ -180,6 +199,10 @@ a {
 .checked {
     color: orange;
 }
+.fa-star-half-full {
+    color: orange;
+}
+
 /* Choosing the color circle element*/
 .color-spacing {
     display: flex;
