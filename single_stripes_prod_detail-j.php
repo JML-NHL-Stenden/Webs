@@ -297,37 +297,66 @@ include "./view/layout/header.php"
     <!-- <script src="script.js"></script> -->
 </div>
 
+    <section>
+        <div class ="recommend-section">
+            <div class="rec-h1-style"><h1> You might also like</h1></div>
 
-<div class ="recommend-section">
+                <div class="rec-img-container">
 
+                    <div class="grid-items1 flex-element">
+                        <div class="rec">
+                            <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
+                            <!-- <p>Sunny's Blue Striped Sock</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <i class="fa fa-star-half-full"></i>
+                            <p>&euro;3.99</p> -->
+                        </div>
+                    </div>
 
-<h1> You might also like</h1>
+                    <div class="grid-items2 flex-element">
+                        <div class="rec">
+                            <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
+                            <p>Sunny's Pink Striped Sock</p>
+                                <!-- <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            <p>&euro;3.99</p> -->
+                        </div>
+                    </div>
 
-<div class= "rec-img-container">
+                    <div class="grid-items3 flex-element">
+                        <div class="rec">
+                            <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
+                            <p>Sunny's Green Striped Sock</p>
+                                <!-- <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <i class="fa fa-star-half-full"></i>
+                            <p>&euro;3.99</p> -->
+                        </div>
+                    </div>
 
-    <div class="rec rec-cont-1">
-        <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
-    </div>
+                    <div class="grid-items4 flex-element">
+                        <div class="rec">
+                            <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
+                            <!-- <p>Sunny's Yellow Striped Sock</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            <p>&euro;3.99</p> -->
+                        </div>
+                    </div>
 
-    <div class="rec rec-cont-2">
-    <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
-  
-    </div>
+                </div>
+        </div>
+    </section>
 
-    <div class="rec rec-cont-3">
-    <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
-  
-    </div>
-
-    <div class="rec rec-cont-4">
-    <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
-  
-    </div>
-</div>
-
-</div>
-
-    </main>
+</main>
 
 
 
