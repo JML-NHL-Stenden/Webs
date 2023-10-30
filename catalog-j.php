@@ -72,6 +72,7 @@
                                     <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
             </div>
+
             <div id="images-holder-4">
                 <img id="img-container-4" class="image-container" src="./img/Sunny_socks_uni_blue.jpg" alt="">
                 <p>Sunny's Blue Uni-Color Sock</p>
@@ -83,6 +84,7 @@
                                     <p>&euro;3.99</p>
 
             </div>
+            
             <div id="images-holder-5">
                 <img id="img-container-5" class="image-container" src="./img/Sunny_socks_uni_pink.jpg" alt="">
                 <p>Sunny's Pink Uni-Color Sock</p>
@@ -311,8 +313,7 @@
             imageElement9.src = imagePath9;
             imageElement10.src = imagePath10;
 
-
-}
+         
 
 
 

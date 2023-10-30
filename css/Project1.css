@@ -34,12 +34,30 @@ line-height: normal;
 mix-blend-mode: hard-light;
 text-decoration-line: none;
 }
-body{
-    background-image: url("./img/sunny.png");
+
+.intro-container {
+  background: url("../img/sunny.png");
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed; */
+  padding:1rem;
+}
+
+/* main {
+  background-image: url("../img/sunny.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+  padding:1rem;
+} */
+
+
+/* body{
+    background-image: url("../img/sunny.png");
    background-repeat: no-repeat;
    background-size: 100% 100%;
    background-attachment: fixed;
-}
+} */
 .Menu{
     margin-top: 32px;
     display: flex;
@@ -239,14 +257,8 @@ margin-top: 50px;
 margin-bottom: -10px;
 }
 .ShopNow{
-display: flex;
-width: 10%;
-height: 52px;
+
 padding: 16px 54px;
-justify-content: center;
-align-items: center;
-gap: 12px;
-flex-shrink: 0;
 position:relative;
 border-radius: 62px;
 background: linear-gradient(180deg, #E990B9 0%, rgba(241, 91, 57, 0.60) 100%);
@@ -339,7 +351,7 @@ text-decoration: none;
 .checked{
  color: #FFC633; 
 }
-.productpics .heading{
+.productpics .heading-r{
     color: rgba(0, 0, 0, 0.60);
 font-family: Nexa;
 font-size: 14px;
