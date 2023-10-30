@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- header section -->
-        <?php include("header.html") ?>
+        <?php include "./view/layout/header.php" ?>
         <!-- Big banner section -->
         <div class="top-banner">
             <img src="./pictures/sunny big page.png" alt="">
@@ -175,6 +175,6 @@
             </div>
         </div>
         <!-- Footer section -->
-        <?php include("footer.html") ?>
+        <?php include "./view/layout/footer.php" ?>
     </body>
 </html>
