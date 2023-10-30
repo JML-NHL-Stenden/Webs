@@ -25,6 +25,7 @@
 /* Heading section */
 
 .heading {
+    top:0;
     display: flex;
     background-color: antiquewhite;
     height: 100px;
