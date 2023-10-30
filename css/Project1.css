@@ -15,37 +15,32 @@
 html{
   scroll-behavior: smooth;
 }
-.Frame1-container{
-display: flex;
-height: 2rem;
-width: 100%;
-justify-content: center;
-align-items: center;
-gap: 393px;
-flex-shrink: 0;
-background: rgba(254, 205, 62, 0.81);
-color: #FFF;
-position: fixed;
-z-index: 600;
 
+
+.intro-container {
+  background: url("../img/sunny.png");
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed; */
+  padding:1rem;
 }
-.Frame1-content{
-color: #FFF;
-display: flex;
-font-family: Nexa;
-font-size: 14px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-mix-blend-mode: hard-light;
-text-decoration-line: none;
-}
-body{
+
+/* main {
   background-image: url("../img/sunny.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed;
-}
+  background-attachment:fixed;
+  padding:1rem;
+} */
+
+
+/* body{
+    background-image: url("../img/sunny.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+} */
+
 .title{
     margin-left: 117px;
     display: grid;
@@ -78,14 +73,7 @@ margin-top: 50px;
 margin-bottom: -10px;
 }
 .ShopNow{
-display: flex;
-width: 10%;
-height: 52px;
-padding: 20px 100px;
-justify-content: center;
-align-items: center;
-gap: 12px;
-flex-shrink: 0;
+padding: 20px;
 position:relative;
 border-radius: 62px;
 background: linear-gradient(180deg, #E990B9 0%, rgba(241, 91, 57, 0.60) 100%);
@@ -100,8 +88,7 @@ box-shadow: 0 9px #999;
 
 }
 .ShopNow a{
-  color: black;
-  width: 100px;
+  color: white;
 }
 .ShopNow:hover {
   background-color:#F15B39; 
@@ -124,7 +111,7 @@ box-shadow: 0 9px #999;
     gap: -2px; 
 }
 .introduction div header{
-    color: #000;
+color: #000;
 font-family: Nexa;
 font-size: 40px;
 font-style: normal;
@@ -184,7 +171,7 @@ text-decoration: none;
 .checked{
  color: #FFC633; 
 }
-.productpics .heading{
+.productpics .heading-r{
     color: rgba(0, 0, 0, 0.60);
 font-family: Nexa;
 font-size: 14px;

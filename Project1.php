@@ -9,16 +9,14 @@
     <link rel="icon" href="img/Sunny_socks_Pink.png">
 </head>
 <body>
-    <div class="Frame1-container">
-        <div> 
-        <header>
-            <a class="Frame1-content" href="Sign_Up_Page.php" target="_blank">Sign up and get 20% off to your first order. Sign Up Now</a>
-        </header>
-    </div>
-    </div>
-    <?php 
-        include "./view/layout/header.php";
-    ?>
+
+<?php
+include "./view/layout/header.php"
+?>
+
+<main>
+<div class="intro-container">
+
     <div class="title">
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
@@ -39,11 +37,12 @@
             <header>BOL.COM</header>
             <p>Reliable Partner</p>
         </div>
-        <div style="border-left: solid 1px rgba(0, 0, 0, 0.10); padding-left: 32px;">
+        <div style="border-left: solid 1px rgba(0, 0, 0, 0.10); padding-left: 32px; margin-left: 30px;">
             <header>THOUSANDS</header>
             <p>Happy Customers</p>
         </div>
         
+    </div>
     </div>
     <div class="banner"><img src="img/footer.png" alt=""></div>
     <div id="newarrival"><h1 class="beginpart">NEW ARRIVALS</h1></div>
@@ -56,7 +55,7 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
-<span class="heading">4/5</span>
+<span class="heading-r">4/5</span>
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -67,7 +66,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star"></span>
     <span class="fa fa-star"></span>
-    <span class="heading">3/5</span>
+    <span class="heading-r">3/5</span>
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -78,7 +77,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
-    <span class="heading">5/5</span>
+    <span class="heading-r">5/5</span>
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -89,7 +88,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
-    <span class="heading">5/5</span>
+    <span class="heading-r">5/5</span>
     <p>$3.99</p> 
     </div>
 </div>
@@ -106,7 +105,7 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
-<span class="heading">4/5</span>
+<span class="heading-r">4/5</span>
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -117,7 +116,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star"></span>
     <span class="fa fa-star"></span>
-    <span class="heading">3/5</span>
+    <span class="heading-r">3/5</span>
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -128,7 +127,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
-    <span class="heading">5/5</span>
+    <span class="heading-r">5/5</span>
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
@@ -139,7 +138,7 @@
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
-    <span class="heading">5/5</span>
+    <span class="heading-r">5/5</span>
     <p>$3.99</p> 
     </div>
 </div>
@@ -261,8 +260,14 @@
         <img src="img/comment3.png" alt="" width="400">
         <img src="img/comment3.png" alt="" width="400">
     </div>
+
+ </main>
+
     <?php
-        include "./view/layout/footer.php";
-    ?>   
+
+    include  "./view/layout/footer.php"
+
+    ?>
+    
 </body>
 </html>

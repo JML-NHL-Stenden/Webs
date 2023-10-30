@@ -97,38 +97,98 @@
   line-height: 22px; /* 95.652% */
   }
 
+/* color selector */
+
+.custom-radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.custom-radio input[type="radio"] {
+  display: none; /* Hide the default radio input */
+}
+
+.custom-radio label {
+  position: relative;
+  padding-left: 25px; /* Space for the custom radio button */
+  cursor: pointer;
+}
+
+.custom-radio label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px; /* Size of the custom radio button */
+  height: 20px;
+  border-radius: 50%; /* Make it a circle */
+}
+
+#red label::before {
+  background-color: #F15B39;
+}
+
+#green label::before {
+  background-color: #51B2A2;
+}
+
+#blue label::before {
+  background-color: #1E407A;
+}
+
+#yellow label::before {
+background-color: #FECD3E;
+}
+
+#pink label::before {
+background-color: #E990B9;
+}
+
+.custom-radio input[type="radio"]:checked + label::before {
+  border: 2px solid #000; /* Border color */
+}
+
+
 .circle-container {
-    display: grid;
-    grid-template-columns: repeat(5, 30px);
-    margin-top: 10px; 
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(5, 30px);
+  margin-top: 10px; 
+}
+
 .circle {
-    width: 25px;
-    height: 25px;
-    background-color: #1E407A;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .circle.red {
-    background-color: #F15B39;
-  }
-  
-  .circle.green {
-    background-color: #51B2A2;
-  }
-  
-  .circle.blue {
-    background-color: #1E407A;
-  }
-  
-  .circle.yellow {
-    background-color: #FECD3E;
-  }
-  
-  .circle.pink {
-    background-color: #E990B9;
+  width: 25px;
+  height: 25px;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle.red {
+  background-color: #F15B39;
+}
+
+.circle.green {
+  background-color: #51B2A2;
+}
+
+.circle.blue {
+  background-color: #1E407A;
+}
+
+.circle.yellow {
+  background-color: #FECD3E;
+}
+
+.circle.pink {
+  background-color: #E990B9;
+}
+
+
+  /* sumbit and counter */
+
+  #submit-and-counter {
+    grid-column: 4/4;
+    grid-row: 3/3;
   }
   
   /* -------------   Select color functions - END ---------------------- */
@@ -182,9 +242,9 @@
 
     color: #fff;
     text-align: center;
-   justify-content:center;
-   grid-column: 2/6;
-  grid-row: 1;
+    justify-content:center;
+    grid-column: 2/6;
+    grid-row: 1;
 }
 
 .content-nav  ul {
@@ -314,28 +374,62 @@
 
 .rec-img-container{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
+  /* grid-template-rows: repeat(3,1fr); */
   align-content: center;
+  padding: 50px;
 
- 
+  margin-inline: auto;
+}
+
+.grid-items1 {
+  display: grid;
+  grid-column-start: 1;
+}
+
+.grid-items2 {
+  display: grid;
+  grid-column-start: 2;
+}
+
+.grid-items3 {
+  display: grid;
+  grid-column-start: 3;
+
+}
+
+.grid-items4 {
+  display: grid;
+  grid-column-start: 4;
+}
+
+.rec-h1-style {
+  display: flex;
+
+  padding-left: 400px;
 }
 
 .rec {
   display: flex;
- background-color: rgb(123, 123, 123);;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.rec-img {
-  max-width: 25dvw;
-  height: 30dvh;
-  margin-left: 4dvw;
+.flex-element img {
+  display: flex;
 
-
+  height: 250px;
+  width: 100px;
+  object-fit: cover;
 }
 
-
-
+.checked {
+  color: orange;
+}
+.fa-star-half-full {
+  color: orange;
+}
 
 
 

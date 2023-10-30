@@ -3,21 +3,22 @@
 .top-section {
     background-color: #FECD3E;
     text-align: center;
-    padding: 10px;
     position: fixed;
-    z-index: 600;
+    z-index:600;
     justify-content: center;
-align-items: center;
-width: 100%;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
 
+    
 }
 
 .top-section h5 {
-    font-family: Nexa Bold;
+    font-family: nexaBold;
 }
 
 .top-section h5 a {
-    color:#fff
+    color:#fff;
 }
 
 
@@ -26,12 +27,15 @@ width: 100%;
 .heading {
     display: flex;
     background-color: antiquewhite;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    z-index:600;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    position: fixed;
-    z-index: 600;
-    margin-top: 35px;
-    padding: 5px 0 5px 0;
+    margin-top: 1.5rem;
+    padding: 5px 0px 5px 0px;
 }
 
 
@@ -59,7 +63,7 @@ width: 100%;
 
 .navbar ul a {
     font-size: 16px;
-    font-family: Nexa Bold;
+    font-family: nexaBold;
     color: #000;
 }
 
@@ -113,11 +117,3 @@ width: 100%;
     height: 24px;
     margin-left: 14px;
 }
-@font-face {
-    font-family: 'Nexa Bold';
-    src: url("./Fonts/nexa_bold.otf") format("truetype");
-  }
-  @font-face {
-    font-family: 'Nexa Light';
-    src: url("./Fonts/nexa-light.otf") format("truetype");
-  }
