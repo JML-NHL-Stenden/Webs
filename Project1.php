@@ -10,40 +10,21 @@
 </head>
 <body>
     <div class="Frame1-container">
-        <div> <header>
-            <a class="Frame1-content" href="">Sign up and get 20% off to your first order. Sign Up Now</a>
+        <div> 
+        <header>
+            <a class="Frame1-content" href="Sign_Up_Page.php" target="_blank">Sign up and get 20% off to your first order. Sign Up Now</a>
         </header>
     </div>
     </div>
-    <div class="Menu">
-        <div class="logo">
-         <a href="Project1.html" target="_blank"><img src="img/sunnylogo.png" alt=""></a>
-        </div>
-        <nav>
-           <div class="Shop"> 
-            <button class="Shopbtn">Shop<i class="fa fa-caret-down"></i></button> 
-            <div class="Shopcontent">
-                <a href="" style="margin:0; text-align: center;">Uni Socks</a>
-                <a href=""style="margin:0; text-align: center;">Stripped Socks</a>
-            </div>
-        </div>
-            <a href="#topselling">Top Sellings</a>
-            <a href="#newarrival">New Arrivals</a>
-            <a href=""> About Us</a>
-        </nav>
-        <div class="search-container">
-            <form action="action_page.php" method="POST">
-                <button type="submit"><i class="fa fa-search"></i></button>
-                <input type="text" placeholder="Search for products..." name="search" style="width: 500px;">
-              </form>
-        </div>
-        <div class="carticon"><a href=""><img src="img/cart.svg"> </a> </div>
-        <div class="signinicon"><a href="Sign_In_Page.php"><img src="img/Vector.png"></a> </div>
-    </div>
+    <?php 
+        include "./view/layout/header.php";
+    ?>
     <div class="title">
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
-       <div> <a href="" target="_blank" class="ShopNow">Shop Now</a></div>
+       <div class="ShopNow"> 
+        <a href="catalog.php" target="_blank">Shop Now</a>
+    </div>
     </div>
     <div class="introduction">
         <div>
@@ -244,8 +225,7 @@
     });
     
     </script>
-      
-      <script>
+    <script>
       let slideIndex = 1;
       showSlides(slideIndex);
       
@@ -281,32 +261,8 @@
         <img src="img/comment3.png" alt="" width="400">
         <img src="img/comment3.png" alt="" width="400">
     </div>
-    <div class="footer-container">
-        <div class="slogan">
-            <img src="img/sunny_logos_slogan_blue.png">
-            <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
-        </div>
-        <div class="company">
-            <h1>COMPANY</h1>
-           <a href="" ><P>About</P></a>
-           <a href="" ><p>Contact</p></a>
-          <a href=""><img src="img/2.png" alt=""></a>
-          <a href=""><img src="img/3.png" alt=""></a>
-        </div>
-        <div class="third-party">
-            <h1>Third-Party Vendors</h1>
-            <div class="brand-logo-container">
-<div><a href="https://www.bol.com/nl/nl/" target="_blank"><img src="img/bolcom.jpg" alt=""></a></div>
-<div><a href="https://www.hema.nl/?&msclkid=9a19646100131d0c16dc01402850574c&utm_source=bing&utm_medium=cpc&utm_campaign=Algemeen%20%7C%20Search%20%7C%20HEMA%20%7C%20Focus%20%7C%20BRD%20%7C%20M311%20-%2042341-G393348416&utm_term=hema&utm_content=Hema%20%7C%20Focus%20%7C%20EX%2FMB&gclid=9a19646100131d0c16dc01402850574c&gclsrc=3p.ds" target="_blank"><img src="img/hema.jpg" alt=""></a></div></div>
-<div class="payment_method">
-    <div><a href=""><img src="img/applepay.jpg"></a></div>
-    <div><a href=""><img src="img/googlepay.jpg"></a></div>
-    <div><a href=""><img src="img/Visa logo.png"></a></div>
-    <div><a href=""><img src="img/Mastercard-logo.svg.png"></a></div>
-    <div><a href=""><img src="img/logo-ideal.svg"></a></div>
-</div>
-            </div>
-        </div>
-    
+    <?php
+        include "./view/layout/footer.php";
+    ?>   
 </body>
 </html>
