@@ -5,13 +5,13 @@
         <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
         <title>Sunny's</title>
         <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="./Webs/view/layout/footer.css">
-        <link rel="stylesheet" href="./Webs/view/layout/header.css">
+        <link rel="stylesheet" href="./view/layout/footer.css">
+        <link rel="stylesheet" href="./view/layout/header.css">
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
     <body>
         <!-- header section -->
-        <?php include("header.html") ?>
+        <?php include"./view/layout/header.php" ?>
         <!-- Big banner section -->
         <div class="top-banner">
             <img src="./pictures/sunny big page.png" alt="">
@@ -175,6 +175,6 @@
             </div>
         </div>
         <!-- Footer section -->
-        <?php include("footer.html") ?>
+        <?php include"./view/layout/footer.php" ?>
     </body>
 </html>
