@@ -20,7 +20,9 @@ include "./view/layout/header.php"
     <div class="title">
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
-       <div> <a href="" target="_blank" class="ShopNow">Shop Now</a></div>
+       <div class="ShopNow"> 
+        <a href="catalog.php" target="_blank">Shop Now</a>
+    </div>
     </div>
     <div class="introduction">
         <div>
@@ -222,8 +224,7 @@ include "./view/layout/header.php"
     });
     
     </script>
-      
-      <script>
+    <script>
       let slideIndex = 1;
       showSlides(slideIndex);
       
