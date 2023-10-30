@@ -9,9 +9,9 @@
         <link rel="stylesheet" href="./view/layout/header.css">
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
+    <!-- header section -->
+    <?php include"./view/layout/header.php" ?>
     <body>
-        <!-- header section -->
-        <?php include"./view/layout/header.php" ?>
         <!-- Big banner section -->
         <div class="top-banner">
             <img src="./pictures/sunny big page.png" alt="">
