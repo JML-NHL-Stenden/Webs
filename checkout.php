@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Out</title>
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./view/layout/header.css">
-    <link rel="stylesheet" href="./view/layout/footer.css">
+    <link rel="stylesheet" href="./Webs/view/layout/header.css">
+    <link rel="stylesheet" href="./Webs/view/layout/footer.css">
     <link rel="stylesheet" href="./css/checkout.css">
 </head>
-<?php include"./view/layout/header.php"?>
+<?php include"./view/layout/header.php" ?>
 <body>
     <div class="billing wrapper">
         <h3 class="hd">Check out</h3>

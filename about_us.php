@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
     <!-- header section -->
-    <?php include"./view/layout/header.php" ?>
+    <?php include "./view/layout/header.php" ?>
     <body>
         <!-- Big banner section -->
         <div class="top-banner">
@@ -175,6 +175,6 @@
             </div>
         </div>
         <!-- Footer section -->
-        <?php include("footer.html") ?>
+        <?php include"./view/layout/footer.php" ?>
     </body>
 </html>

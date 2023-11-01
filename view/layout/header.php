@@ -20,7 +20,7 @@
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">On Sales</a></li>
                     <li><a href="#">New Arrivals</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about_us.php">About Us</a></li>
                 </ul>
             </div>
             <!-- Search bar -->
