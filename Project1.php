@@ -9,19 +9,18 @@
     <link rel="icon" href="img/Sunny_socks_Pink.png">
 </head>
 <body>
-
+<header>
 <?php
 include "./view/layout/header.php"
 ?>
-
+</header>
 <main>
 <div class="intro-container">
-
     <div class="title">
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
-       <div class="ShopNow"> 
-        <a href="catalog.php" target="_blank">Shop Now</a>
+        <div class="ShopNow"> 
+        <a href="catalog-j.php" target="_blank">Shop Now</a>
     </div>
     </div>
     <div class="introduction">
@@ -29,27 +28,26 @@ include "./view/layout/header.php"
             <header>23 years</header>
             <p>Experiences</p>
         </div>
-        <div style="border-left: solid 1px rgba(0, 0, 0, 0.10); padding-left: 32px;">
+        <div class="more_info">
             <header>HEMA’S</header>
             <p>Reliable Partner</p>
         </div>
-        <div style="border-left: solid 1px rgba(0, 0, 0, 0.10); padding-left: 32px;">
+        <div class="more_info">
             <header>BOL.COM</header>
             <p>Reliable Partner</p>
         </div>
-        <div style="border-left: solid 1px rgba(0, 0, 0, 0.10); padding-left: 32px; margin-left: 30px;">
+        <div id="thousands">
             <header>THOUSANDS</header>
             <p>Happy Customers</p>
-        </div>
-        
+        </div>   
     </div>
     </div>
-    <div class="banner"><img src="img/footer.png" alt=""></div>
+    <div class="banner"><img src="img/footer.png" alt="banner"></div>
     <div id="newarrival"><h1 class="beginpart">NEW ARRIVALS</h1></div>
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_uni_pink.jpg" alt=""></header> 
-    <h1><a href="" >Sunny's Pink Uni Sock </a></h1>
+        <header><img src="img/Sunny_socks_uni_pink.jpg" alt="pinksock"></header> 
+    <h1><a href="single_stripes_prod_detail-j.php" >Sunny's Pink Uni Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -59,8 +57,8 @@ include "./view/layout/header.php"
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_yellow.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Yellow Striped  Sock</a></h1>
+        <header><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock"></header> 
+        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Yellow Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -70,8 +68,8 @@ include "./view/layout/header.php"
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_pink_01.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Pink Striped Sock</a></h1>
+        <header><img src="img/Sunny_socks_pink_01.jpg" alt="pinksock"></header> 
+        <h1><a href="single_stripes_prod_detail-j.php">Sunny’s Pink Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -81,8 +79,8 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_green.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Green Striped Sock</a></h1>
+        <header><img src="img/Sunny_socks_green.jpg" alt="greensock"></header> 
+        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Green Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -92,14 +90,13 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
 </div>
-
-<div style="margin-left: 611px;"><a href="" class="ShopNow">View all</a></div>
+<div class="view_all"><a href="catalog-j.php" class="ShopNow">View all</a></div>
 <hr>
 <div id="topselling"><h1 class="beginpart">TOP SELLINGS</h1></div>
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_red.jpg" alt=""></header> 
-    <h1><a href="" >Sunny's Red Striped Sock </a></h1>
+        <header><img src="img/Sunny_socks_red.jpg" alt="redsock"></header> 
+    <h1><a href="single_stripes_prod_detail-j.php" >Sunny's Red Striped Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -109,8 +106,8 @@ include "./view/layout/header.php"
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_blue.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Blue Striped  Sock</a></h1>
+        <header><img src="img/Sunny_socks_blue.jpg" alt="bluesock"></header> 
+        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Blue Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -121,7 +118,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_uni_green.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Green Uni Sock</a></h1>
+        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Green Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -132,7 +129,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_uni_yellow.jpg" alt=""></header> 
-        <h1><a href="" >Sunny’s Yellow Uni Sock</a></h1>
+        <h1><a href="single_stripes_prod_detail-j.php">Sunny’s Yellow Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -142,8 +139,7 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
 </div>
-
-<div style="margin-left: 611px;"><a href="" class="ShopNow">View all</a></div>
+<div class="view_all"><a href="catalog-j.php" class="ShopNow">View all</a></div>
 <hr>
 <div class="beginpart">The Bright side of socks!</div>
 <div class="brightside-container js-scroll fade-in-bottom">
@@ -151,7 +147,6 @@ include "./view/layout/header.php"
         <div class="numbertext">1 / 4</div>
   <img src="img/woman-with-socks-having-fruits-vegetables-her-feet (1).jpg" style="width:100%; height: 550px;">
   <div class="text">Aesthetic</div>
-
 </div>
 <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
@@ -178,37 +173,28 @@ include "./view/layout/header.php"
         <span class="dot" onclick="currentSlide(2)"></span> 
         <span class="dot" onclick="currentSlide(3)"></span> 
         <span class="dot" onclick="currentSlide(4)"></span> 
-
       </div>
       <script>
-    
-        const scrollElements = document.querySelectorAll(".js-scroll");
-    
+    const scrollElements = document.querySelectorAll(".js-scroll");
     const elementInView = (el, dividend = 1) => {
     const elementTop = el.getBoundingClientRect().top;
-    
     return (
     elementTop <=
     (window.innerHeight || document.documentElement.clientHeight) / dividend
     );
     };
-    
     const elementOutofView = (el) => {
     const elementTop = el.getBoundingClientRect().top;
-    
     return (
     elementTop > (window.innerHeight || document.documentElement.clientHeight)
     );
     };
-    
     const displayScrollElement = (element) => {
     element.classList.add("scrolled");
     };
-    
     const hideScrollElement = (element) => {
     element.classList.remove("scrolled");
-    };
-    
+    }; 
     const handleScrollAnimation = () => {
     scrollElements.forEach((el) => {
     if (elementInView(el, 1.25)) {
@@ -218,24 +204,19 @@ include "./view/layout/header.php"
     }
     })
     }
-    
     window.addEventListener("scroll", () => { 
     handleScrollAnimation();
-    });
-    
+    });   
     </script>
     <script>
       let slideIndex = 1;
-      showSlides(slideIndex);
-      
+      showSlides(slideIndex);  
       function plusSlides(n) {
         showSlides(slideIndex += n);
       }
-      
       function currentSlide(n) {
         showSlides(slideIndex = n);
-      }
-      
+      } 
       function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
@@ -252,22 +233,18 @@ include "./view/layout/header.php"
         dots[slideIndex-1].className += " active";
       }
       </script>
-      <div class="title"><header style="font-size: 32px;">OUR HAPPY CUSTOMERS</header></div>
+      <div class="title"><header id="comment_section">OUR HAPPY CUSTOMERS</header></div>
     <div class="comment-container">
-        <img src="img/comment1.png" alt="" width="400">
-        <img src="img/comment1.png" alt="" width="400">
-        <img src="img/comment2.png" alt="" width="400">
-        <img src="img/comment3.png" alt="" width="400">
-        <img src="img/comment3.png" alt="" width="400">
+        <img src="img/comment1.png" alt="comment">
+        <img src="img/comment1.png" alt="comment">
+        <img src="img/comment2.png" alt="comment">
+        <img src="img/comment3.png" alt="comment" id="pic4">
     </div>
-
  </main>
-
+ <footer>
     <?php
-
     include  "./view/layout/footer.php"
-
     ?>
-    
+</footer>
 </body>
 </html>
