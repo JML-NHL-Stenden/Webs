@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="catalog-style.css" type="text/css">
+    <link rel="stylesheet" href="css/catalog-style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/catalog-j.js"></script>
 </head>
 
     <body>
@@ -17,7 +16,7 @@
         <!-- end of header starting with main now -->
         <main>
             <div class="home-title">
-                <p><a href="main.html"> Home &nbsp > </a>&nbsp Shop</p> 
+                <p><a href="Project1.php"> Home &nbsp > </a>&nbsp Shop</p> 
             </div>
             <!-- start of whole code, below is the grid container for everything -->
             <div class="grid-container">
@@ -59,8 +58,9 @@
                         <div class="column-2">
                             <div class="flex-items">
                                 <div class="pu-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_pink.jpg" alt="Sunny_socks_uni_pink">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_pink.jpg" alt="Sunny_socks_uni_pink">
                                     <p>Sunny's Pink Uni-Color Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -71,8 +71,9 @@
                             </div>
                             <div class="flex-items">
                                 <div class="ru-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_red.jpg" alt="Sunny_socks_uni_red">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_red.jpg" alt="Sunny_socks_uni_red">
                                     <p>Sunny's Red Uni-Color Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -86,8 +87,9 @@
                         <div class="column-3">
                             <div class="flex-items">
                                 <div class="rs-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_green.jpg" alt="Sunny_socks_green">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_green.jpg" alt="Sunny_socks_green">
                                     <p>Sunny's Green Uni-Color Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -97,8 +99,9 @@
                             </div>
                             <div class="flex-items">
                                 <div class="bu-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_blue.jpg" alt="Sunny_socks_uni_blue">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_blue.jpg" alt="Sunny_socks_uni_blue">
                                     <p>Sunny's Blue Uni-Color Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -112,8 +115,9 @@
                         <div class="column-4">
                             <div class="flex-items">
                                 <div class="pu-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_uni_yellow">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_uni_yellow">
                                     <p>Sunny's Yellow Uni-Color Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>

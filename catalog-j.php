@@ -14,7 +14,7 @@
     </header>
     <main>
         <div class="home-title">
-             <p><a href="main.html"> Home &nbsp > </a>&nbsp Shop</p> 
+               <p><a href="Project1.php"> Home &nbsp > </a>&nbsp Shop</p> 
         </div> 
         <div class="filter-holder">
         <h3 class="h3-style">Filters</h3>
