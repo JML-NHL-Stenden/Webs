@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_uni_blue.jpg" alt="Blue packaged uni-color socks">
+                            <img class="rec-img pack-sock-blue" src="./img/packaging/png/catalogus_sokken_uni_blue.png" alt="Blue packaged uni-color socks">
                             <p>Sunny's Blue Uni-Color Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items2 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_uni_pink.jpg" alt="Pink packaged uni-color socks">
+                            <img class="rec-img pack-sock-pink" src="./img/packaging/png/catalogus_sokken_uni_pink.png" alt="Pink packaged uni-color socks">
                             <p>Sunny's Pink Uni-Color Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items3 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_uni_green.jpg" alt="Green packaged uni-color socks">
+                            <img class="rec-img pack-sock-green" src="./img/packaging/png/catalogus_sokken_uni_green.png" alt="Green packaged uni-color socks">
                             <p>Sunny's Green Uni-Color Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
