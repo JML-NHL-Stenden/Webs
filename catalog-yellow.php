@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="catalog-style.css" type="text/css">
+    <link rel="stylesheet" href="css/catalog-style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/catalog-j.js"></script>
 </head>
 
     <body>
@@ -17,7 +16,7 @@
         <!-- end of header starting with main now -->
         <main>
             <div class="home-title">
-                <p><a href="main.html"> Home &nbsp > </a>&nbsp Shop</p> 
+                <p><a href="Project1.php"> Home &nbsp > </a>&nbsp Shop</p> 
             </div>
             <!-- start of whole code, below is the grid container for everything -->
             <div class="grid-container">
@@ -59,8 +58,9 @@
                         <div class="column-2">
                             <div class="flex-items">
                                 <div class="ys-box">
-                                <a href=""></a><img src="./img/Sunny_socks_yellow.jpg" alt="Sunny_socks_yellow">
+                                <a href="product_detail_strip.php"><img src="./img/Sunny_socks_yellow.jpg" alt="Sunny_socks_yellow">
                                     <p>Sunny's Yellow Striped Sock</p>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -72,8 +72,9 @@
                         <div class="column-3">
                             <div class="flex-items">
                                 <div class="ys-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_yellow">
+                                <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_yellow">
                                     <p>Sunny's Yellow Uni-Color Sock</U>
+                                </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
