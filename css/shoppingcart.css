@@ -26,7 +26,7 @@ b {
 
 
 main {
-    padding: 0rem 5rem 0rem 5rem;
+    padding: 11rem 5rem 0rem 5rem;
     gap: 24px;
 }
 
@@ -102,7 +102,7 @@ h1 {
 }
 
 #empty-cart{
-    padding: 5rem 0rem 0rem 0rem;
+    padding: 11rem 0rem 0rem 0rem;
     height: 837px;
     background-color: #F6F6F6;
     margin: 0px;
