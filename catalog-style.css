@@ -8,11 +8,6 @@ body {
     padding-top: 100px;
 }
 
-header {
-    position: fixed;
-    top: 0px;
-    z-index: 999x;
-}
 
 @font-face {
     font-family: nexaBold;

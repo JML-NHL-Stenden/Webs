@@ -246,3 +246,10 @@ background-color: #ffffff;
 .images-holder-1 {
   
 }
+
+.hideblock{
+  display: none;
+}
+.showblock{
+  display: block;
+}
