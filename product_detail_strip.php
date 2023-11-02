@@ -60,7 +60,8 @@ include "./view/layout/header.php"
             <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
 
             <p>Select colors</p>
-            <form id="productsSelectingForm" action="shoppingcart.php" method="post">
+<form action="shoppingcart.php" method="post">
+
 <div class="circle-container">
     <div class="custom-radio" id="red" onclick="changeImage('red')">
         <input type="radio" id="red-c" name="color" value="red">
@@ -71,7 +72,7 @@ include "./view/layout/header.php"
         <label for="green-c"></label>
     </div>
     <div class="custom-radio" id="blue" onclick="changeImage('blue')">
-        <input type="radio" id="blue-c" name="color" value="blue" checked>
+        <input type="radio" id="blue-c" name="color" value="blue">
         <label for="blue-c"></label>
     </div>
     <div class="custom-radio" id="yellow" onclick="changeImage('yellow')">
@@ -83,31 +84,16 @@ include "./view/layout/header.php"
         <label for="pink-c"></label>
     </div>
 </div>
-<!-- Pair counter and submit button -->
+</div>
+
+<!-- Pair counter -->
+
 <div id="submit-and-counter">
-    <!-- Pair counter -->
-    <div id="redCountFields" style="display:none">
-        <label for="field-red">Pair count:</label>
-        <input type="number" id="field-red" value="red" name="counts_of_pairs[red]" min="0">
+    <div id="enter-pair-number">
+        <label for="num-input">Pair count: </label>
+        <input type="number" id="number-input" name="number-input" min="0" max="100">
     </div>
-    <div id="greenCountFields" style="display:none">
-        <label for="field-green">Pair count:</label>
-        <input type="number" id="field-green" value="green" name="counts_of_pairs[green]" min="0">
-    </div>
-    <div id="blueCountFields" style="display:none">
-        <label for="field-blue">Pair count:</label>
-        <input type="number" id="field-blue" value="blue" name="counts_of_pairs[blue]" min="0">
-    </div>
-    <div id="yellowCountFields" style="display:none">
-        <label for="field-yellow">Pair count:</label>
-        <input type="number" id="field-yellow" value="yellow" name="counts_of_pairs[yellow]" min="0">
-    </div>
-    <div id="pinkCountFields" style="display:none">
-        <label for="field-pink">Pair count:</label>
-        <input type="number" id="field-pink" value="pink" name="counts_of_pairs[pink]" min="0">
-    </div>
-    <!-- Go to the cart -->
-    <input class="go-to-cart-button" type="submit" value="Go to the cart">
+    <input class="add-to-cart-button" type="submit" value="Add to the cart">
 </div>
 </form>
 
@@ -161,40 +147,6 @@ include "./view/layout/header.php"
 
             
         }
-
-
-
-        //Part that is responislbe for the color radio selector
-        const productsSelectingForm = document.getElementById('productsSelectingForm');
-        const redCountFields = document.getElementById('redCountFields');
-        const greenCountFields = document.getElementById('greenCountFields');
-        const blueCountFields = document.getElementById('blueCountFields');
-        const yellowCountFields = document.getElementById('yellowCountFields');
-        const pinkCountFields = document.getElementById('pinkCountFields');
-
-        productsSelectingForm.addEventListener('change', (e) => {
-            if (e.target.name === 'color') {
-                redCountFields.style.display = 'none';
-                greenCountFields.style.display = 'none';
-                blueCountFields.style.display = 'none';
-                yellowCountFields.style.display = 'none';
-                pinkCountFields.style.display = 'none';
-
-                const selectedOption = e.target.value;
-
-                if (selectedOption === 'red') {
-                    redCountFields.style.display = 'block';
-                } else if (selectedOption === 'green') {
-                    greenCountFields.style.display = 'block';
-                } else if (selectedOption === 'blue') {
-                    blueCountFields.style.display = 'block';
-                } else if (selectedOption === 'yellow') {
-                    yellowCountFields.style.display = 'block';
-                } else if (selectedOption === 'pink') {
-                    pinkCountFields.style.display = 'block';
-                }
-            }
-        });
     </script>
 
 </div>
