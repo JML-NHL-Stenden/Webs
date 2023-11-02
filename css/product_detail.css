@@ -32,6 +32,7 @@
       grid-template-columns: 1fr 1fr 4fr 4fr 0fr 1fr;
       grid-template-rows: 0.5fr 1fr 0.5fr ;
       position: relative;
+      padding: 2rem;
     }
   
     .prod-info-holder{
@@ -40,15 +41,24 @@
       grid-row: 2/2;
     }
   
+    #submit-and-counter {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+    }
   
     #number-input {
       display: flex;
       width: 170px;
-      height: 32px;
-      padding: 16px 20px;
+      height: 52px;
+      padding: 16px 50px;
+      font-size: 1.2rem;
       justify-content: center;
       align-items: center;
       flex-shrink: 0;
+      background-color: lightgray;
+    
     }
   
     .add-to-cart-button {
@@ -61,6 +71,7 @@
       gap: 12px;
       flex-shrink: 0;
       background: linear-gradient(180deg, #F15B39 0%, #E990B9 100%);
+      margin-top: 1rem;
   
   }
   
@@ -419,11 +430,19 @@
     margin-inline: auto;
   }
   
+.rec-img {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
   .grid-items1 {
     display:flex;
     justify-content: center;
     grid-column: 1/span 2;
     grid-row: 2/ span2;
+    background-color: lightgray;
+  border-radius: 20px;
   
   
     
@@ -434,6 +453,8 @@
     justify-content: center;
     grid-column: 3/span 2;
     grid-row: 2/ span2;
+    background-color: lightgray;
+  border-radius: 20px;
   }
   
   .grid-items3 {
@@ -441,6 +462,8 @@
     justify-content: center;
     grid-column: 5/ span 2;
     grid-row: 2/ span2;
+    background-color: lightgray;
+  border-radius: 20px;
   
   }
   
@@ -449,6 +472,8 @@
     justify-content: center;
     grid-column: 7/span 2;
     grid-row: 2/ span2;
+    background-color: lightgray;
+  border-radius: 20px;
   }
   
   .rec-h1-style  {
@@ -457,6 +482,7 @@
   justify-content: center;
   grid-column: 4/span 2;
   grid-row: 1;
+  
   
   }
   
