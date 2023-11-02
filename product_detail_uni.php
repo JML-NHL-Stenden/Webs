@@ -83,7 +83,6 @@ include "./view/layout/header.php"
         <label for="pink-c"></label>
     </div>
 </div>
-</div>
 
 <!-- Pair counter -->
 <div id="submit-and-counter">
@@ -112,6 +111,10 @@ include "./view/layout/header.php"
 </div>
 
 </form>
+
+</div>
+
+
 
     <!-- Image container for the first image -->
     <div id="image-container">
