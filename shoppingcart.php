@@ -41,6 +41,27 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 <div class='product box'>";
             foreach($counts_of_pairs as $color => $number) {
                 if (!empty($number)) {
+                    if (strpos($color, "-u")) {
+                        $colorName = trim($color,"-u");
+                        echo "
+                    <div class='single-product'>
+                        <div class='socks-image'>
+                            <img src='./img/Sunny_socks_uni_".$colorName.".jpg' alt=".$color."-socks>
+                        </div>
+                        <div class='product-info'>
+                            <h3>Sunny's Uni-Socks</h3>
+                            <p><b>Color: </b>".$colorName."</p>
+                            <p><b>Pair count: </b>".$number."</p>
+                        </div>
+                    </div>";
+                        
+                        $total_pair_count += $number;
+                        $hasNonZeroValue = true;
+                    
+                    }
+                    
+                // stripes checkout
+                    else {
                         if ($color == "pink") {
                         echo "
                     <div class='single-product'>
@@ -48,6 +69,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                             <img src='./img/Sunny_socks_".$color."_01.jpg' alt=".$color."-socks>
                         </div>
                         <div class='product-info'>
+                            <h4>Sunny's Striped Socks</h4>
                             <p><b>Color: </b>".$color."</p>
                             <p><b>Pair count: </b>".$number."</p>
                         </div>
@@ -60,6 +82,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                             <img src='./img/Sunny_socks_".$color.".jpg' alt=".$color."-socks>
                         </div>
                         <div class='product-info'>
+                            <h4>Sunny's Striped Socks</h4>
                             <p><b>Color: </b>".$color."</p>
                             <p><b>Pair count: </b>".$number."</p>
                         </div>
@@ -67,8 +90,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                         }
                         $total_pair_count += $number;
                         $hasNonZeroValue = true;
+                    }
                 }
             }
+    
                 echo "
                 </div>";
                     $count_div_by_three_remain = $total_pair_count % 3;
