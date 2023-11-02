@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Uni-Color Socks</title>
-    <link rel ="stylesheet" href = "./css/strip-sock.css">
+    <link rel ="stylesheet" href = "./css/product_detail.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/Sunny_socks_Pink.png">
 </head>
@@ -34,7 +34,7 @@ include "./view/layout/header.php"
     
     <div class="prod-info-holder">
 
-        <h1> Sunny’s Uni-Color Socks</h1>
+        <h1> Sunny’s Strip Socks</h1>
 
        <!----------------- Stars rating  ---------------->
 
@@ -99,12 +99,12 @@ include "./view/layout/header.php"
 
     <!-- Image container for the first image -->
     <div id="image-container">
-        <img id="displayed-image" src="../Webs/img/Sunny_socks_uni_blue.jpg" alt="Default Image">
+        <img id="displayed-image" src="../Webs/img/Sunny_socks_blue.jpg" alt="Default Image">
     </div>
 
     <!-- Image container for the second image -->
     <div id="image-container-2">
-        <img id="displayed-image-2" src='../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg' alt="Second Image">
+        <img id="displayed-image-2" src='../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg' alt="Second Image">
     </div>
 
     <script>
@@ -117,28 +117,28 @@ include "./view/layout/header.php"
             // Set the image paths based on the selected color
             switch (circle) {
                 case 'red':
-                    imagePath = '../Webs/img/Sunny_socks_uni_red.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_red.jpg' ;
+                    imagePath = '../Webs/img/Sunny_socks_red.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_red.jpg' ;
                     break;
                 case 'blue':
-                    imagePath = '../Webs/img/Sunny_socks_uni_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_blue.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
                     break;
                 case 'green':
-                    imagePath = '../Webs/img/Sunny_socks_uni_green.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_green.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_green.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_green.jpg';
                     break;
                 case 'yellow':
-                    imagePath = '../Webs/img/Sunny_socks_uni_yellow.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_yellow.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_yellow.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg';
                     break;
                 case 'pink':
-                    imagePath = '../Webs/img/Sunny_socks_uni_pink.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_pink.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_pink.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_pink.jpg';
                     break;
                 default:
-                    imagePath = '../Webs/img/Sunny_socks_uni_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_blue.jpg';
+                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
             }
 
             // Update the image sources
@@ -294,8 +294,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_uni_blue.jpg" alt="Blue packaged uni-color socks">
-                            <p>Sunny's Blue Uni-Color Sock</p>
+                            <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
+                            <p>Sunny's Blue Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -306,8 +306,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items2 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_uni_pink.jpg" alt="Pink packaged uni-color socks">
-                            <p>Sunny's Pink Uni-Color Sock</p>
+                            <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
+                            <p>Sunny's Pink Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -319,8 +319,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items3 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_uni_green.jpg" alt="Green packaged uni-color socks">
-                            <p>Sunny's Green Uni-Color Sock</p>
+                            <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
+                            <p>Sunny's Green Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -332,8 +332,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items4 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_uni_yellow.jpg" alt="Yellow packaged uni-color socks">
-                            <p>Sunny's Yellow Uni-Color Sock</p>
+                            <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
+                            <p>Sunny's Yellow Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>

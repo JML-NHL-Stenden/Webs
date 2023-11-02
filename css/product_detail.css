@@ -1,0 +1,507 @@
+@font-face {
+    font-family: nexaBold;
+    src:  url(../Fonts/nexa_bold.otf);
+    }
+  
+  @font-face {
+    font-family: nexaLight;
+    src:  url(../Fonts/nexa-light.otf);
+    }
+  
+  
+  * {
+      margin: 0;
+      padding: 0;
+      
+    }
+    
+  
+    body {
+      margin: 0;
+    }
+  
+  
+    main {
+      padding: 1rem;
+    }
+  
+  
+  
+    .product-custom{
+      display: grid;
+      grid-template-columns: 1fr 1fr 4fr 4fr 0fr 1fr;
+      grid-template-rows: 0.5fr 1fr 0.5fr ;
+      position: relative;
+    }
+  
+    .prod-info-holder{
+      display: grid;
+      grid-column: 4/4;
+      grid-row: 2/2;
+    }
+  
+  
+    #number-input {
+      display: flex;
+      width: 170px;
+      height: 32px;
+      padding: 16px 20px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+  
+    .add-to-cart-button {
+      display: flex;
+      width: 300px;
+      height: 52px;
+      padding: 16px 54px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      background: linear-gradient(180deg, #F15B39 0%, #E990B9 100%);
+  
+  }
+  
+  .add-to-cart-button:hover {
+    background: linear-gradient(180deg, #f23a11 0%, #E990B9 100%);
+  
+  }
+    
+  /* --- Star rating--- */
+  
+  
+  .rate {
+      display: flex;
+      border: 0;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      
+    }
+    .rate > input {
+      display: none;
+    }
+    
+    .rate > label:before {
+      display: inline-block;
+      font-size: 1.1rem;
+      padding: .3rem;
+      margin: 0;
+      cursor: pointer;
+      font-family: FontAwesome;
+      content: "\f005 "; 
+    }
+    
+    
+    .rate .half:before {
+      content: "\f089 "; 
+      position: absolute;
+      padding-right: 0;
+    }
+    input:checked ~ label,
+    label:hover,
+    label:hover ~ label { color: #FFC633; }
+    input:checked + label:hover,
+    input:checked ~ label:hover,
+    input:checked ~ label:hover ~ label,
+    label:hover ~ input:checked ~ label { color: #ff3700; }
+    
+    #current-rating {
+      display: flex;
+      font-weight: bold;
+      color: #f39c12;
+      flex-direction:row;
+      margin-top: 6px;
+      margin-left: 4px;
+    } 
+    
+  #rating-label{
+      display: flex;
+      flex-direction:row-reverse;
+      justify-content:left;
+    } 
+    
+    
+    /* ---------- Star rating - END --- */
+  
+  /* -------------   Select color functions ---------------------- */
+  .p-materials{
+      color: rgba(0, 0, 0, 0.60);
+    font-family: Nexa Bold;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    }
+  
+  /* color selector */
+  
+  .custom-radio {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .custom-radio input[type="radio"] {
+    display: none;
+  }
+  
+  .custom-radio label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+  
+  .custom-radio label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+  }
+  
+  #red label::before {
+    background-color: #F15B39;
+  }
+  
+  #green label::before {
+    background-color: #51B2A2;
+  }
+  
+  #blue label::before {
+    background-color: #1E407A;
+  }
+  
+  #yellow label::before {
+  background-color: #FECD3E;
+  }
+  
+  #pink label::before {
+  background-color: #E990B9;
+  }
+  
+  .custom-radio input[type="radio"]:checked + label::before {
+    border: 2px solid #000; /* Border color */
+  }
+  
+  
+  .circle-container {
+    display: grid;
+    grid-template-columns: repeat(5, 30px);
+    margin-top: 10px; 
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .circle.red {
+    background-color: #F15B39;
+  }
+  
+  .circle.green {
+    background-color: #51B2A2;
+  }
+  
+  .circle.blue {
+    background-color: #1E407A;
+  }
+  
+  .circle.yellow {
+    background-color: #FECD3E;
+  }
+  
+  .circle.pink {
+    background-color: #E990B9;
+  }
+  
+  
+    /* sumbit and counter */
+  
+    #submit-and-counter {
+      grid-column: 4/4;
+      grid-row: 3/3;
+    }
+    
+    /* -------------   Select color functions - END ---------------------- */
+  
+    /* ------------------- Single product image ---------------------- */
+  
+    #image-container {
+  
+      grid-column: 3/4;
+      grid-row: 2/2;
+    
+    
+    }
+    
+    #image-container-2 {
+  
+      grid-column: 2/3;
+      grid-row: 2/3;
+    
+    }
+    
+    #displayed-image {
+      max-width: 25dvw;
+      height: 30dvh;
+      margin-left: 4dvw;
+       
+    
+    
+    }
+    #displayed-image-2 {
+      max-width: 20dvw;
+      height: 25dvh;
+      margin-left: 4dvw;
+      border: rgb(145, 144, 144);
+      border-style:solid;
+      
+       
+    }
+  
+    /* ------------------- Single product image - END ---------------------- */
+    
+   .row-2 {
+    display:grid;
+    grid-template-columns:  1.5fr 2fr 4fr 4fr 2fr 1.5fr;
+   
+   }
+  
+  
+    .content-nav {
+      display: flex;
+  
+      color: #fff;
+      text-align: center;
+      justify-content:center;
+      grid-column: 2/6;
+      grid-row: 1;
+  }
+  
+  .content-nav  ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+  
+  }
+  
+  .content-nav li {
+      margin: 10px;
+  }
+  
+  
+  .content-nav a {
+    color: #1E407A;
+    text-align: center;
+  
+    font-family: Nexa Bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+  }
+  
+  .content-nav a:hover{
+   text-decoration: underline;
+  }
+  
+  .sections {
+    width: 65 rem;
+    grid-column: 2 / span 4;
+    grid-row: 2/4;
+    margin: 25px 50px;
+  }
+  
+  .section {
+      display:none; 
+      
+  }
+  
+  
+  
+  
+  .section:target {
+      display: block;
+  
+  }
+  
+  
+  
+  
+  .section p {
+  
+      margin-top: 10px; 
+  
+  
+  }
+  
+  
+  
+  
+  .comment {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Nexa Bold;
+    line-height: 22px; 
+    padding: 1.5rem;
+    width: 100%;
+  
+  
+  }
+  
+  .comment h3 {
+    color: black;
+  
+  }
+  
+  
+  
+  
+  .comment-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .comments-hidden {
+    display: none;
+  }
+  
+  #display-more-btn {
+  
+      background-color: #1E407A;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block; 
+    
+    
+  }
+  
+  #display-more-btn:hover {
+    background-color: #0E3066;
+  }
+  
+  .sections h2 {
+    text-align: center;
+    font-family: nexaBold;
+  }
+  
+  
+  .sections h3 {
+    
+    text-decoration: underline;
+    color: #000;
+    font-family: nexaLight;
+  }
+  /* --------------------- Recommendation section ------------------------ */
+  
+  .rec-img-container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(3,0.5fr);
+    align-content: center;
+    padding: 50px;
+  
+    margin-inline: auto;
+  }
+  
+  .grid-items1 {
+    display:flex;
+    justify-content: center;
+    grid-column: 1/span 2;
+    grid-row: 2/ span2;
+  
+  
+    
+  }
+  
+  .grid-items2 {
+    display:flex;
+    justify-content: center;
+    grid-column: 3/span 2;
+    grid-row: 2/ span2;
+  }
+  
+  .grid-items3 {
+    display:flex;
+    justify-content: center;
+    grid-column: 5/ span 2;
+    grid-row: 2/ span2;
+  
+  }
+  
+  .grid-items4 {
+    display:flex;
+    justify-content: center;
+    grid-column: 7/span 2;
+    grid-row: 2/ span2;
+  }
+  
+  .rec-h1-style  {
+    font-family: Nexa Bold;
+  display: flex;
+  justify-content: center;
+  grid-column: 4/span 2;
+  grid-row: 1;
+  
+  }
+  
+  .rec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  
+  .flex-element img {
+    display: flex;
+    height: 250px;
+    width: 100px;
+    object-fit: cover;
+    
+  }
+  
+  .checked {
+    color: orange;
+  }
+  .fa-star-half-full {
+    color: orange;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* --------------------- Recommendation section - END ------------------------ */
+  
+  
+  
+    /* ------------------- Footer ---------------------- */
+  
+    .footer {
+      /* position: absolute; */
+      bottom: 0;
+      width: 100%;
+      /* height: 2.5rem;            */
+    }
+  
+    /* ------------------- Footer - END ---------------------- */
+  
