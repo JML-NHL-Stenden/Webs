@@ -291,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <div class="rec-img-container">
                     
-                <div class="rec-h1-style"><h1> You might also like</h1></div>
+                <div class="rec-h1-style"><h1> You might also like</h1><br></div>
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">

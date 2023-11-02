@@ -133,7 +133,7 @@ include "./view/layout/header.php"
                     imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg';
                     break;
                 case 'pink':
-                    imagePath = '../Webs/img/Sunny_socks_pink.jpg';
+                    imagePath = '../Webs/img/Sunny_socks_pink_01.jpg';
                     imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_pink.jpg';
                     break;
                 default:
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
+                            <img class="rec-img pack-sock-blue" src="./img/packaging/png/catalogus_sokken_stripes_blue.png" alt="Blue packaged uni-color socks">
                             <p>Sunny's Blue Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items2 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
+                            <img class="rec-img pack-sock-pink" src="./img/packaging/png/catalogus_sokken_stripes_pink.png" alt="Pink packaged uni-color socks">
                             <p>Sunny's Pink Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -319,7 +319,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items3 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
+                            <img class="rec-img pack-sock-green" src="./img/packaging/png/catalogus_sokken_stripes_green.png" alt="Green packaged uni-color socks">
                             <p>Sunny's Green Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -332,7 +332,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items4 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
+                            <img class="rec-img pack-sock-yellow" src="./img/packaging/png/catalogus_sokken_stripes_yellow.png" alt="Yellow packaged uni-color socks">
                             <p>Sunny's Yellow Strip Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>

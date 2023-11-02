@@ -46,13 +46,14 @@
       flex-direction: row;
       gap: 20px;
       align-items: center;
+      
     }
   
     #number-input {
       display: flex;
       width: 170px;
       height: 52px;
-      padding: 16px 30px;
+      padding: 1rem;
       font-size: 1.2rem;
       justify-content: center;
       align-items: center;
@@ -72,6 +73,7 @@
       flex-shrink: 0;
       background: linear-gradient(180deg, #F15B39 0%, #E990B9 100%);
       margin-top: 1rem;
+      color: white;
   
   }
   
@@ -390,9 +392,10 @@
   
   #display-more-btn {
   
-      background-color: #1E407A;
-      color: #fff;
-      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      border: solid 1px;
+      border-radius: 20px;
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
@@ -403,7 +406,7 @@
   }
   
   #display-more-btn:hover {
-    background-color: #0E3066;
+    background: linear-gradient(180deg, #F15B39 0%, #E990B9 100%);
   }
   
   .sections h2 {
@@ -423,18 +426,30 @@
   .rec-img-container{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(3,0.5fr);
+    grid-template-rows: repeat(4,0.5fr);
     align-content: center;
     padding: 50px;
   
     margin-inline: auto;
+    gap: 2rem;
+
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  
   }
   
 .rec-img {
   display: flex;
   align-items: center;
-  margin-left: 3rem;
-  box-shadow: lightgray 10rem;
+  margin-left: 2rem;
+
+
+  border: 10px solid transparent;
+  border-radius: 10px;
+
+
+
 }
 
   .grid-items1 {
@@ -442,19 +457,21 @@
     justify-content: center;
     grid-column: 1/span 2;
     grid-row: 2/ span2;
-    background-color: lightgray;
+    background-color: rgb(239, 239, 239);
     border-radius: 20px;
-  
-  
+    padding: 20px;
     
   }
+  
   
   .grid-items2 {
     display:flex;
     justify-content: center;
     grid-column: 3/span 2;
     grid-row: 2/ span2;
+    background-color: rgb(239, 239, 239);
     border-radius: 20px;
+    padding: 20px;
   }
   
   .grid-items3 {
@@ -462,8 +479,9 @@
     justify-content: center;
     grid-column: 5/ span 2;
     grid-row: 2/ span2;
-    background-color: lightgray;
+    background-color: rgb(239, 239, 239);
     border-radius: 20px;
+    padding: 20px;
   
   }
   
@@ -472,8 +490,9 @@
     justify-content: center;
     grid-column: 7/span 2;
     grid-row: 2/ span2;
-    background-color: lightgray;
+    background-color: rgb(239, 239, 239);
     border-radius: 20px;
+    padding: 20px;
   }
   
   .rec-h1-style  {
@@ -482,6 +501,7 @@
     justify-content: center;
     grid-column: 4/span 2;
     grid-row: 1;
+    align-items: center;
   
   
   }
@@ -492,6 +512,11 @@
     align-items: center;
     vertical-align: top;
     display: inline-block;
+
+    padding: 20px;
+    border: px solid transparent;
+    border-radius: 10px;
+  
   }
   
   
