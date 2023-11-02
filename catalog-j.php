@@ -157,7 +157,10 @@
             var imageElement7 = document.getElementById('img-container-7');
             var imageElement8 = document.getElementById('img-container-8');
             var imageElement9 = document.getElementById('img-container-9');
-            var imageElement10 = document.getElementById('img-container-10');
+            var imageElement10 = document.getElementById('img-container-10').classList;
+
+            imageElement10.add('hideblock');
+            imageElement10.remove('hideblock');
 
             function changeImage(className) {
     var imageElement1 = document.getElementById('img-container-1');

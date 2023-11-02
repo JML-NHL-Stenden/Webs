@@ -23,7 +23,7 @@
         <div class="search-container">
             <form action="action_page.php" method="POST">
                 <button type="submit"><i class="fa fa-search"></i></button>
-                <input type="text" placeholder="Search for products..." name="search" class ="search_bar">
+                <input type="text" placeholder="Search for products..." name="search">
               </form>
         </div>
         <div class="Login_button"><a href="Sign_In_Page.php" target="_blank"><p>Login</p></a></div>

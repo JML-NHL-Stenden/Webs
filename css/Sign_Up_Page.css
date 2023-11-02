@@ -65,10 +65,10 @@ flex-shrink: 0;
     width: 743px;
     
       }  
-      .Menu input[type=text] {
-        padding: 6px 6px;
-        margin-top: 8px;
-        border: none;
+  .Menu input[type=text] {
+    padding: 6px 6px;
+    margin-top: 8px;
+    border: none;
     font-family: Nexa;
     font-size: 16px;
     font-style: normal;
@@ -76,7 +76,7 @@ flex-shrink: 0;
     line-height: normal;
     border-radius: 7px;
     background: #F0F0F0;
-    width: 100%;
+    width: 500px;
       }
       
       .Menu .search-container button {
@@ -359,6 +359,4 @@ border-radius: 7px;
     font-family: Nexa Light;
     font-size: 10spx;
   }
-  .search_bar{
-    width: 600px;
-  }
+  
