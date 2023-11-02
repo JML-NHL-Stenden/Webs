@@ -29,10 +29,8 @@
                             <div class="line-style"><hr></div>
                                 <div class="filters">
                                     <nav>
-                                        <p><a href="">Uni-Color</a></p>
-                                        <p><a hred="">Striped</a></p>
-                                        <p><a href="">New Arrivals &nbsp ></a></p>
-                                        <p><a href="">Outstanding Products</a></p>
+                                        <a href="catalog-uni-color.php"><li>Uni-Color</li></a>
+                                        <a hreF="catalog-stripped.php"><li>Striped</li></a>
                                     </nav>
                                 </div>
                             <!-- some line inside the thing -->
@@ -79,7 +77,7 @@
                         <div class="column-2">
                             <div class="flex-items">
                                 <div class="rs-box">
-                                    <img src="./img/Sunny_socks_red.jpg" alt="Sunny_socks_red" id="img-container-7">
+                                <a href=""></a><img src="./img/Sunny_socks_red.jpg" alt="Sunny_socks_red">
                                     <p>Sunny's Red Striped Sock</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -98,7 +96,7 @@
                         <div class="column-3">
                             <div class="flex-items">
                                 <div class="ru-box">
-                                    <img src="./img/Sunny_socks_uni_red.jpg" alt="Sunny_socks_uni_red" id="img-container-2">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_red.jpg" alt="Sunny_socks_uni_red">
                                     <p>Sunny's Red Uni-Color Sock</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -114,6 +112,7 @@
                         </div>
                         <!-- column 4 start below -->
                         <div class="column-4">
+                            <div class="flex-items"></div>
                             <div class="button-move">
                                 <div class="button-styling">
                                     <p><a href="#">Next</a></p>
