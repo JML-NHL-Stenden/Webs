@@ -8,7 +8,11 @@
   src:  url(../Fonts/nexa-light.otf);
   }
 
-
+header {
+  top:0;
+  z-index:100px;
+  margin-top: 7rem;
+}
 * {
     margin: 0;
     padding: 0;
@@ -25,12 +29,17 @@
     padding: 1rem;
   }
 
-
+.home-title {
+     position: relative;
+    padding: 8px;
+    padding-left: 70px;
+  font-family: nexaBold;
+}
 
   .product-custom{
     display: grid;
     grid-template-columns: 1fr 1fr 4fr 4fr 0fr 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr ;
+    grid-template-rows: 0fr 1fr 0.5fr ;
     position: relative;
     padding: 2rem;
   }
@@ -256,7 +265,7 @@ background-color: #E990B9;
   
   #image-container-2 {
 
-    grid-column: 2/3;
+    grid-column: 1/3;
     grid-row: 2/3;
   
   }

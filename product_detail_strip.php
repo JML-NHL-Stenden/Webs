@@ -27,7 +27,12 @@ include "./view/layout/header.php"
 
 <main>
 
+
     <!-- Color options -->
+
+    <div class="home-title">
+                <p><a href="Project1.php"> Home &nbsp > </a>&nbsp Strip Socks</p> 
+            </div>
     <div class="product-custom">
 
     
