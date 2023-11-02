@@ -39,6 +39,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             </div>
             <div class='product-and-summary'>
                 <div class='product box'>";
+            $keys = array_keys($counts_of_pairs);
+            $lastArrayItem = end($keys);
             foreach($counts_of_pairs as $color => $number) {
                 if (!empty($number)) {
                     if (strpos($color, "-u")) {
@@ -67,29 +69,30 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                     <div class='single-product'>
                         <div class='socks-image'>
                             <img src='./img/Sunny_socks_".$color."_01.jpg' alt=".$color."-socks>
-                        </div>
-                        <div class='product-info'>
-                            <h4>Sunny's Striped Socks</h4>
-                            <p><b>Color: </b>".$color."</p>
-                            <p><b>Pair count: </b>".$number."</p>
-                        </div>
-                    </div>";
+                        </div>";
                         }
                         else {
                         echo "
                     <div class='single-product'>
                         <div class='socks-image'>
                             <img src='./img/Sunny_socks_".$color.".jpg' alt=".$color."-socks>
-                        </div>
+                        </div>";
+                        }
+                        echo "
                         <div class='product-info'>
                             <h4>Sunny's Striped Socks</h4>
                             <p><b>Color: </b>".$color."</p>
                             <p><b>Pair count: </b>".$number."</p>
                         </div>
                     </div>";
-                        }
+                        
                         $total_pair_count += $number;
                         $hasNonZeroValue = true;
+                    }
+
+                    //adding <hr>-s
+                    if ($color != $lastArrayItem){ 
+                        echo "<hr>";
                     }
                 }
             }

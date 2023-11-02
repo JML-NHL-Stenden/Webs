@@ -101,9 +101,9 @@ include "./view/layout/header.php"
         <label for="field-green">Pair count:</label>
         <input type="number" class="number-input"  value="green" name="counts_of_pairs[green]" min="0">
     </div>
-    <div id="blueCountFields" style="display:none">
+    <div id="blueCountFields" style="display:block">
         <label for="field-blue">Pair count:</label>
-        <input type="number" class="number-input"  value="blue" name="counts_of_pairs[blue]" min="0">
+        <input type="number" class="number-input"  value="blue" name="counts_of_pairs[blue]" min="0" checked>
     </div>
     <div id="yellowCountFields" style="display:none">
         <label for="field-yellow">Pair count:</label>
