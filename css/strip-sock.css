@@ -1,3 +1,14 @@
+@font-face {
+  font-family: nexaBold;
+  src:  url(../Fonts/nexa_bold.otf);
+  }
+
+@font-face {
+  font-family: nexaLight;
+  src:  url(../Fonts/nexa-light.otf);
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +17,6 @@
   
 
   body {
-    /* height: 80vh; */
     margin: 0;
   }
 
@@ -30,6 +40,34 @@
     grid-row: 2/2;
   }
 
+
+  #number-input {
+    display: flex;
+    width: 170px;
+    height: 32px;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .add-to-cart-button {
+    display: flex;
+    width: 300px;
+    height: 52px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #F15B39 0%, #E990B9 100%);
+
+}
+
+.add-to-cart-button:hover {
+  background: linear-gradient(180deg, #f23a11 0%, #E990B9 100%);
+
+}
   
 /* --- Star rating--- */
 
@@ -94,7 +132,7 @@
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px; /* 95.652% */
+  line-height: 22px; 
   }
 
 /* color selector */
@@ -105,12 +143,12 @@
 }
 
 .custom-radio input[type="radio"] {
-  display: none; /* Hide the default radio input */
+  display: none;
 }
 
 .custom-radio label {
   position: relative;
-  padding-left: 25px; /* Space for the custom radio button */
+  padding-left: 25px;
   cursor: pointer;
 }
 
@@ -119,9 +157,9 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 20px; /* Size of the custom radio button */
+  width: 20px; 
   height: 20px;
-  border-radius: 50%; /* Make it a circle */
+  border-radius: 50%; 
 }
 
 #red label::before {
@@ -277,18 +315,8 @@ background-color: #E990B9;
 }
 
 .sections {
-/*     display: flex;
-    flex-direction: column; */
-/*     align-items:center; */
-/*     text-align: center; */
   width: 65 rem;
-  /* padding: 28px 32px; */
-  /* align-items: flex-start;
-  align-content: flex-start; */
-  /* gap: 24px 342px;
-  flex-wrap: wrap; */
   grid-column: 2 / span 4;
-  /* grid-row: 2/4; */
   grid-row: 2/4;
   margin: 25px 50px;
 }
@@ -306,10 +334,6 @@ background-color: #E990B9;
 
 }
 
-/* #section2 {
-  display: flex;
-
-} */
 
 
 
@@ -337,6 +361,7 @@ background-color: #E990B9;
 
 .comment h3 {
   color: black;
+
 }
 
 
@@ -360,8 +385,8 @@ background-color: #E990B9;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin: 0 auto; /* This centers the button horizontally */
-    display: block; /* This makes it a block element so that margin: 0 auto; works */
+    margin: 0 auto;
+    display: block; 
   
   
 }
@@ -370,12 +395,24 @@ background-color: #E990B9;
   background-color: #0E3066;
 }
 
+.sections h2 {
+  text-align: center;
+  font-family: nexaBold;
+}
+
+
+.sections h3 {
+  
+  text-decoration: underline;
+  color: #000;
+  font-family: nexaLight;
+}
 /* --------------------- Recommendation section ------------------------ */
 
 .rec-img-container{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  /* grid-template-rows: repeat(3,1fr); */
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(3,0.5fr);
   align-content: center;
   padding: 50px;
 
@@ -383,45 +420,61 @@ background-color: #E990B9;
 }
 
 .grid-items1 {
-  display: grid;
-  grid-column-start: 1;
+  display:flex;
+  justify-content: center;
+  grid-column: 1/span 2;
+  grid-row: 2/ span2;
+
+
+  
 }
 
 .grid-items2 {
-  display: grid;
-  grid-column-start: 2;
+  display:flex;
+  justify-content: center;
+  grid-column: 3/span 2;
+  grid-row: 2/ span2;
 }
 
 .grid-items3 {
-  display: grid;
-  grid-column-start: 3;
+  display:flex;
+  justify-content: center;
+  grid-column: 5/ span 2;
+  grid-row: 2/ span2;
 
 }
 
 .grid-items4 {
-  display: grid;
-  grid-column-start: 4;
+  display:flex;
+  justify-content: center;
+  grid-column: 7/span 2;
+  grid-row: 2/ span2;
 }
 
-.rec-h1-style {
-  display: flex;
+.rec-h1-style  {
+  font-family: Nexa Bold;
+display: flex;
+justify-content: center;
+grid-column: 4/span 2;
+grid-row: 1;
 
-  padding-left: 400px;
 }
 
 .rec {
   display: flex;
-
   justify-content: center;
   align-items: center;
+  vertical-align: top;
+  display: inline-block;
 }
+
 
 .flex-element img {
   display: flex;
-
   height: 250px;
   width: 100px;
   object-fit: cover;
+  
 }
 
 .checked {
@@ -430,7 +483,6 @@ background-color: #E990B9;
 .fa-star-half-full {
   color: orange;
 }
-
 
 
 

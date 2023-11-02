@@ -9,9 +9,14 @@
         <link rel="stylesheet" href="./view/layout/header.css">
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
+
+
+    <body>
+     <header> 
     <!-- header section -->
     <?php include "./view/layout/header.php" ?>
-    <body>
+</header>  
+
         <!-- Big banner section -->
         <div class="top-banner">
             <img src="./pictures/sunny big page.png" alt="">
@@ -175,6 +180,11 @@
             </div>
         </div>
         <!-- Footer section -->
+     
+        <footer>
         <?php include"./view/layout/footer.php" ?>
+         </footer>
+
     </body>
+
 </html>

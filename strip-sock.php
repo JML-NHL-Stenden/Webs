@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel ="stylesheet" href = "./css/strip_prod_style2.css">
+    
+    <title>Strip-Socks</title>
+    <link rel ="stylesheet" href = "./css/strip-sock.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="icon" href="img/Sunny_socks_Pink.png">
 </head>
 
 
@@ -53,18 +53,6 @@ include "./view/layout/header.php"
        <input type="radio" id="rating0.5"   name="rating" value="0.5 / 5" /><label class="half" for="rating0.5"     title="1/2 star"></label>
        
         </fieldset>
-
-    <script>
-        const rating = document.querySelector('.rate');
-        const currentRating = document.getElementById('current-rating');
-        
-        rating.addEventListener('click', (e) => {
-            if (e.target.type === 'radio') {
-                const value = e.target.value;
-                currentRating.innerText = value;
-            }
-        });
-    </script>
 
             <!----------------- Stars rating - end ---------------->
 
@@ -177,13 +165,10 @@ include "./view/layout/header.php"
         <section class="section" id="section1">
             <h2>Product Details</h2>
                 <div class="prod-d pd-1">
-                    <h3>Samantha D.</h3>
-                    <p>"I absolutely love this uni-color socks! 
-                        The design is unique and the fabric feels so comfortable. 
-                        As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite uni-color socks.".</p>
+                    <h3>Sunny’s Striped Socks</h3>
+                    <p> 100% Cotton</p>
                     <br>
-                    <p>Posted on August 14, 2023</p>
+ 
                     </div>
                 
                 
@@ -257,61 +242,66 @@ include "./view/layout/header.php"
     </div>
 
     <button id="display-more-btn">Load More Review</button>
+
 </section>
 
-
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const displayMoreBtn = document.getElementById("display-more-btn");
-        const hiddenComments = document.getElementById("hidden-comments");
-        let isHidden = true;
+    // Second navigation "load more review button"
 
-        displayMoreBtn.addEventListener("click", function () {
-            if (isHidden) {
-                hiddenComments.style.display = "block";
-                displayMoreBtn.textContent = "Show Less Review";
-            } else {
-                hiddenComments.style.display = "none";
-                displayMoreBtn.textContent = "Load More Review";
-            }
-            isHidden = !isHidden;
-        });
+document.addEventListener("DOMContentLoaded", function () {
+    const displayMoreBtn = document.getElementById("display-more-btn");
+    const hiddenComments = document.getElementById("hidden-comments");
+    let isHidden = true;
+
+    displayMoreBtn.addEventListener("click", function () {
+        if (isHidden) {
+            hiddenComments.style.display = "block";
+            displayMoreBtn.textContent = "Show Less Review";
+        } else {
+            hiddenComments.style.display = "none";
+            displayMoreBtn.textContent = "Load More Review";
+        }
+        isHidden = !isHidden;
     });
+});
 </script>
-
-
 
         <section class="section" id="section3">
             <h2>Frequent Asked Question/s</h2>
             <div class="question q-1">
-                    <h3>Samantha D.</h3>
-                    <p>"I absolutely love this t-shirt! 
-                        The design is unique and the fabric feels so comfortable. 
-                        As a fellow designer, I appreciate the attention to detail. 
-                        It's become my favorite go-to shirt.".</p>
+                    <h3><br>Will this cause irritation for my skin?</h3>
+                    <p>No,  it wont unless you have allergic reaction with cottons. Then you won't be able to use our products due it made 100% cotton.</p>
                     <br>
-                    <p>Posted on August 14, 2023</p>
+                
+                    </div>
+            
+            <div class="question q-2">
+                    <h3><br>How long does it take for the product to be delivered?</h3>
+                    <p>Normally, it does take to 2-3 business day to deliver to the location.</p>
+                    <br>
+                
                     </div>
         </section>
     </div>
-    <!-- <script src="script.js"></script> -->
+    
 </div>
 
     <section>
         <div class ="recommend-section">
-            <div class="rec-h1-style"><h1> You might also like</h1></div>
 
                 <div class="rec-img-container">
+                    
+                <div class="rec-h1-style"><h1> You might also like</h1></div>
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">
                             <img class="rec-img pack-sock-blue" src="./img/packaging/jpg/catalogus_sokken_stripes_blue.jpg" alt="Blue packaged uni-color socks">
-                            <!-- <p>Sunny's Blue Striped Sock</p>
+                            <p>Sunny's Blue Striped Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <i class="fa fa-star-half-full"></i>
-                            <p>&euro;3.99</p> -->
+                            <p>&euro;3.99</p>
                         </div>
                     </div>
 
@@ -319,12 +309,12 @@ include "./view/layout/header.php"
                         <div class="rec">
                             <img class="rec-img pack-sock-pink" src="./img/packaging/jpg/catalogus_sokken_stripes_pink.jpg" alt="Pink packaged uni-color socks">
                             <p>Sunny's Pink Striped Sock</p>
-                                <!-- <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                            <p>&euro;3.99</p> -->
+                                <span class="fa fa-star checked"></span>
+                            <p>&euro;3.99</p>
                         </div>
                     </div>
 
@@ -332,23 +322,23 @@ include "./view/layout/header.php"
                         <div class="rec">
                             <img class="rec-img pack-sock-green" src="./img/packaging/jpg/catalogus_sokken_stripes_green.jpg" alt="Green packaged uni-color socks">
                             <p>Sunny's Green Striped Sock</p>
-                                <!-- <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <i class="fa fa-star-half-full"></i>
-                            <p>&euro;3.99</p> -->
+                            <p>&euro;3.99</p>
                         </div>
                     </div>
 
                     <div class="grid-items4 flex-element">
                         <div class="rec">
                             <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg" alt="Yellow packaged uni-color socks">
-                            <!-- <p>Sunny's Yellow Striped Sock</p>
+                            <p>Sunny's Yellow Striped Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                            <p>&euro;3.99</p> -->
+                            <p>&euro;3.99</p>
                         </div>
                     </div>
 
@@ -373,7 +363,7 @@ include "./view/layout/footer.php"
 </footer>
 <!-- --------------------------------- FOOTER - END ------------------------------- -->
 
-
+<script src="star-rating.js"></script>
 
 </body>
 
