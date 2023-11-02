@@ -36,7 +36,6 @@
                             <!-- some line inside the thing -->
                             <div class="line-style"><hr></div>
                             <div class="line-style"><hr></div>
-
                             <h3 class="h3-style">Colors</h3>
                                 <div class="filters">
                                     <div class="colors-spacing">
@@ -76,6 +75,17 @@
                         <!-- column 2 starts here -->
                         <div class="column-2">
                             <div class="flex-items">
+                                <div class="bs-box">
+                                <a href=""></a><img src="./img/Sunny_socks_blue.jpg" alt="Sunny_socks_blue">
+                                    <p>Sunny's Blue Striped Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <i class="fa fa-star-half-full"></i>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="flex-items">
                                 <div class="gs-box">
                                 <a href=""></a><img src="./img/Sunny_socks_green.jpg" alt="Sunny_socks_green">
                                     <p>Sunny's Green Striped Sock</p>
@@ -96,14 +106,25 @@
                         <!-- column 3 start below -->
                         <div class="column-3">
                             <div class="flex-items">
-                                <div class="gu-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_green.jpg" alt="Sunny_socks_uni_green">
-                                    <p>Sunny's Green Uni-Color Sock</p>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="rs-box">
+                                <a href=""></a><img src="./img/Sunny_socks_red.jpg" alt="Sunny_socks_red">
+                                    <p>Sunny's Red Striped Sock</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <i class="fa fa-star-half-full"></i>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="flex-items">
+                                <div class="ps-box">
+                                <a href=""></a><img src="./img/Sunny_socks_pink_01.jpg" alt="Sunny_socks_pink_01">
+                                    <p>Sunny's Pink Striped Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
@@ -113,6 +134,16 @@
                         </div>
                         <!-- column 4 start below -->
                         <div class="column-4">
+                            <div class="flex-items">
+                                <div class="ys-box">
+                                <a href=""></a><img src="./img/Sunny_socks_yellow.jpg" alt="Sunny_socks_yellow">
+                                    <p>Sunny's Yellow Striped Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
                             <div class="flex-items"></div>
                             <div class="button-move">
                                 <div class="button-styling">
