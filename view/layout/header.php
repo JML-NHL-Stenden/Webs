@@ -10,16 +10,16 @@
     <body>
         <!-- Yellow top section -->
         <div class="top-section">
-            <h5><a href="#">Sign up and get 20% off to your first order. Sign Up Now</a></h5>
+            <h5><a href="Sign_Up_Page.php">Sign up and get 20% off to your first order. Sign Up Now</a></h5>
         </div>
         <!-- Head navigation section -->
         <div class="heading">
             <div class="logo"><a href="Project1.php">sunny</a></div>
             <div class="navbar">
                 <ul>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">On Sales</a></li>
-                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="catalog-j.php">Shop</a></li>
+                    <li><a href="catalog-j.php">On Sales</a></li>
+                    <li><a href="catalog.php">New Arrivals</a></li>
                     <li><a href="about_us.php">About Us</a></li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
             </div>
               
             <div class="user">
-                <a href="#" class="cart"></a>
-                <a href="#" class="user-icon"></a>
+                <a href="shoppingcart.php" class="cart"></a>
+                <a href="contact_details.php" class="user-icon"></a>
             </div>
         </div>
