@@ -47,7 +47,7 @@ include "./view/layout/header.php"
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_uni_pink.jpg" alt="pinksock"></header> 
-    <h1><a href="single_stripes_prod_detail-j.php" >Sunny's Pink Uni Sock </a></h1>
+    <h1><a href="product_detail_strip.php" >Sunny's Pink Uni Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -58,7 +58,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock"></header> 
-        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Yellow Striped  Sock</a></h1>
+        <h1><a href="product_detail_strip.php" >Sunny’s Yellow Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -69,7 +69,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_pink_01.jpg" alt="pinksock"></header> 
-        <h1><a href="single_stripes_prod_detail-j.php">Sunny’s Pink Striped Sock</a></h1>
+        <h1><a href="product_detail_strip.php">Sunny’s Pink Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -80,7 +80,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_green.jpg" alt="greensock"></header> 
-        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Green Striped Sock</a></h1>
+        <h1><a href="product_detail_strip.php" >Sunny’s Green Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -96,7 +96,7 @@ include "./view/layout/header.php"
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_red.jpg" alt="redsock"></header> 
-    <h1><a href="single_stripes_prod_detail-j.php" >Sunny's Red Striped Sock </a></h1>
+    <h1><a href="product_detail_strip.php" >Sunny's Red Striped Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -107,7 +107,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_blue.jpg" alt="bluesock"></header> 
-        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Blue Striped  Sock</a></h1>
+        <h1><a href="product_detail_strip.php" >Sunny’s Blue Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -118,7 +118,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_uni_green.jpg" alt=""></header> 
-        <h1><a href="single_stripes_prod_detail-j.php" >Sunny’s Green Uni Sock</a></h1>
+        <h1><a href="product_detail_strip.php" >Sunny’s Green Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -129,7 +129,7 @@ include "./view/layout/header.php"
     </div>
     <div class="js-scroll fade-in-bottom">
         <header><img src="img/Sunny_socks_uni_yellow.jpg" alt=""></header> 
-        <h1><a href="single_stripes_prod_detail-j.php">Sunny’s Yellow Uni Sock</a></h1>
+        <h1><a href="product_detail_strip.php">Sunny’s Yellow Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>

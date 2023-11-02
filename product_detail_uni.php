@@ -95,6 +95,7 @@ include "./view/layout/header.php"
     </div>
     <input class="add-to-cart-button" type="submit" value="Add to the cart">
 </div>
+
 </form>
 
     <!-- Image container for the first image -->
@@ -332,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="grid-items4 flex-element">
                         <div class="rec">
-                            <img class="rec-img pack-sock-yellow" src="./img/packaging/jpg/catalogus_sokken_uni_yellow.jpg" alt="Yellow packaged uni-color socks">
+                            <img class="rec-img pack-sock-yellow" src="./img/packaging/png/catalogus_sokken_uni_yellow.png" alt="Yellow packaged uni-color socks">
                             <p>Sunny's Yellow Uni-Color Sock</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>

@@ -76,14 +76,26 @@
                         <!-- column 2 starts here -->
                         <div class="column-2">
                             <div class="flex-items">
-                                <div class="gs-box">
-                                <a href=""></a><img src="./img/Sunny_socks_green.jpg" alt="Sunny_socks_green">
-                                    <p>Sunny's Green Striped Sock</p>
+                                <div class="pu-box">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_pink.jpg" alt="Sunny_socks_uni_pink">
+                                    <p>Sunny's Pink Uni-Color Sock</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <i class="fa fa-star-half-full"></i>
+                                    <span class="fa fa-star checked"></span>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="flex-items">
+                                <div class="ru-box">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_red.jpg" alt="Sunny_socks_uni_red">
+                                    <p>Sunny's Red Uni-Color Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
@@ -96,9 +108,20 @@
                         <!-- column 3 start below -->
                         <div class="column-3">
                             <div class="flex-items">
-                                <div class="gu-box">
-                                <a href=""></a><img src="./img/Sunny_socks_uni_green.jpg" alt="Sunny_socks_uni_green">
+                                <div class="rs-box">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_green.jpg" alt="Sunny_socks_green">
                                     <p>Sunny's Green Uni-Color Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <i class="fa fa-star-half-full"></i>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="flex-items">
+                                <div class="bu-box">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_blue.jpg" alt="Sunny_socks_uni_blue">
+                                    <p>Sunny's Blue Uni-Color Sock</p>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -113,6 +136,18 @@
                         </div>
                         <!-- column 4 start below -->
                         <div class="column-4">
+                            <div class="flex-items">
+                                <div class="pu-box">
+                                <a href=""></a><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_uni_yellow">
+                                    <p>Sunny's Yellow Uni-Color Sock</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <p>&euro;3.99</p>
+                                </div>
+                            </div>
                             <div class="flex-items"></div>
                             <div class="button-move">
                                 <div class="button-styling">

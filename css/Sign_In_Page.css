@@ -43,8 +43,7 @@ text-decoration-line: none;
     position: fixed;
     z-index: 600;
     padding-bottom: 20px;
-    background-color: #FFF;
-    border-bottom: solid 2px lightgrey;
+    background-color: antiquewhite;
     padding-bottom: 25px;
 
 }
