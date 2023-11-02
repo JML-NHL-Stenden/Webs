@@ -4,6 +4,8 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
 $search = filter_input(INPUT_POST, "search");
 $errors = array();
 $errorFlag = false;
+$search_strip = ["Sunny's Strip Socks", "Strip Socks", "Strip", "strip", "sunny's strip socks"];
+$search_uni = ["Sunny's Uni-Color Socks", "Uni-Color Socks", "Uni-Color", "uni-color", "sunny's uni-color socks", "Uni", "uni"];
 $search_blue = ["Sunny's Socks Blue", "Socks Blue", "Blue", "blue", "sunny's socks blue"];
 $search_pink = ["Sunny's Socks Pink", "Socks Pink", "Blue", "pink", "sunny's socks pink"];
 $search_green = ["Sunny's Socks Green", "Socks Green", "Green", "green", "sunny's socks green"];
@@ -26,8 +28,11 @@ else{
     if (in_array($_POST["search"], $search_yellow)) {
         echo readfile("catalog-yellow.php");
     }
-    if (in_array($_POST["search"], $search_red)) {
-        echo readfile("catalog-red.php");
+    if (in_array($_POST["search"], $search_uni)) {
+        echo readfile("product_detail_uni.php");
+    }
+    if (in_array($_POST["search"], $search_strip)) {
+        echo readfile("product_detail_strip.php");
     }
     else {
      echo "We unluckily have not had the product that you want!";
