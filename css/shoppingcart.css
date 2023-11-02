@@ -24,6 +24,9 @@ b {
     border: 1px solid rgb(240, 240, 240);
 }
 
+hr {
+    opacity: 14%;
+}
 
 main {
     padding: 11rem 5rem 0rem 5rem;
