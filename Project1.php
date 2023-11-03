@@ -20,7 +20,7 @@ include "./view/layout/header.php"
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
         <div class="ShopNow"> 
-        <a href="catalog.php" target="_blank">Shop Now</a>
+        <a href="catalog.php" >Shop Now</a>
     </div>
     </div>
     <div class="introduction">

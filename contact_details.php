@@ -33,7 +33,7 @@
             ?>
             <p>Welcome to your Account</p>
             <h3><img src="./img/user.svg"> My infor</h3>
-            <h4><a href="Sign_In_Page.php" target="_blank"><img src="./img/signout.svg"> Sign out</a></h4>
+            <h4><a href="Sign_In_Page.php" ><img src="./img/signout.svg"> Sign out</a></h4>
         </div>
         <div class="info">
             <h1>My Info</h1>
@@ -82,17 +82,17 @@
             <hr>
             <p>Password</p>
                 <?php
-            // if($_SERVER['REQUEST_METHOD'] == "POST"){
-            //   $password= filter_input(INPUT_POST, "password");
-            //   $errorFlag = false;
-            //     $errors = array();
-            // if (empty($password)) {
-            //     array_push($errors, "Please enter your password");
-            //      $errorFlag = true;
-            //     }
-            // else {
-            //     echo "<h3>$password</h3>";}}       
-            // ?>
+            if($_SERVER['REQUEST_METHOD'] == "POST"){
+              $password= filter_input(INPUT_POST, "password");
+              $errorFlag = false;
+                $errors = array();
+            if (empty($password)) {
+                array_push($errors, "Please enter your password");
+                 $errorFlag = true;
+                }
+            else {
+                echo '<h3 style="display: none;">' . $password . '</h3>';}}       
+            ?>
             </div>
         </div>
         </div>
