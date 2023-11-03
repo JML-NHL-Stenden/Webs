@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: nexaLight;
+}
+
+header {
+    top: 0;
+    z-index: 100px;
+    margin-top: 140px;;
+}
+
+hr{
+    width: 250px;
 }
 
 @font-face {
@@ -19,7 +30,6 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-auto-rows: minmax(150px, auto); */
     padding: 50px;
     padding-block: 0.5em;
     gap: 1.5em;
@@ -38,7 +48,7 @@
     display: flex;
 
     width: 295px;
-    height: 600px;
+    height: 400px;
     padding: 20px;
     flex-direction: column;
     align-items: flex-start;
@@ -95,15 +105,13 @@ li {
 li a {
     display: block;
     text-decoration: none;
+    list-style-type: none;
+    color: black;
 }
 
 a {
     text-decoration: none;
-}
-
-.line-style{
-    width: 250px;
-    border: 0.1px solid rgb(188, 188, 188);
+    color: black
 }
 
 .button-styling {
@@ -175,6 +183,16 @@ a {
     padding: 8px;
     padding-left: 70px;
 
+}
+
+.home-title p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-title a {
+    font-weight:  normal;
+    font-size: 18px;
 }
 
 /* stars rating */

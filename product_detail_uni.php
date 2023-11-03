@@ -60,8 +60,7 @@ include "./view/layout/header.php"
             <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
 
             <p>Select colors</p>
-<form action="shoppingcart.php" method="post">
-
+<form id="productsSelectingForm" action="shoppingcart.php" method="post">
 <div class="circle-container">
     <div class="custom-radio" id="red" onclick="changeImage('red')">
         <input type="radio" id="red-c" name="color" value="red">
@@ -84,19 +83,38 @@ include "./view/layout/header.php"
         <label for="pink-c"></label>
     </div>
 </div>
-</div>
 
 <!-- Pair counter -->
-
 <div id="submit-and-counter">
-    <div id="enter-pair-number">
-        <label for="num-input">Pair count: </label>
-        <input type="number" id="number-input" name="number-input" min="0" max="100">
+    <div id="redCountFields" style="display:none">
+        <label for="field-red">Pair count:</label>
+        <input type="number" class="number-input" value="red" name="counts_of_pairs[red-u]" min="0">
     </div>
-    <input class="add-to-cart-button" type="submit" value="Add to the cart">
+    <div id="greenCountFields" style="display:none">
+        <label for="field-green">Pair count:</label>
+        <input type="number" class="number-input" value="green" name="counts_of_pairs[green-u]" min="0">
+    </div>
+    <div id="blueCountFields" style="display:block">
+        <label for="field-blue">Pair count:</label>
+        <input type="number" class="number-input" value="blue" name="counts_of_pairs[blue-u]" min="0" checked>
+    </div>
+    <div id="yellowCountFields" style="display:none">
+        <label for="field-yellow">Pair count:</label>
+        <input type="number" class="number-input" value="yellow" name="counts_of_pairs[yellow-u]" min="0">
+    </div>
+    <div id="pinkCountFields" style="display:none">
+        <label for="field-pink">Pair count:</label>
+        <input type="number" class="number-input" value="pink" name="counts_of_pairs[pink-u]" min="0">
+    </div>
+    <!-- Go to the cart -->
+    <input class="go-to-cart-button" type="submit" value="Go to the cart">
 </div>
 
 </form>
+
+</div>
+
+
 
     <!-- Image container for the first image -->
     <div id="image-container">
@@ -148,6 +166,40 @@ include "./view/layout/header.php"
 
             
         }
+
+        
+
+        //Part that is responislbe for the color radio selector
+        const productsSelectingForm = document.getElementById('productsSelectingForm');
+        const redCountFields = document.getElementById('redCountFields');
+        const greenCountFields = document.getElementById('greenCountFields');
+        const blueCountFields = document.getElementById('blueCountFields');
+        const yellowCountFields = document.getElementById('yellowCountFields');
+        const pinkCountFields = document.getElementById('pinkCountFields');
+
+        productsSelectingForm.addEventListener('change', (e) => {
+            if (e.target.name === 'color') {
+                redCountFields.style.display = 'none';
+                greenCountFields.style.display = 'none';
+                blueCountFields.style.display = 'none';
+                yellowCountFields.style.display = 'none';
+                pinkCountFields.style.display = 'none';
+
+                const selectedOption = e.target.value;
+
+                if (selectedOption === 'red') {
+                    redCountFields.style.display = 'block';
+                } else if (selectedOption === 'green') {
+                    greenCountFields.style.display = 'block';
+                } else if (selectedOption === 'blue') {
+                    blueCountFields.style.display = 'block';
+                } else if (selectedOption === 'yellow') {
+                    yellowCountFields.style.display = 'block';
+                } else if (selectedOption === 'pink') {
+                    pinkCountFields.style.display = 'block';
+                }
+            }
+        });
     </script>
 
 </div>
@@ -291,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <div class="rec-img-container">
                     
-                <div class="rec-h1-style"><h1> You might also like</h1></div>
+                <div class="rec-h1-style"><h1> You might also like</h1><br></div>
 
                     <div class="grid-items1 flex-element">
                         <div class="rec">

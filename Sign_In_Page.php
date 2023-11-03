@@ -17,7 +17,7 @@
     </div>
     <div class="Menu">
         <div class="logo">
-        <a href="Project1.html" target="_blank"><img src="img/sunnylogo.png" alt=""></a>
+        <a href="Project1.php" target="_blank"><img src="img/sunnylogo.png" alt=""></a>
         </div>
         <div class="search-container">
             <form action="action_page.php" method="POST">

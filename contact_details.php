@@ -51,7 +51,7 @@
             else {
                 echo "<h3>$username</h3>";}}       
             ?>
-            <hr>
+            <hr class="y-name-hr">
             <p>Email Address</p>
                 <?php
             if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -82,17 +82,17 @@
             <hr>
             <p>Password</p>
                 <?php
-            if($_SERVER['REQUEST_METHOD'] == "POST"){
-              $password= filter_input(INPUT_POST, "password");
-              $errorFlag = false;
-                $errors = array();
-            if (empty($password)) {
-                array_push($errors, "Please enter your password");
-                 $errorFlag = true;
-                }
-            else {
-                echo "<h3>$password</h3>";}}       
-            ?>
+            // if($_SERVER['REQUEST_METHOD'] == "POST"){
+            //   $password= filter_input(INPUT_POST, "password");
+            //   $errorFlag = false;
+            //     $errors = array();
+            // if (empty($password)) {
+            //     array_push($errors, "Please enter your password");
+            //      $errorFlag = true;
+            //     }
+            // else {
+            //     echo "<h3>$password</h3>";}}       
+            // ?>
             </div>
         </div>
         </div>

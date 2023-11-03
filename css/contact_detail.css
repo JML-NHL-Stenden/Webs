@@ -13,6 +13,14 @@ gap: 15px;
 margin: 150px 0 56px 101px;
 
 }
+
+
+
+.y-name-hr{
+    width: 30rem;
+}
+
+
 .home{
 color: #807D7E;
 font-family: Nexa Light;
@@ -170,5 +178,11 @@ body{
     background-image: url("../img/sunny.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     background-attachment: fixed;
+
+  }
+
+ 
+  .footer {
+
+    margin-top: 8rem;
   }
