@@ -10,7 +10,7 @@
 <body>
     <div class="footer">
         <div class="foot-part-1">
-            <a href="index.php"><img src="./img/footer_pic/sunny_logos_slogan_blue.ico" alt=""></a>
+            <a href="Project1.php"><img src="./img/footer_pic/sunny_logos_slogan_blue.ico" alt=""></a>
             <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
         </div>
         <div class="foot-part-2">

@@ -132,7 +132,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             <h1><b>Your cart is empty and sad :&#40</b></h1>
             <div class="button-area">
                 <div class="continue-shopping-button">
-                    <a href="index.php"><b>Continue shopping</b></a>
+                    <a href="Project1.php"><b>Continue shopping</b></a>
                 </div>
             </div>
         </main>

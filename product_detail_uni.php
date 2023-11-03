@@ -30,7 +30,7 @@ include "./view/layout/header.php"
     <!-- Color options -->
 
     <div class="home-title">
-            <p><a href="index.php"> Home &nbsp > </a>&nbsp <b>Uni-Color Socks</b></p> 
+            <p><a href="Project1.php"> Home &nbsp > </a>&nbsp <b>Uni-Color Socks</b></p> 
     </div>
     
     <div class="product-custom">

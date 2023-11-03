@@ -20,7 +20,7 @@ flex-shrink: 0;
 background: rgba(254, 205, 62, 0.81);
 color: #FFF;
 position: fixed;
-z-index: 600;
+z-Project1: 600;
 }
 .Frame1-content{
 color: #FFF;
@@ -40,7 +40,7 @@ text-decoration-line: none;
     flex-wrap: nowrap;
     height: 2rem;
     position: fixed;
-    z-index: 600;
+    z-Project1: 600;
     padding-bottom: 20px;
     background-color: antiquewhite;
     padding-bottom: 25px;

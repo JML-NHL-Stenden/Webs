@@ -17,7 +17,7 @@
     </div>
     <div class="Menu">
         <div class="logo">
-        <a href="index.php" ><img src="img/sunnylogo.png" alt=""></a>
+        <a href="Project1.php" ><img src="img/sunnylogo.png" alt=""></a>
         </div>
         <div class="search-container">
             <form action="action_page.php" method="POST">
@@ -73,7 +73,7 @@
                                 elseif(!preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $_POST["password"])) {
                                     echo "<h5>Your Password Must Contain At Least 1 Special Character!</h5>";}
                                 else {
-                                    echo readfile("index.php");
+                                    echo readfile("Project1.php");
                             }}
                 ?>
                 <input id="Sign_in_btn" type="submit" name="submit" value="Sign In">
