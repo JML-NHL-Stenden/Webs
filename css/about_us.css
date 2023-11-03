@@ -279,10 +279,17 @@ img {
     font-size: 19px;
 }
 
- .bottom-part {
+ .bottom-part1 {
     display: flex;
     justify-content: center;
-    height: 120px ;
+    height: 130px ;
+ }
+
+ 
+ .bottom-part2 {
+    display: flex;
+    justify-content: center;
+    height: 140px ;
  }
 
  .person {

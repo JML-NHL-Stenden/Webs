@@ -128,8 +128,8 @@
                         <p>“ They sell very stylish socks with several colors and most of those socks I never found in Amazon or Bol.com.The first time purchase really suprised me 
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
-                    <div class="bottom-part">
-                        <div class="person"><img src="./pictures/Hema-boy.jpg" alt=""></div>
+                    <div class="bottom-part1">
+                        <div class="person"><img src="./pictures/Hema-logo.jpg" alt=""></div>
                         <div class="detail">
                             <img src="./pictures/star.svg" alt="">
                             <img src="./pictures/star.svg" alt="">
@@ -147,8 +147,8 @@
                         <p>“ They sell very beautiful socks with several colors and most of those socks I never found in Amazon or Bol.com.The first time purchase really suprised me 
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
-                    <div class="bottom-part">
-                        <div class="person"><img src="./pictures/bol-girl.png" alt=""></div>
+                    <div class="bottom-part2">
+                        <div class="person"><img src="./pictures/bol-logo.jpg" alt=""></div>
                         <div class="detail">
                             <img src="./pictures/star.svg" alt="">
                             <img src="./pictures/star.svg" alt="">
