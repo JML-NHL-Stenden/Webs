@@ -47,6 +47,7 @@
             <p>Password</p>
             <input type="password" name="password" id="password">
             <input id="Sign_in_btn" type="submit" name="submit" value="Sign Up">
+            <p>Already have an account? <a href="Sign_In_Page.php" target="_blank">Log in</a></p>
             </form>
         </div>
     </div>
