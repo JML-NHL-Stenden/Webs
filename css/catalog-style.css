@@ -12,7 +12,7 @@ header {
 }
 
 hr{
-    width: 250px;
+    width: 18dvw;
 }
 
 @font-face {
@@ -47,8 +47,8 @@ hr{
 .filter-flex{
     display: flex;
 
-    width: 295px;
-    height: 400px;
+    width: 21dvw;
+    height: 25dvw;
     padding: 20px;
     flex-direction: column;
     align-items: flex-start;
@@ -66,8 +66,8 @@ hr{
     justify-content: space-around;
     align-items: center;
 
-    width: 340px;
-    height: 340px;
+    width: 20dvw;
+    height: 20dvw;
 }
 
 .flex-items img {
@@ -114,35 +114,6 @@ a {
     color: black
 }
 
-.button-styling {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 80px;
-    height: 35px;
-
-    border: 0.1px solid rgb(188, 188, 188);
-    padding: 20px;
-}
- 
-.button-move {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.butt-num {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    padding: 20px;
-}
-
 /* Heading Styling */
 .h4-move {
     display: grid;
@@ -155,7 +126,7 @@ a {
     justify-content: flex-end;
     text-align: center;
     align-items: center;
-    height: 35px;
+    height: 1dvw;
 }
 
 .h3-style {
@@ -169,7 +140,7 @@ a {
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    height: 35px;
+    height: 1dvw;
 }
 
 .h2-move {
