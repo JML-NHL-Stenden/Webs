@@ -78,7 +78,7 @@
                 ?>
                 <input id="Sign_in_btn" type="submit" name="submit" value="Sign In">
                 </form>
-                <p>Already have an account? <a href="Sign_In_Page.php" target="_blank">Log in</a> </p>
+                <p>Have not had an account yet? <a href="Sign_Up_Page.php" target="_blank">Let's sign up!</a> </p>
             </div>
                         </div>
                         <div class="footer-container">
