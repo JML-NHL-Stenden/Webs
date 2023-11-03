@@ -20,7 +20,7 @@ include "./view/layout/header.php"
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
         <div class="ShopNow"> 
-        <a href="catalog-j.php" target="_blank">Shop Now</a>
+        <a href="catalog.php" target="_blank">Shop Now</a>
     </div>
     </div>
     <div class="introduction">
@@ -46,8 +46,8 @@ include "./view/layout/header.php"
     <div id="newarrival"><h1 class="beginpart">NEW ARRIVALS</h1></div>
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_uni_pink.jpg" alt="pinksock"></header> 
-    <h1><a href="product_detail_strip.php" >Sunny's Pink Uni Sock </a></h1>
+        <header><a href="product_detail_uni.php" ><img src="img/Sunny_socks_uni_pink.jpg" alt="pinksock"></a></header> 
+    <h1><a href="product_detail_uni.php" >Sunny's Pink Uni Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -57,8 +57,8 @@ include "./view/layout/header.php"
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock"></header> 
-        <h1><a href="product_detail_strip.php" >Sunny’s Yellow Striped  Sock</a></h1>
+        <header><a href="product_detail_strip.php"><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock"></a></header> 
+        <h1><a href="product_detail_strip.php">Sunny’s Yellow Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -68,7 +68,7 @@ include "./view/layout/header.php"
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_pink_01.jpg" alt="pinksock"></header> 
+        <header><a href="product_detail_strip.php"><img src="img/Sunny_socks_pink_01.jpg" alt="pinksock"></a></header> 
         <h1><a href="product_detail_strip.php">Sunny’s Pink Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -79,8 +79,8 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_green.jpg" alt="greensock"></header> 
-        <h1><a href="product_detail_strip.php" >Sunny’s Green Striped Sock</a></h1>
+        <header><a href="product_detail_strip.php"><img src="img/Sunny_socks_green.jpg" alt="greensock"></a></header> 
+        <h1><a href="product_detail_strip.php">Sunny’s Green Striped Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -90,12 +90,12 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
 </div>
-<div class="view_all"><a href="catalog-j.php" class="ShopNow">View all</a></div>
+<div class="view_all"><a href="catalog.php" class="ShopNow">View all</a></div>
 <hr>
 <div id="topselling"><h1 class="beginpart">TOP SELLINGS</h1></div>
 <div class="productpics">
     <div class="thepics js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_red.jpg" alt="redsock"></header> 
+        <header><a href="product_detail_strip.php" ><img src="img/Sunny_socks_red.jpg" alt="redsock"></a></header> 
     <h1><a href="product_detail_strip.php" >Sunny's Red Striped Sock </a></h1>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -106,7 +106,7 @@ include "./view/layout/header.php"
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_blue.jpg" alt="bluesock"></header> 
+        <header><a href="product_detail_strip.php" ><img src="img/Sunny_socks_blue.jpg" alt="bluesock"></a></header> 
         <h1><a href="product_detail_strip.php" >Sunny’s Blue Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -117,8 +117,8 @@ include "./view/layout/header.php"
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_uni_green.jpg" alt=""></header> 
-        <h1><a href="product_detail_strip.php" >Sunny’s Green Uni Sock</a></h1>
+        <header><a href="product_detail_uni.php" ><img src="img/Sunny_socks_uni_green.jpg" alt=""></a></header> 
+        <h1><a href="product_detail_uni.php" >Sunny’s Green Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -128,8 +128,8 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><img src="img/Sunny_socks_uni_yellow.jpg" alt=""></header> 
-        <h1><a href="product_detail_strip.php">Sunny’s Yellow Uni Sock</a></h1>
+        <header><a href="product_detail_uni.php"><img src="img/Sunny_socks_uni_yellow.jpg" alt=""></a></header> 
+        <h1><a href="product_detail_uni.php">Sunny’s Yellow Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -139,7 +139,7 @@ include "./view/layout/header.php"
     <p>$3.99</p> 
     </div>
 </div>
-<div class="view_all"><a href="catalog-j.php" class="ShopNow">View all</a></div>
+<div class="view_all"><a href="catalog.php" class="ShopNow">View all</a></div>
 <hr>
 <div class="beginpart">The Bright side of socks!</div>
 <div class="brightside-container js-scroll fade-in-bottom">
@@ -239,6 +239,8 @@ include "./view/layout/header.php"
         <img src="img/comment1.png" alt="comment">
         <img src="img/comment2.png" alt="comment">
         <img src="img/comment3.png" alt="comment" id="pic4">
+
+        
     </div>
  </main>
  <footer>
