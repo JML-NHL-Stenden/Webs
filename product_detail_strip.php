@@ -131,81 +131,7 @@ include "./view/layout/header.php"
         <img id="displayed-image-2" src='../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg' alt="Second Image">
     </div>
 
-    <script>
-        function changeImage(circle) {
-            var imageElement = document.getElementById('displayed-image');
-            var imageElement2 = document.getElementById('displayed-image-2');
-            var imagePath;
-            var imagePath2;
-
-            // Set the image paths based on the selected color
-            switch (circle) {
-                case 'red':
-                    imagePath = '../Webs/img/Sunny_socks_red.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_red.jpg' ;
-                    break;
-                case 'blue':
-                    imagePath = '../Webs/img/Sunny_socks_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
-                    break;
-                case 'green':
-                    imagePath = '../Webs/img/Sunny_socks_green.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_green.jpg';
-                    break;
-                case 'yellow':
-                    imagePath = '../Webs/img/Sunny_socks_yellow.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_yellow.jpg';
-                    break;
-                case 'pink':
-                    imagePath = '../Webs/img/Sunny_socks_pink_01.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_pink.jpg';
-                    break;
-                default:
-                    imagePath = '../Webs/img/Sunny_socks_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_stripes_blue.jpg';
-            }
-
-            // Update the image sources
-            imageElement.src = imagePath;
-            imageElement2.src = imagePath2;
-
-            
-        }
-
-
-
-        //Part that is responislbe for the color radio selector
-        const productsSelectingForm = document.getElementById('productsSelectingForm');
-        const redCountFields = document.getElementById('redCountFields');
-        const greenCountFields = document.getElementById('greenCountFields');
-        const blueCountFields = document.getElementById('blueCountFields');
-        const yellowCountFields = document.getElementById('yellowCountFields');
-        const pinkCountFields = document.getElementById('pinkCountFields');
-
-        productsSelectingForm.addEventListener('change', (e) => {
-            if (e.target.name === 'color') {
-                redCountFields.style.display = 'none';
-                greenCountFields.style.display = 'none';
-                blueCountFields.style.display = 'none';
-                yellowCountFields.style.display = 'none';
-                pinkCountFields.style.display = 'none';
-
-                const selectedOption = e.target.value;
-
-                if (selectedOption === 'red') {
-                    redCountFields.style.display = 'block';
-                } else if (selectedOption === 'green') {
-                    greenCountFields.style.display = 'block';
-                } else if (selectedOption === 'blue') {
-                    blueCountFields.style.display = 'block';
-                } else if (selectedOption === 'yellow') {
-                    yellowCountFields.style.display = 'block';
-                } else if (selectedOption === 'pink') {
-                    pinkCountFields.style.display = 'block';
-                }
-            }
-        });
-    </script>
+   
 
     </div>
 
@@ -302,26 +228,6 @@ include "./view/layout/header.php"
         <button id="display-more-btn">Load More Review</button>
     </section>
 
-    <script>
-        // Second navigation "load more review button"
-
-    document.addEventListener("DOMContentLoaded", function () {
-        const displayMoreBtn = document.getElementById("display-more-btn");
-        const hiddenComments = document.getElementById("hidden-comments");
-        let isHidden = true;
-
-        displayMoreBtn.addEventListener("click", function () {
-            if (isHidden) {
-                hiddenComments.style.display = "block";
-                displayMoreBtn.textContent = "Show Less Review";
-            } else {
-                hiddenComments.style.display = "none";
-                displayMoreBtn.textContent = "Load More Review";
-            }
-            isHidden = !isHidden;
-        });
-    });
-    </script>
 
             <section class="section" id="section3">
                 <h2>Frequent Asked Question/s</h2>
@@ -420,7 +326,11 @@ include "./view/layout/footer.php"
 </footer>
 <!-- --------------------------------- FOOTER - END ------------------------------- -->
 
-<script src="star-rating.js"></script>
+<!--  Js file links -->
+<script src="./js/star-rating.js"></script>
+<script src="./js/color-change.js"></script>
+<script src="./js/strip-uni-button.js"></script>
+<!--  Js file links - END -->
 
 </body>
 

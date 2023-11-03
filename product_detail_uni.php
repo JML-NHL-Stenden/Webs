@@ -55,18 +55,7 @@ include "./view/layout/header.php"
                 <input type="radio" id="rating1"     name="rating" value="1 / 5" />  <label for="rating1"                    title="1 star"></label>
                 <input type="radio" id="rating0.5"   name="rating" value="0.5 / 5" /><label class="half" for="rating0.5"     title="1/2 star"></label>
             </fieldset>
-<script>
-            // Star rating
-const rating = document.querySelector('.rate');
-const currentRating = document.getElementById('current-rating');
 
-rating.addEventListener('click', (e) => {
-    if (e.target.type === 'radio') {
-        const value = e.target.value;
-        currentRating.innerText = value;
-    }
-});
-</script>
 
         <!----------------- Stars rating - end ---------------->
 
@@ -141,81 +130,6 @@ rating.addEventListener('click', (e) => {
         <img id="displayed-image-2" src='../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg' alt="Second Image">
     </div>
 
-    <script>
-        function changeImage(circle) {
-            var imageElement = document.getElementById('displayed-image');
-            var imageElement2 = document.getElementById('displayed-image-2');
-            var imagePath;
-            var imagePath2;
-
-            // Set the image paths based on the selected color
-            switch (circle) {
-                case 'red':
-                    imagePath = '../Webs/img/Sunny_socks_uni_red.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_red.jpg' ;
-                    break;
-                case 'blue':
-                    imagePath = '../Webs/img/Sunny_socks_uni_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg';
-                    break;
-                case 'green':
-                    imagePath = '../Webs/img/Sunny_socks_uni_green.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_green.jpg';
-                    break;
-                case 'yellow':
-                    imagePath = '../Webs/img/Sunny_socks_uni_yellow.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_yellow.jpg';
-                    break;
-                case 'pink':
-                    imagePath = '../Webs/img/Sunny_socks_uni_pink.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_pink.jpg';
-                    break;
-                default:
-                    imagePath = '../Webs/img/Sunny_socks_uni_blue.jpg';
-                    imagePath2 = '../Webs/img/packaging/jpg/catalogus_sokken_uni_blue.jpg';
-            }
-
-            // Update the image sources
-            imageElement.src = imagePath;
-            imageElement2.src = imagePath2;
-
-            
-        }
-
-
-
-        //Part that is responislbe for the color radio selector
-        const productsSelectingForm = document.getElementById('productsSelectingForm');
-        const redCountFields = document.getElementById('redCountFields');
-        const greenCountFields = document.getElementById('greenCountFields');
-        const blueCountFields = document.getElementById('blueCountFields');
-        const yellowCountFields = document.getElementById('yellowCountFields');
-        const pinkCountFields = document.getElementById('pinkCountFields');
-
-        productsSelectingForm.addEventListener('change', (e) => {
-            if (e.target.name === 'color') {
-                redCountFields.style.display = 'none';
-                greenCountFields.style.display = 'none';
-                blueCountFields.style.display = 'none';
-                yellowCountFields.style.display = 'none';
-                pinkCountFields.style.display = 'none';
-
-                const selectedOption = e.target.value;
-
-                if (selectedOption === 'red') {
-                    redCountFields.style.display = 'block';
-                } else if (selectedOption === 'green') {
-                    greenCountFields.style.display = 'block';
-                } else if (selectedOption === 'blue') {
-                    blueCountFields.style.display = 'block';
-                } else if (selectedOption === 'yellow') {
-                    yellowCountFields.style.display = 'block';
-                } else if (selectedOption === 'pink') {
-                    pinkCountFields.style.display = 'block';
-                }
-            }
-        });
-    </script>
 
     </div>
 
@@ -431,6 +345,11 @@ include "./view/layout/footer.php"
 <!-- --------------------------------- FOOTER - END ------------------------------- -->
 
 
+<!--  Js file links -->
+<script src="./js/star-rating.js"></script>
+<script src="./js/color-change.js"></script>
+<script src="./js/strip-uni-button.js"></script>
+<!--  Js file links - END -->
 
 </body>
 
