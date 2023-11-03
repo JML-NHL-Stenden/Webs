@@ -9,16 +9,16 @@
   }
 
   html * {
-font-family: nexaLight;
-color: #000;
+      font-family: nexaLight;
+      color: #000;
 
   }
 
 
 header {
-  top:0;
-  z-index:100px;
-  margin-top: 7rem;
+    top:0;
+    z-index:100px;
+    margin-top: 7rem;
 }
 * {
     margin: 0;
@@ -563,8 +563,8 @@ border-radius: 10px;
 
 .flex-element img {
   display: flex;
-  height: 250px;
-  width: 100px;
+  height: 13rem;
+  width: 8rem;
   object-fit: cover;
   
 }
