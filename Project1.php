@@ -239,6 +239,8 @@ include "./view/layout/header.php"
         <img src="img/comment1.png" alt="comment">
         <img src="img/comment2.png" alt="comment">
         <img src="img/comment3.png" alt="comment" id="pic4">
+
+        
     </div>
  </main>
  <footer>
