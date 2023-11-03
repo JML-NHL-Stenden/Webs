@@ -258,7 +258,7 @@ include "./view/layout/header.php"
 
                         <div class="grid-items1 flex-element">
                             <div class="rec">
-                            <a  href="./product_detail_uni.php"></a> <img class="rec-img pack-sock-blue" src="./img/packaging/png/catalogus_sokken_uni_blue.png" alt="Blue packaged uni-color socks">
+                            <a  href="./product_detail_uni.php"> <img class="rec-img pack-sock-blue" src="./img/packaging/png/catalogus_sokken_uni_blue.png" alt="Blue packaged uni-color socks">
                                 <p>Sunny's Blue Strip Sock</p></a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -270,7 +270,7 @@ include "./view/layout/header.php"
 
                         <div class="grid-items2 flex-element">
                             <div class="rec">
-                            <a  href="./product_detail_uni.php"></a><img class="rec-img pack-sock-pink" src="./img/packaging/png/catalogus_sokken_uni_pink.png" alt="Pink packaged uni-color socks">
+                            <a  href="./product_detail_uni.php"><img class="rec-img pack-sock-pink" src="./img/packaging/png/catalogus_sokken_uni_pink.png" alt="Pink packaged uni-color socks">
                                 <p>Sunny's Pink Strip Sock</p></a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -328,7 +328,7 @@ include "./view/layout/footer.php"
 
 <!--  Js file links -->
 <script src="./js/star-rating.js"></script>
-<script src="./js/color-change.js"></script>
+<script src="./js/color-change-stripes.js"></script>
 <script src="./js/strip-uni-button.js"></script>
 <!--  Js file links - END -->
 

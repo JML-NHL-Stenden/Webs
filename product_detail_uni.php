@@ -347,7 +347,7 @@ include "./view/layout/footer.php"
 
 <!--  Js file links -->
 <script src="./js/star-rating.js"></script>
-<script src="./js/color-change.js"></script>
+<script src="./js/color-change-uni.js"></script>
 <script src="./js/strip-uni-button.js"></script>
 <!--  Js file links - END -->
 
