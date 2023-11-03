@@ -64,6 +64,7 @@
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <p>&euro;3.99</p>
                                 </div>
                             </div>
@@ -71,9 +72,9 @@
                         <!-- column 3 start below -->
                         <div class="column-3">
                             <div class="flex-items">
-                                <div class="ys-box">
+                                <div class="yu-box">
                                 <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_yellow">
-                                    <p>Sunny's Yellow Uni-Color Sock</U>
+                                    <p>Sunny's Yellow Uni-Color Sock</p>
                                 </a>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>

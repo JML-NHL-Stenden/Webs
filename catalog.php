@@ -53,7 +53,7 @@
                 </div>
                 <!-- end of filet and start of the second section -->
                     <div class="h2-astyle h2-move"><h2>Arrivals</h2></div>
-                    <div class="h4-astyle h4-move"><h4>Showing 1-1 Products</h4></div>
+                    <div class="h4-astyle h4-move"><h4>Showing 1-10 Products</h4></div>
                         <!-- column 2 starts here -->
                         <div class="column-2">
                             <div class="flex-items">
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="flex-items">
-                                <div class="ps-box">
+                                <div class="yu-box">
                                     <a href="product_detail_uni.php"><img src="./img/Sunny_socks_uni_yellow.jpg" alt="Sunny_socks_pink_01">
                                         <p>Sunny's Yellow Uni-Color Sock</p>
                                     </a>

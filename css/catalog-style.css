@@ -8,7 +8,7 @@
 header {
     top: 0;
     z-index: 100px;
-    margin-top: 140px;;
+    margin-top: 115px;;
 }
 
 hr{
@@ -88,6 +88,48 @@ hr{
 
 .column-4 {
     grid-column-start: 4;
+}
+
+/* Fonting the P's */
+
+.bs-box p {
+    font-family: nexaBold;
+}
+
+.gs-box p {
+    font-family: nexaBold;
+}
+
+.ps-box p {
+    font-family: nexaBold;
+}
+
+.yu-box p {
+    font-family: nexaBold;
+}
+
+.rs-box p {
+    font-family: nexaBold;
+}
+
+.bu-box p {
+    font-family: nexaBold;
+}
+
+.gu-box p {
+    font-family: nexaBold;
+}
+
+.pu-box p {
+    font-family: nexaBold;
+}
+
+.ru-box p {
+    font-family: nexaBold;
+}
+
+.ys-box p {
+    font-family: nexaBold;
 }
 
 /* The filter section style */
