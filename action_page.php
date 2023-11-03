@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
 $search = filter_input(INPUT_POST, "search");
 $errors = array();
 $errorFlag = false;
-$search_strip = ["Sunny's Strip Socks", "Strip Socks", "Strip", "strip", "sunny's strip socks"];
+$search_strip = ["Sunny's Striped Socks", "Striped Socks", "Striped", "striped", "sunny's striped socks"];
 $search_uni = ["Sunny's Uni-Color Socks", "Uni-Color Socks", "Uni-Color", "uni-color", "sunny's uni-color socks", "Uni", "uni"];
 $search_blue = ["Sunny's Socks Blue", "Socks Blue", "Blue", "blue", "sunny's socks blue"];
 $search_pink = ["Sunny's Socks Pink", "Socks Pink", "Blue", "pink", "sunny's socks pink"];

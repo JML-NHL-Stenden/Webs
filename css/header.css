@@ -1,42 +1,41 @@
+html * {
+    font-family: Nexa Light;
+}
+
 /* Yellow top section */
 
 .top-section {
     background-color: #FECD3E;
     text-align: center;
+    padding: 10px;
     position: fixed;
-    z-index:600;
+    z-index: 600;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 5px;
-    top:0;
 
 }
 
 .top-section h5 {
-    font-family: nexaBold;
+    font-family: Nexa Bold;
 }
 
 .top-section h5 a {
-    color:#fff;
+    color:#fff
 }
 
 
 /* Heading section */
 
 .heading {
-    top:0;
     display: flex;
     background-color: antiquewhite;
-    height: 100px;
-    align-items: center;
-    position: fixed;
-    z-index:600;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 1.5rem;
-    padding: 5px 0px 5px 0px;
+    position: fixed;
+    z-index: 600;
+    margin-top: 35px;
+    padding: 5px 0 5px 0;
 }
 
 
@@ -64,7 +63,7 @@
 
 .navbar ul a {
     font-size: 16px;
-    font-family: nexaBold;
+    font-family: Nexa Bold;
     color: #000;
 }
 
@@ -72,7 +71,7 @@
     display: flex;
     margin-left: 40px;
     width: 600px;
-    height: 48px;
+    height: auto 48px;
     padding: 6px 16px;
     background-color: #F0F0F0;
     border-radius: 62px;
@@ -118,3 +117,11 @@
     height: 24px;
     margin-left: 14px;
 }
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("./Fonts/nexa_bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Nexa Light';
+    src: url("./Fonts/nexa-light.otf") format("truetype");
+  }

@@ -17,9 +17,8 @@
             <div class="logo"><a href="Project1.php">sunny</a></div>
             <div class="navbar">
                 <ul>
-                    <li><a href="catalog-j.php">Shop</a></li>
+                    <li><a href="catalog.php">Shop</a></li>
                     <!-- <li><a href="catalog-j.php">On Sales</a></li> -->
-                    <li><a href="catalog.php">New Arrivals</a></li>
                     <li><a href="about_us.php">About Us</a></li>
                 </ul>
             </div>
