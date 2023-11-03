@@ -54,7 +54,6 @@ header {
     gap: 20px;
     align-items: center;
     grid-row: 1/2;
-    translate:0 3rem;
     
   }
 
@@ -148,14 +147,6 @@ header {
   /* ---------- Star rating - END --- */
 
 /* -------------   Select color functions ---------------------- */
-.p-materials{
-    color: rgba(0, 0, 0, 0.60);
-  font-family: Nexa Bold;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px; 
-  }
 
 /* color selector */
 
