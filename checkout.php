@@ -97,7 +97,7 @@
                                     </p>
                                     <p class="line-part">
                                         <input type="radio" name=method>
-                                        <label for="same">Express Delivery</label>
+                                        <label for="same">PostNL</label>
                                     </p>
                                 </div>
                             </li>
