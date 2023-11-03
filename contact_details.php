@@ -15,7 +15,7 @@
     </header>
     <main>
         <div class="nav_bar">
-            <p><a href="Project1.php" class="home">Home </a> > <a href="contact_details.php" class="my_account"> My Account</a></p>
+            <p><a href="index.php" class="home">Home </a> > <a href="contact_details.php" class="my_account"> My Account</a></p>
         </div>
         <div class="content_container">
         <div class="name">

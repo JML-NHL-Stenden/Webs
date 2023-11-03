@@ -31,7 +31,7 @@ include "./view/layout/header.php"
     <!-- Color options -->
 
     <div class="home-title">
-            <p><a href="Project1.php"> Home &nbsp > </a>&nbsp <b>Strip Socks</b></p> 
+            <p><a href="index.php"> Home &nbsp > </a>&nbsp <b>Strip Socks</b></p> 
     </div>
     
     <div class="product-custom">

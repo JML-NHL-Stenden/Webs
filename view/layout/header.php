@@ -14,7 +14,7 @@
         </div>
         <!-- Head navigation section -->
         <div class="heading">
-            <div class="logo"><a href="Project1.php">sunny</a></div>
+            <div class="logo"><a href="index.php">sunny</a></div>
             <div class="navbar">
                 <ul>
                     <li><a href="catalog.php">Shop</a></li>
