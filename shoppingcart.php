@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                         </div>
                     </div>
                     <div class='go-to-checkout'>
-                        <a href='Sunny_web_checkout/checkout.php'>Go to checkout <b>→</b></a>
+                        <a href='checkout.php'>Go to checkout <b>→</b></a>
                     </div>
                 </div>
             </div>
