@@ -125,7 +125,7 @@
             <div class="big-box">
                 <div class="box-1">
                     <div class="top-part">
-                        <p>“ They sell very stylish socks with several colors and most of those socks I never found in Amazon or Bol.com.The first time purchase really suprised me 
+                        <p>“ They sell very stylish socks with several colors and most of those socks I never found in Amazon.The first time purchase really suprised me 
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
                     <div class="bottom-part1">
@@ -144,7 +144,7 @@
                 </div>
                 <div class="box-2">
                     <div class="top-part">
-                        <p>“ They sell very beautiful socks with several colors and most of those socks I never found in Amazon or Bol.com.The first time purchase really suprised me 
+                        <p>“ They sell very beautiful socks with several colors and most of those socks I never found in Amazon.The first time purchase really suprised me 
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
                     <div class="bottom-part2">
@@ -169,8 +169,8 @@
                 <div class="share-info">
                     <h3>SHARE US</h3>
                     <p class="follow-slogan">Follow us on Instagram</p>
-                    <p class="follow-detail">It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. 
-                        The point of using Lorem of distribution it look like readable English</p>
+                    <p class="follow-detail"> We are Sunny. Every day we share some short video about dressing code, the latest stylish socks and the right way to choose some good socks. 
+                    Come to follow us! Let us be closer to your daily life! </p>
                     <img src="./pictures/pink stripy socks.jpg" alt="">
                 </div>
             </div>
