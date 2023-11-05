@@ -116,7 +116,7 @@
                                     <p>
                                         <div class="pay-info">
                                             <ul>
-                                           i><input type="text" size=40 name=same placeholder="Expiration date(MM/YY)"></li>
+                                                <li><input type="text" size=40 name=same placeholder="Expiration date(MM/YY)"></li>
                                                 <li><input type="text" size=40 name=same placeholder="Security Code"></li>
                                             </ul>
                                         </div>
