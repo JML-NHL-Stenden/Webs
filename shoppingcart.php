@@ -29,6 +29,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         if (!empty($number)) {
             $hasNonZeroValue = true;
         }
+        else {
+            unset($counts_of_pairs[$color]);
+        }
     }
 
     if ($hasNonZeroValue == true) {
@@ -41,6 +44,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 <div class='product box'>";
             $keys = array_keys($counts_of_pairs);
             $lastArrayItem = end($keys);
+
             foreach($counts_of_pairs as $color => $number) {
                 if (!empty($number)) {
                     if (strpos($color, "-u")) {

@@ -20,7 +20,7 @@ include "./view/layout/header.php"
         <header>BRIGHT SIDE OF SOCKS</header>
         <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
         <div class="ShopNow"> 
-        <a href="catalog.php" target="_blank">Shop Now</a>
+        <a href="catalog.php" >Shop Now</a>
     </div>
     </div>
     <div class="introduction">
@@ -209,28 +209,28 @@ include "./view/layout/header.php"
     });   
     </script>
     <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);  
+      let slideProject1 = 1;
+      showSlides(slideProject1);  
       function plusSlides(n) {
-        showSlides(slideIndex += n);
+        showSlides(slideProject1 += n);
       }
       function currentSlide(n) {
-        showSlides(slideIndex = n);
+        showSlides(slideProject1 = n);
       } 
       function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
+        if (n > slides.length) {slideProject1 = 1}    
+        if (n < 1) {slideProject1 = slides.length}
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";  
         }
         for (i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
+        slides[slideProject1-1].style.display = "block";  
+        dots[slideProject1-1].className += " active";
       }
       </script>
       <div class="title"><header id="comment_section">OUR HAPPY CUSTOMERS</header></div>

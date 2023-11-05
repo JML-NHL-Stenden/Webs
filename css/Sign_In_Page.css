@@ -20,7 +20,7 @@ flex-shrink: 0;
 background: rgba(254, 205, 62, 0.81);
 color: #FFF;
 position: fixed;
-z-index: 600;
+z-Project1: 600;
 }
 .Frame1-content{
 color: #FFF;
@@ -40,7 +40,7 @@ text-decoration-line: none;
     flex-wrap: nowrap;
     height: 2rem;
     position: fixed;
-    z-index: 600;
+    z-Project1: 600;
     padding-bottom: 20px;
     background-color: antiquewhite;
     padding-bottom: 25px;
@@ -203,13 +203,14 @@ flex-shrink: 0;
     border: 1px solid #3C4242;
     }
     .form p{
-        color: #3C4242;
+    color: #3C4242;
     font-family: Nexa Bold;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.36px;
+    margin-bottom: 4dvh;
     }
     #Sign_in_btn{
       margin-top: 20px;

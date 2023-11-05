@@ -18,7 +18,7 @@
     </div>
     <div class="Menu">
         <div class="logo">
-        <a href="Project1.php" target="_blank"><img src="img/sunnylogo.png" alt=""></a>
+        <a href="Project1.php"><img src="img/sunnylogo.png" alt=""></a>
         </div>
         <div class="search-container">
             <form action="action_page.php" method="POST">
@@ -26,8 +26,8 @@
                 <input type="text" placeholder="Search for products..." name="search">
               </form>
         </div>
-        <div class="Login_button"><a href="Sign_In_Page.php" target="_blank"><p>Login</p></a></div>
-        <div class="Signup_button"><a href="Sign_Up_Page.php" target="_blank"><p>Sign Up</p></a></div>
+        <div class="Login_button"><a href="Sign_In_Page.php" ><p>Login</p></a></div>
+        <div class="Signup_button"><a href="Sign_Up_Page.php" ><p>Sign Up</p></a></div>
         <div class="carticon"><a href="shoppingcart.php"><img src="img/cart.svg"> </a> </div>
         <div class="signinicon"><a href="Sign_Up_Page.php"><img src="img/Vector.png"></a> </div>
     </div>   
@@ -47,6 +47,7 @@
             <p>Password</p>
             <input type="password" name="password" id="password">
             <input id="Sign_in_btn" type="submit" name="submit" value="Sign Up">
+            <p>Already have an account? <a href="Sign_In_Page.php" target="_blank">Log in</a></p>
             </form>
         </div>
     </div>

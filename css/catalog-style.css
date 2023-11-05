@@ -7,8 +7,8 @@
 
 header {
     top: 0;
-    z-index: 100px;
-    margin-top: 140px;;
+    z-Project1: 100px;
+    margin-top: 115px;;
 }
 
 hr{
@@ -88,6 +88,48 @@ hr{
 
 .column-4 {
     grid-column-start: 4;
+}
+
+/* Fonting the P's */
+
+.bs-box p {
+    font-family: nexaBold;
+}
+
+.gs-box p {
+    font-family: nexaBold;
+}
+
+.ps-box p {
+    font-family: nexaBold;
+}
+
+.yu-box p {
+    font-family: nexaBold;
+}
+
+.rs-box p {
+    font-family: nexaBold;
+}
+
+.bu-box p {
+    font-family: nexaBold;
+}
+
+.gu-box p {
+    font-family: nexaBold;
+}
+
+.pu-box p {
+    font-family: nexaBold;
+}
+
+.ru-box p {
+    font-family: nexaBold;
+}
+
+.ys-box p {
+    font-family: nexaBold;
 }
 
 /* The filter section style */
@@ -184,7 +226,7 @@ a {
 .green-circle {
     height: 30px;
     width: 30px;
-    background-color: green;
+    background-color: #51B2A2;
     border-radius: 50%;
     display: inline-block;
 }
@@ -192,7 +234,7 @@ a {
 .red-circle {
     height: 30px;
     width: 30px;
-    background-color: red;
+    background-color: #F15B39;
     border-radius: 50%;
     display: inline-block;
 }
@@ -200,7 +242,7 @@ a {
 .yellow-circle {
     height: 30px;
     width: 30px;
-    background-color: yellow;
+    background-color: #FECD3E;
     border-radius: 50%;
     display: inline-block;
 }
@@ -208,7 +250,7 @@ a {
 .blue-circle {
     height: 30px;
     width: 30px;
-    background-color: blue;
+    background-color: #1E407A;
     border-radius: 50%;
     display: inline-block;
 }
@@ -216,7 +258,7 @@ a {
 .pink-circle {
     height: 30px;
     width: 30px;
-    background-color: pink;
+    background-color: #E990B9;
     border-radius: 50%;
     display: inline-block;
 }
