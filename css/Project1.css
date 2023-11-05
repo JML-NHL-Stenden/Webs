@@ -126,17 +126,17 @@ line-height: normal;
 
 }
 .productpics{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
     gap: 20px;
     margin-top: 20px;
+    align-items: center;
 }
 .productpics img{
-    display: grid;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     border-radius: 20px;
-    width: 295px; ;
+    width: 295px; 
 }
 
 .productpics h1 a{
