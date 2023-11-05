@@ -169,13 +169,8 @@
                 <div class="share-info">
                     <h3>SHARE US</h3>
                     <p class="follow-slogan">Follow us on Instagram</p>
-<<<<<<< HEAD
                     <p class="follow-detail">We are Sunny. Every day we share some short video about dressing code, the latest stylish socks and the right way to choose some good socks.
                      Come to follow us! Let us be closer to your daily life! </p>
-=======
-                    <p class="follow-detail"> We are Sunny. Every day we share some short video about dressing code, the latest stylish socks and the right way to choose some good socks. 
-                    Come to follow us! Let us be closer to your daily life! </p>
->>>>>>> c9a95957f1efbce76eb40942808b5c2767d9accc
                     <img src="./pictures/pink stripy socks.jpg" alt="">
                 </div>
             </div>
