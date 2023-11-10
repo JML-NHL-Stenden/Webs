@@ -27,15 +27,12 @@
                 <a href="#" class="button"></a>
                 <input type="text" placeholder="Search for products...">
             </div> -->
-
             <div class="searchbar">
             <form action="action_page.php" method="POST">
                 <button class ="button" type="submit"></button>
                 <input type="text" placeholder="Search for products..." name="search">
-                
               </form>
             </div>
-              
             <div class="user">
                 <a href="shoppingcart.php" class="cart"></a>
                 <a href="contact_details.php" class="user-icon"></a>

@@ -3,6 +3,16 @@ body {
     margin-top: 100px;
 }
 
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("./Fonts/nexa_bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url("./Fonts/nexa-light.otf") format("truetype");
+}
+
 /* Big banner */
 
 .top-banner img {
@@ -24,7 +34,7 @@ body {
 }
 
 .hd h3 {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     font-size: 40px;
 }
 
@@ -62,12 +72,12 @@ body {
 }
 
 .bd div h4 {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     margin-bottom: 8px;
 }
 
 .bd div p {
-    font-family: nexaLight;
+    font-family: 'Nexa Light';
 }
 
 /* Vision section */
@@ -108,7 +118,7 @@ body {
     background-color: #1E2C30;
     width: 495px;
     height: 270px;
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     color: #fff;
     text-align: left;
     padding:74px 80px;
@@ -139,14 +149,14 @@ body {
 }
 
 .title h3 {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     color:#5C8692;
     font-size: 13px;
     margin-bottom: 9px;
 }
 
 .title p {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     font-size: 25px;
     text-align: center;
 }
@@ -158,18 +168,18 @@ body {
 }
 
 .profile h3 {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     padding-top: 8px;
 }
 
 .profile h5 {
-    font-family: nexaLight;
+    font-family: 'Nexa Bold';
     padding-bottom: 5px;
     padding-top: 5px;
 }
 
 .profile p {
-    font-family: nexaLight;
+    font-family: 'Nexa Bold';
     width: 260px;
     height: 67px;
     font-size: 14px;
@@ -221,14 +231,14 @@ img {
 }
 
 .subject h3 {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     color:#5C8692;
     font-size: 13px;
     margin-bottom: 9px;
 }
 
 .subject p {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     font-size: 25px;
     text-align: center;
 }
@@ -299,7 +309,7 @@ img {
  .detail {
     margin: 20px 0px;
     color:#fff;
-    font-family: nexaLight;
+    font-family: 'Nexa Light';
  }
 
  .detail h3 {
@@ -363,19 +373,19 @@ img {
 
 .share-info h3 {
     color: #1E407A;
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     font-size: 13px;
 }
 
 .follow-slogan {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     font-size: 25px;
     padding-top: 9px;
     padding-bottom: 9px;
 }
 
 .follow-detail {
-    font-family: nexaLight;
+    font-family: 'Nexa Light';
     font-size: 14px;
     padding-bottom: 18px;
 }
@@ -400,7 +410,7 @@ img {
 .foot-part-1 {
     width: 363px;
     height: 200px;
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
 }
 
 
@@ -409,7 +419,7 @@ img {
 }
 
 .foot-part-2 ul li a {
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
     color: rgba(0, 0, 0, 0.60);
 }
 
@@ -417,7 +427,7 @@ img {
     font-size: 20px;
     padding-bottom: 15px;
     margin-top: 30px;
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
 }
 .foot-part-2 a img {
     width: 24px;

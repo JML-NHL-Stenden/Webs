@@ -2,6 +2,16 @@ body {
     margin-top: 100px;
 }
 
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("./Fonts/nexa_bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url("./Fonts/nexa-light.otf") format("truetype");
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1100px;
@@ -103,7 +113,7 @@ form input::placeholder {
 }
 
 .check-label{
-    font-family: nexaBold;
+    font-family: 'Nexa Bold';
 }
 
 .line-part {

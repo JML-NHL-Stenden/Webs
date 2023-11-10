@@ -6,7 +6,7 @@
     text-align: center;
     padding: 10px;
     position: fixed;
-    z-Project1: 600;
+    z-index: 600;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -15,7 +15,7 @@
 }
 
 .top-section h5 {
-    font-family: Nexa Bold;
+    font-family: 'Nexa Bold';
 }
 
 .top-section h5 a {
@@ -31,7 +31,7 @@
     align-items: center;
     width: 100%;
     position: fixed;
-    z-Project1: 600;
+    z-index: 600;
     margin-top: 35px;
     padding: 5px 0 5px 0;
     top: 0;
@@ -61,7 +61,7 @@
 
 .navbar ul a {
     font-size: 16px;
-    font-family: Nexa Bold;
+    font-family: 'Nexa Bold';
     color: #000;
 }
 
@@ -115,11 +115,13 @@
     height: 24px;
     margin-left: 14px;
 }
+
 @font-face {
     font-family: 'Nexa Bold';
     src: url("./Fonts/nexa_bold.otf") format("truetype");
   }
-  @font-face {
+
+@font-face {
     font-family: 'Nexa Light';
     src: url("./Fonts/nexa-light.otf") format("truetype");
   }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./Webs/view/layout/footer.css">
     <link rel="stylesheet" href="./css/checkout.css">
 </head>
-<?php include"./view/layout/header.php" ?>
+<?php include "./view/layout/header.php" ?>
 <body>
     <div class="billing wrapper">
         <h3 class="hd">Check out</h3>
@@ -65,7 +65,7 @@
                         <ul>
                             <li> <button class="confirm">Confirm</button></li>
                             <li> 
-                                <input type="checkbox" name="click" id="">
+                                <input type="checkbox" name="click" id="click">
                                 <label for="check-label">Save my information for a faster checkout</label>
                             </li>
                         </ul>
@@ -130,7 +130,6 @@
                         </ul>
                         <button class="confirm">Pay Now</button>
                     </form>
-
                 </div>
             </div>
             <div class="summary">
@@ -141,7 +140,7 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>blue</span></p>
-                            <span><p>$3.99</p></span>
+                            <p><span>$3.99</span></p>
                         </a>
                     </li>
                     <li>
@@ -149,7 +148,7 @@
                         <a href="#">
                             <p>Sunny’s Uni Socks</p>
                             <p>Color: <span>grenn</span></p>
-                            <span><p>$3.99</p></span>
+                            <p><span>$3.99</span></p>
                         </a>
                     </li>
                     <li>
@@ -157,7 +156,7 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>yellow</span></p>
-                            <span><p>$3.99</p></span>
+                            <p><span>$3.99</span></p>
                         </a>
                     </li>
                     <li>
@@ -172,8 +171,6 @@
             </div>
         </div>
     </div>
-    <?php include"./view/layout/footer.php" ?>
-    
-    
+    <?php include "./view/layout/footer.php" ?>
 </body>
 </html>

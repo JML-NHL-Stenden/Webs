@@ -10,9 +10,7 @@
 </head>
 <body>
 <header>
-<?php
-include "./view/layout/header.php"
-?>
+  <?php include "./view/layout/header.php"?>
 </header>
 <main>
 <div class="intro-container">
