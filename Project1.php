@@ -10,7 +10,11 @@
 </head>
 <body>
 <header>
+<<<<<<< HEAD
   <?php include "./view/layout/header.php"?>
+=======
+            <?php include "./view/layout/header.php";?>    
+>>>>>>> 2cc11d362a8f9122ce0f13dd6bcc2ac53adb53c0
 </header>
 <main>
 <div class="intro-container">
@@ -55,7 +59,7 @@
 <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><a href="product_detail_strip.php"><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock"></a></header> 
+        <header><a href="product_detail_strip.php"><img src="img/Sunny_socks_yellow.jpg" alt="yellowsock" class="fix_margin"></a></header> 
         <h1><a href="product_detail_strip.php">Sunny’s Yellow Striped  Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
