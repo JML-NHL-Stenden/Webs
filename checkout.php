@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./Webs/view/layout/footer.css">
     <link rel="stylesheet" href="./css/checkout.css">
 </head>
-<?php include"./view/layout/header.php" ?>
+<?php include "./view/layout/header.php" ?>
 <body>
     <div class="billing wrapper">
         <h3 class="hd">Check out</h3>
@@ -66,7 +66,11 @@
                             <li> <button class="confirm">Confirm</button></li>
                             <li> 
                                 <input type="checkbox" name="click" id="click">
+<<<<<<< HEAD
                                 <label for="click">Save my information for a faster checkout</label>
+=======
+                                <label for="check-label">Save my information for a faster checkout</label>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
                             </li>
                         </ul>
                     </form>
@@ -130,7 +134,6 @@
                         </ul>
                         <button class="confirm">Pay Now</button>
                     </form>
-
                 </div>
             </div>
             <div class="summary">
@@ -141,7 +144,11 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>blue</span></p>
+<<<<<<< HEAD
                             <span>$3.99</span>
+=======
+                            <p><span>$3.99</span></p>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
                         </a>
                     </li>
                     <li>
@@ -149,7 +156,11 @@
                         <a href="#">
                             <p>Sunny’s Uni Socks</p>
                             <p>Color: <span>grenn</span></p>
+<<<<<<< HEAD
                             <span>$3.99</span>
+=======
+                            <p><span>$3.99</span></p>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
                         </a>
                     </li>
                     <li>
@@ -157,7 +168,11 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>yellow</span></p>
+<<<<<<< HEAD
                             <span>$3.99</span>
+=======
+                            <p><span>$3.99</span></p>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
                         </a>
                     </li>
                     <li>
@@ -172,6 +187,10 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <?php include"./view/layout/footer.php" ?>    
+=======
+    <?php include "./view/layout/footer.php" ?>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
 </body>
 </html>

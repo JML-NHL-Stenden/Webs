@@ -10,7 +10,11 @@
 </head>
 <body>
 <header>
+<<<<<<< HEAD
+  <?php include "./view/layout/header.php"?>
+=======
             <?php include "./view/layout/header.php";?>    
+>>>>>>> 2cc11d362a8f9122ce0f13dd6bcc2ac53adb53c0
 </header>
 <main>
 <div class="intro-container">

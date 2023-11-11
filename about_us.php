@@ -9,14 +9,11 @@
         <link rel="stylesheet" href="./view/layout/header.css">
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
-
-
     <body>
      <header> 
     <!-- header section -->
     <?php include "./view/layout/header.php" ?>
-</header>  
-
+    </header>  
         <!-- Big banner section -->
         <div class="top-banner">
             <img src="./pictures/sunny big page.png" alt="">
@@ -30,7 +27,7 @@
             <div class="bd">
                 <ul>
                     <li>
-                        <div><img src="./pictures/pink socks.png" alt=""></div>
+                        <div><img src="./pictures/pink socks.png" alt="pinksocks"></div>
                         <div>
                             <h4>Positive</h4>
                             <p>Positivity is part of our DNA. Sunny likes to look on the bright side. 
@@ -38,7 +35,7 @@
                         </div>
                     </li>
                     <li>
-                        <div><img src="./pictures/blue socks.png" alt=""></div>
+                        <div><img src="./pictures/blue socks.png" alt="bluesocks"></div>
                         <div>
                             <h4>Colorful</h4>
                             <p>We like to add some color to one of the the most everyday moments of life: putting on your socks. 
@@ -46,7 +43,7 @@
                         </div>
                     </li>
                     <li>
-                        <div><img src="./pictures/red socks.png" alt=""></div>
+                        <div><img src="./pictures/red socks.png" alt="redsocks"></div>
                         <div>
                             <h4>Mission</h4>
                             <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
@@ -54,11 +51,15 @@
                     </li>
                 </ul>
             </div>
+<<<<<<< HEAD
             </div>
+=======
+        </div>
+>>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
         <div class="vision">
             <div class="inner-box">
                 <div class="side-bar"></div>
-                <div class="picture"><img src="./pictures/many-socks-adjust.png" alt=""></div>
+                <div class="picture"><img src="./pictures/many-socks-adjust.png" alt="socks"></div>
                 <div class="inner-text">
                     <h3>ABOUT OUR VISION</h3>
                     <p>Sunny’s vision is to produce ethical and sustainable socks that are available for everybody.</p>
@@ -75,7 +76,7 @@
                 <ul>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl1-adjuested.jpg" alt="">
+                            <img src="./pictures/girl1-adjuested.jpg" alt="girl">
                             <h3>Sherlin D’Cruz</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
@@ -88,7 +89,7 @@
                     </li>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl2-adjusted.jpg" alt="">
+                            <img src="./pictures/girl2-adjusted.jpg" alt="girls">
                             <h3>Maria Sharapova</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
@@ -101,7 +102,7 @@
                     </li>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl3-adjusted.jpg" alt="">
+                            <img src="./pictures/girl3-adjusted.jpg" alt="woman">
                             <h3>Angeline Jenifer</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
@@ -179,11 +180,6 @@
             </div>
         </div>
         <!-- Footer section -->
-     
-        <footer>
-        <?php include"./view/layout/footer.php" ?>
-         </footer>
-
+        <footer><?php include "./view/layout/footer.php" ?></footer>
     </body>
-
 </html>
