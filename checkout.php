@@ -65,26 +65,26 @@
                         <ul>
                             <li> <button class="confirm">Confirm</button></li>
                             <li> 
-                                <input type="checkbox" name="click" id="">
-                                <label for="check-label">Save my information for a faster checkout</label>
+                                <input type="checkbox" name="click" id="click">
+                                <label for="click">Save my information for a faster checkout</label>
                             </li>
                         </ul>
                     </form>
                 </div>
                 <div class="box-2">
-                    <form action="">
+                    <form action="" methhod ="POST">
                         <ul>
                             <li>
                                 <h4>Shipping Address</h4>
                                 <h5>Select the address that matches your card or payment method</h5>
                                 <div class="content">
                                     <p>
-                                        <input type="radio" name=address>
-                                        <label for="same">Same as Billing address</label>
+                                        <input type="radio" name="address" id="address">
+                                        <label for="address">Same as Billing address</label>
                                     </p>
                                     <p class="line-part">
-                                        <input type="radio" name=address>
-                                        <label for="same">Use a different shipping address</label>
+                                        <input type="radio" name="address" id="address">
+                                        <label for="address">Use a different shipping address</label>
                                     </p>
                                 </div>
                             </li>
@@ -92,12 +92,12 @@
                                 <h4>Shipping Method</h4>
                                 <div class="content">
                                     <p>
-                                        <input type="radio" name=method>
-                                        <label for="same">Regular Mail</label>
+                                        <input type="radio" name="method" id="method">
+                                        <label for="method">Regular Mail</label>
                                     </p>
                                     <p class="line-part">
-                                        <input type="radio" name=method>
-                                        <label for="same">PostNL</label>
+                                        <input type="radio" name="method" id="method">
+                                        <label for="method">PostNL</label>
                                     </p>
                                 </div>
                             </li>
@@ -105,7 +105,7 @@
                                 <h4>Payment Method</h4>
                                 <h5>All transactions are secure and encrypted</h5>
                                 <div class="payment">
-                                    <input type="radio" name=payment>
+                                    <input type="radio" name="credit" id="credit">
                                     <label for="credit">Credit Card</label>
                                     <p>
                                         <a href="#">Google pay</a>
@@ -141,7 +141,7 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>blue</span></p>
-                            <span><p>$3.99</p></span>
+                            <span>$3.99</span>
                         </a>
                     </li>
                     <li>
@@ -149,7 +149,7 @@
                         <a href="#">
                             <p>Sunny’s Uni Socks</p>
                             <p>Color: <span>grenn</span></p>
-                            <span><p>$3.99</p></span>
+                            <span>$3.99</span>
                         </a>
                     </li>
                     <li>
@@ -157,7 +157,7 @@
                         <a href="#">
                             <p>Sunny’s Stripped Socks</p>
                             <p>Color: <span>yellow</span></p>
-                            <span><p>$3.99</p></span>
+                            <span>$3.99</span>
                         </a>
                     </li>
                     <li>
@@ -172,8 +172,6 @@
             </div>
         </div>
     </div>
-    <?php include"./view/layout/footer.php" ?>
-    
-    
+    <?php include"./view/layout/footer.php" ?>    
 </body>
 </html>

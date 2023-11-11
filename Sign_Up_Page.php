@@ -51,6 +51,9 @@
             </form>
         </div>
     </div>
+
+</body>
+
     <div class="footer-container">
         <div class="slogan">
             <img src="img/sunny_logos_slogan_blue.png">
@@ -77,5 +80,5 @@
 </div>
             </div>
         </div>
-</body>
+
 </html>

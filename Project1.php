@@ -115,7 +115,7 @@
     <p>$3.99</p>
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><a href="product_detail_uni.php" ><img src="img/Sunny_socks_uni_green.jpg" alt=""></a></header> 
+        <header><a href="product_detail_uni.php" ><img src="img/Sunny_socks_uni_green.jpg" alt="uni_green"></a></header> 
         <h1><a href="product_detail_uni.php" >Sunny’s Green Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -126,7 +126,7 @@
     <p>$3.99</p> 
     </div>
     <div class="js-scroll fade-in-bottom">
-        <header><a href="product_detail_uni.php"><img src="img/Sunny_socks_uni_yellow.jpg" alt=""></a></header> 
+        <header><a href="product_detail_uni.php"><img src="img/Sunny_socks_uni_yellow.jpg" alt="uni_yellow"></a></header> 
         <h1><a href="product_detail_uni.php">Sunny’s Yellow Uni Sock</a></h1>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
@@ -143,24 +143,24 @@
 <div class="brightside-container js-scroll fade-in-bottom">
     <div class="mySlides fade">
         <div class="numbertext">1 / 4</div>
-  <img src="img/woman-with-socks-having-fruits-vegetables-her-feet (1).jpg" style="width:100%; height: 550px;">
+  <img src="img/woman-with-socks-having-fruits-vegetables-her-feet (1).jpg"  alt="pic" class="sock_img">
   <div class="text">Aesthetic</div>
 </div>
 <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
-    <img src="img/comfortable.png" style="width:100%; ">
+    <img src="img/comfortable.png" alt="pic" class="sock_img1">
     <div class="text">Comfortable</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="img/warm.png" style="width:100%">
+    <img src="img/warm.png" alt="pic" class="sock_img1">
     <div class="text">Warm</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 4</div>
-    <img src="img/christian-family-praying-together.jpg" style="width:100%; height: 550px;">
+    <img src="img/christian-family-praying-together.jpg" alt="pic" class="sock_img">
     <div class="text">For Every one</div>
   </div>
   <a class="prev" onclick="plusSlides(-1)">❮</a>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta chraset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
         <title>Sunny's</title>
         <link rel="stylesheet" href="./css/common.css">
@@ -55,7 +55,6 @@
                 </ul>
             </div>
             </div>
-        </div>
         <div class="vision">
             <div class="inner-box">
                 <div class="side-bar"></div>
@@ -175,7 +174,7 @@
                 </div>
             </div>
             <div class="part-2">
-                <img class="sock-pic-1"src="./pictures/green socks.jpg" alt="">
+                <img class="sock-pic-1" src="./pictures/green socks.jpg" alt="">
                 <img class="sock-pic-2" src="./pictures/red stripy socks.jpg" alt="">
             </div>
         </div>

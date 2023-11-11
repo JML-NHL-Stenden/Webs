@@ -348,6 +348,13 @@ body{
 #pic4{
   filter: blur(3px);
 }
+.sock_img{
+  width:100%; 
+  height: 550px;
+}
+.sock_img1{
+  width: 100%;
+}
 
 
   
