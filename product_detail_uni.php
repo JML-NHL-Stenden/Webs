@@ -30,7 +30,7 @@ include "./view/layout/header.php"
     <!-- Color options -->
 
     <div class="home-title">
-            <p><a href="Project1.php"> Home &nbsp > </a>&nbsp <b>Uni-Color Socks</b></p> 
+            <p><a href="Project1.php"> Home&nbsp > </a>&nbsp<b>Uni-Color Socks</b></p> 
     </div>
     
     <div class="product-custom">
@@ -48,7 +48,7 @@ include "./view/layout/header.php"
                 <input type="radio" id="rating4.5"   name="rating" value="4.5 / 5" /><label class="half" for="rating4.5"     title="4 1/2 stars"></label>
                 <input type="radio" id="rating4"     name="rating" value="4 / 5" />  <label for="rating4"                    title="4 stars"></label>
                 <input type="radio" id="rating3.5"   name="rating" value="3.5 / 5" /><label class="half" for="rating3.5"     title="3 1/2 stars"></label>
-                <input type="radio" id="rating3"     name="rating" value="3 / 5" />  <label label for="rating3"              title="3 stars"></label>
+                <input type="radio" id="rating3"     name="rating" value="3 / 5" />  <label for="rating3"                    title="3 stars"></label>
                 <input type="radio" id="rating2.5"   name="rating" value="2.5 / 5" /><label class="half" for="rating2.5"     title="2 1/2 stars"></label>
                 <input type="radio" id="rating2"     name="rating" value="2 / 5" />  <label for="rating2"                    title="2 stars"></label>
                 <input type="radio" id="rating1.5"   name="rating" value="1.5 / 5" /><label class="half" for="rating1.5"     title="1 1/2 stars"></label>
@@ -64,9 +64,10 @@ include "./view/layout/header.php"
             <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
             <br>
 
+                
+            <form id="productsSelectingForm" action="shoppingcart.php" method="post">
                 <section class ="color-container">
                      <p>Select colors</p>
-            <form id="productsSelectingForm" action="shoppingcart.php" method="post">
                         <div class="circle-colors">
                             <div class="custom-radio" id="red" onclick="changeImage('red')">
                                 <input type="radio" id="red-c" name="color" value="red">
