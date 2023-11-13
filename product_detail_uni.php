@@ -30,7 +30,7 @@ include "./view/layout/header.php"
     <!-- Color options -->
 
     <div class="home-title">
-            <p><a href="Project1.php"> Home&nbsp > </a>&nbsp<b>Uni-Color Socks</b></p> 
+            <p><a href="Project1.php"> Home&nbsp;> </a>&nbsp;<b>Uni-Color Socks</b></p> 
     </div>
     
     <div class="product-custom">
@@ -96,23 +96,23 @@ include "./view/layout/header.php"
                 <div id="submit-and-counter">
                     <div id="redCountFields" style="display:none">
                         <label for="field-red">Pair count:</label>
-                        <input type="number" class="number-input" value="red" name="counts_of_pairs[red-u]" min="0">
+                        <input type="number" class="number-input" name="counts_of_pairs[red-u]" min="0">
                     </div>
                     <div id="greenCountFields" style="display:none">
                         <label for="field-green">Pair count:</label>
-                        <input type="number" class="number-input" value="green" name="counts_of_pairs[green-u]" min="0">
+                        <input type="number" class="number-input" name="counts_of_pairs[green-u]" min="0">
                     </div>
                     <div id="blueCountFields" style="display:block">
                         <label for="field-blue">Pair count:</label>
-                        <input type="number" class="number-input" value="blue" name="counts_of_pairs[blue-u]" min="0" checked>
+                        <input type="number" class="number-input" name="counts_of_pairs[blue-u]" min="0">
                     </div>
                     <div id="yellowCountFields" style="display:none">
                         <label for="field-yellow">Pair count:</label>
-                        <input type="number" class="number-input" value="yellow" name="counts_of_pairs[yellow-u]" min="0">
+                        <input type="number" class="number-input" name="counts_of_pairs[yellow-u]" min="0">
                     </div>
                     <div id="pinkCountFields" style="display:none">
                         <label for="field-pink">Pair count:</label>
-                        <input type="number" class="number-input" value="pink" name="counts_of_pairs[pink-u]" min="0">
+                        <input type="number" class="number-input" name="counts_of_pairs[pink-u]" min="0">
                     </div>
                     <!-- Go to the cart -->
                     <input class="go-to-cart-button" type="submit" value="Go to the cart">
