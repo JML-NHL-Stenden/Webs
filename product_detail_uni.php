@@ -49,7 +49,7 @@
                         <input type="radio" id="rating4.5"   name="rating" value="4.5 / 5" /><label class="half" for="rating4.5"     title="4 1/2 stars"></label>
                         <input type="radio" id="rating4"     name="rating" value="4 / 5" />  <label for="rating4"                    title="4 stars"></label>
                         <input type="radio" id="rating3.5"   name="rating" value="3.5 / 5" /><label class="half" for="rating3.5"     title="3 1/2 stars"></label>
-                        <input type="radio" id="rating3"     name="rating" value="3 / 5" />  <label label for="rating3"              title="3 stars"></label>
+                        <input type="radio" id="rating3"     name="rating" value="3 / 5" />  <label for="rating3"                    title="3 stars"></label>
                         <input type="radio" id="rating2.5"   name="rating" value="2.5 / 5" /><label class="half" for="rating2.5"     title="2 1/2 stars"></label>
                         <input type="radio" id="rating2"     name="rating" value="2 / 5" />  <label for="rating2"                    title="2 stars"></label>
                         <input type="radio" id="rating1.5"   name="rating" value="1.5 / 5" /><label class="half" for="rating1.5"     title="1 1/2 stars"></label>
@@ -91,7 +91,6 @@
                                         <label for="pink-c"></label>
                                     </div>
                                 </div>
-                    </form>
                 </section>
 
                     <!-- Pair counter and submit button -->
@@ -99,27 +98,28 @@
                         <!-- Pair counter -->
                         <div id="redCountFields" style="display:none">
                             <label for="field-red">Pair count:</label>
-                            <input type="number" class="number-input"  value="red" name="counts_of_pairs[red]" min="0">
+                            <input type="number" class="number-input" name="counts_of_pairs[red-u]" min="0">
                         </div>
                         <div id="greenCountFields" style="display:none">
                             <label for="field-green">Pair count:</label>
-                            <input type="number" class="number-input"  value="green" name="counts_of_pairs[green]" min="0">
+                            <input type="number" class="number-input" name="counts_of_pairs[green-u]" min="0">
                         </div>
                         <div id="blueCountFields" style="display:block">
                             <label for="field-blue">Pair count:</label>
-                            <input type="number" class="number-input"  value="blue" name="counts_of_pairs[blue]" min="0" checked>
+                            <input type="number" class="number-input" name="counts_of_pairs[blue-u]" min="0">
                         </div>
                         <div id="yellowCountFields" style="display:none">
                             <label for="field-yellow">Pair count:</label>
-                            <input type="number" class="number-input"  value="yellow" name="counts_of_pairs[yellow]" min="0">
+                            <input type="number" class="number-input" name="counts_of_pairs[yellow-u]" min="0">
                         </div>
                         <div id="pinkCountFields" style="display:none">
                             <label for="field-pink">Pair count:</label>
-                            <input type="number" class="number-input"  value="pink" name="counts_of_pairs[pink]" min="0">
+                            <input type="number" class="number-input" name="counts_of_pairs[pink-u]" min="0">
                         </div>
                         <!-- Go to the cart -->
                         <input class="go-to-cart-button" type="submit" value="Go to the cart">
                     </div>
+                </form>
             </div>
 
             <!-- Image container for the first image -->

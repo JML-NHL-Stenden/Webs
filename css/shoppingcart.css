@@ -94,10 +94,12 @@ h1 {
 .go-to-checkout {
     display: flex;
     padding: 16px;  
+    background-color: #F15B39;
     background: linear-gradient(180deg, #f23a11 0%, #E990B9 100%);
     align-items: center;
     justify-content: center;
 }
+
 
 .go-to-checkout > * {
     text-decoration: none;
@@ -124,6 +126,7 @@ h1 {
 .continue-shopping-button {
     display: inline;    
     padding: 12px 48px 12px 48px;
+    background-color: #F15B39;
     background: linear-gradient(180deg, #f23a11 0%, #E990B9 100%);
 }
 
