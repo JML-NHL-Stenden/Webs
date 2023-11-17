@@ -17,7 +17,7 @@
 
 header {
     top:0;
-    z-Project1:100px;
+    z-index:100px;
     margin-top: 7rem;
 }
 * {

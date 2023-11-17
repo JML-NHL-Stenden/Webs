@@ -10,14 +10,19 @@
         <link rel="stylesheet" href="./css/about_us.css">
     </head>
     <body>
-     <header> 
+
+    <header> 
     <!-- header section -->
     <?php include "./view/layout/header.php" ?>
+
+
     </header>  
+
         <!-- Big banner section -->
         <div class="top-banner">
-            <img src="./pictures/sunny big page.png" alt="">
+            <img src="./img/pictures/sunny big page.png" alt="">
         </div>
+
         <!-- Value section -->
         <div class="company-value">
             <div class="hd">
@@ -27,7 +32,7 @@
             <div class="bd">
                 <ul>
                     <li>
-                        <div><img src="./pictures/pink socks.png" alt="pinksocks"></div>
+                        <div><img src="./img/pictures/pink socks.png" alt="pinksocks"></div>
                         <div>
                             <h4>Positive</h4>
                             <p>Positivity is part of our DNA. Sunny likes to look on the bright side. 
@@ -35,15 +40,16 @@
                         </div>
                     </li>
                     <li>
-                        <div><img src="./pictures/blue socks.png" alt="bluesocks"></div>
+                        <div><img src="./img/pictures/blue socks.png" alt="bluesocks"></div>
                         <div>
                             <h4>Colorful</h4>
                             <p>We like to add some color to one of the the most everyday moments of life: putting on your socks. 
                                 We add literal color by designing simple basic white socks a pop of color.</p>
                         </div>
                     </li>
+
                     <li>
-                        <div><img src="./pictures/red socks.png" alt="redsocks"></div>
+                        <div><img src="./img/pictures/red socks.png" alt="redsocks"></div>
                         <div>
                             <h4>Mission</h4>
                             <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
@@ -51,21 +57,19 @@
                     </li>
                 </ul>
             </div>
-<<<<<<< HEAD
-            </div>
-=======
         </div>
->>>>>>> 5e091b10e7ca4d09325062382959a0548f1c99f9
+
         <div class="vision">
             <div class="inner-box">
                 <div class="side-bar"></div>
-                <div class="picture"><img src="./pictures/many-socks-adjust.png" alt="socks"></div>
+                <div class="picture"><img src="./img/pictures/many-socks-adjust.png" alt="socks"></div>
                 <div class="inner-text">
                     <h3>ABOUT OUR VISION</h3>
                     <p>Sunny’s vision is to produce ethical and sustainable socks that are available for everybody.</p>
                 </div>
             </div>
         </div>
+
         <!-- Expert-showroom -->
         <div class="expert-section">
             <div class="title">
@@ -76,40 +80,40 @@
                 <ul>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl1-adjuested.jpg" alt="girl">
+                            <img src="./img/pictures/girl1-adjuested.jpg" alt="girl">
                             <h3>Sherlin D’Cruz</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
                             <div class="media">
-                                <a href="#"><img src="./pictures/facebook.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/twitter.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/linkedin.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/facebook.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/twitter.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/linkedin.svg" alt=""></a>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl2-adjusted.jpg" alt="girls">
+                            <img src="./img/pictures/girl2-adjusted.jpg" alt="girls">
                             <h3>Maria Sharapova</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
                             <div class="media">
-                                <a href="#"><img src="./pictures/facebook.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/twitter.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/linkedin.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/facebook.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/twitter.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/linkedin.svg" alt=""></a>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="profile">
-                            <img src="./pictures/girl3-adjusted.jpg" alt="woman">
+                            <img src="./img/pictures/girl3-adjusted.jpg" alt="woman">
                             <h3>Angeline Jenifer</h3>
                             <h5>Expert</h5>
                             <p>I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain</p>
                             <div class="media">
-                                <a href="#"><img src="./pictures/facebook.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/twitter.svg" alt=""></a>
-                                <a href="#"><img src="./pictures/linkedin.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/facebook.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/twitter.svg" alt=""></a>
+                                <a href="#"><img src="./img/pictures/linkedin.svg" alt=""></a>
                             </div>
                         </div>
                     </li>
@@ -129,17 +133,17 @@
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
                     <div class="bottom-part1">
-                        <div class="person"><img src="./pictures/Hema-logo.jpg" alt=""></div>
+                        <div class="person"><img src="./img/pictures/Hema-logo.jpg" alt=""></div>
                         <div class="detail">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star_half.svg" alt="">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star_half.svg" alt="star pic">
                             <h3>HEMA</h3>
                             <p>NETHERLANDS</p>
                         </div>
-                        <div class="comma"><img src="./pictures/comma-icon.svg" alt=""></div>
+                        <div class="comma"><img src="./img/pictures/comma-icon.svg" alt="comma icon"></div>
                     </div>
                 </div>
                 <div class="box-2">
@@ -148,17 +152,17 @@
                         I hope everyone can find his or her ideal socks in this website, of course, 100% recommended “</p>
                     </div>
                     <div class="bottom-part2">
-                        <div class="person"><img src="./pictures/bol-logo.jpg" alt=""></div>
+                        <div class="person"><img src="./img/pictures/bol-logo.jpg" alt="bol logo"></div>
                         <div class="detail">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star.svg" alt="">
-                            <img src="./pictures/star_half.svg" alt="">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star.svg" alt="star pic">
+                            <img src="./img/pictures/star_half.svg" alt="star pic">
                             <h3>Bol.com</h3>
                             <p>NETHERLANDS</p>
                         </div>
-                        <div class="comma"><img src="./pictures/comma-icon.svg" alt=""></div>
+                        <div class="comma"><img src="./img/pictures/comma-icon.svg" alt="comma icon"></div>
                     </div>
                 </div>
             </div>
@@ -171,15 +175,16 @@
                     <p class="follow-slogan">Follow us on Instagram</p>
                     <p class="follow-detail">We are Sunny. Every day we share some short video about dressing code, the latest stylish socks and the right way to choose some good socks.
                      Come to follow us! Let us be closer to your daily life! </p>
-                    <img src="./pictures/pink stripy socks.jpg" alt="">
+                    <img src="./img/pictures/pink stripy socks.jpg" alt="pink socks">
                 </div>
             </div>
             <div class="part-2">
-                <img class="sock-pic-1" src="./pictures/green socks.jpg" alt="">
-                <img class="sock-pic-2" src="./pictures/red stripy socks.jpg" alt="">
+                <img class="sock-pic-1" src="./img/pictures/green socks.jpg" alt="green socks">
+                <img class="sock-pic-2" src="./img/pictures/red stripy socks.jpg" alt="red socks">
             </div>
         </div>
         <!-- Footer section -->
         <footer><?php include "./view/layout/footer.php" ?></footer>
     </body>
 </html>
+

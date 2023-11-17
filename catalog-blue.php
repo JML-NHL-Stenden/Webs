@@ -14,12 +14,15 @@
             <?php include "./view/layout/header.php";?>
         </header>
         <!-- end of header starting with main now -->
+
         <main>
             <div class="home-title">
                 <p><a href="Project1.php"> Home &nbsp > </a>&nbsp Shop</p> 
             </div>
+
             <!-- start of whole code, below is the grid container for everything -->
             <div class="grid-container">
+                
                 <!-- the star of the filter section -->
                 <div class="filter-grid">
                     <div class="filter-flex">
