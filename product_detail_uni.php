@@ -64,6 +64,8 @@
                     <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
                     <br>
 
+                
+            <form id="productsSelectingForm" action="shoppingcart.php" method="post">
                 <section class ="color-container">
                             <p>Select colors</p>
                     <form id="productsSelectingForm" action="shoppingcart.php" method="post">
