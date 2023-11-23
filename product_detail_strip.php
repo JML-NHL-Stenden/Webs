@@ -61,15 +61,14 @@
                 <!----------------- Stars rating - end ---------------->
 
                     <h3> $ 3.99  </h3>
-                    <!-- <br> -->
+                    
                     <p class='p-materials'> Made from 100% organic cotton Produced in Portugal </p>
-                    <!-- <br> -->
+                    
 
                 
                 <form id="productsSelectingForm" action="shoppingcart.php" method="post">
                     <section class ="color-container">
                         <p>Select colors</p>
-                        <!-- CHECKKKKKKKKKKKKK FOOOOOOOOOOOOOOORM WHY HEEEEEEEEEEEEEERE -->
                     <form id="productsSelectingForm" action="shoppingcart.php" method="post">
                                 <div class="circle-colors">
                                     <div class="custom-radio" id="red" onclick="changeImage('red')">
@@ -167,7 +166,7 @@
                                 The design is unique and the fabric feels so comfortable. 
                                 As a fellow designer, I appreciate the attention to detail. 
                                 It's become my favorite go-to stripes socks.".</p>
-                            <!-- <br> -->
+                            
                             <p>Posted on August 14, 2023</p>
                         </div>
 
@@ -175,8 +174,8 @@
                             <h3>Alex M.</h3>
                                 <p>"The stripes socks exceeded my expectations! 
                                     The colors are vibrant and the print quality is top-notch.
-                                    Being a UI/UX designer myself, I'm quite picky about aesthetics, and this stripes socks definitely gets a thumbs up from me."
-                                    <!-- <br> -->
+                                    Being a UI/UX designer myself, I'm quite picky about aesthetics, and this stripes socks definitely gets a thumbs up from me."</p>
+                                    
                                 <p>Posted on August 15, 2023</p>
                         </div>
                     </div>
@@ -192,15 +191,15 @@
                                 
                                 <div class="comment c-3">
                                 <h3>Derek O.</h3>
-                                    <p>"The stripes socks have the best quality material and very durable!"
-                                    <!-- <br> -->
+                                    <p>"The stripes socks have the best quality material and very durable!"</p>
+                                    
                                     <p>Posted on August 17, 2023</p>
                                 </div>
 
                                 <div class="comment c-4">
                                     <h3>Jim M.</h3>
                                     <p> "The stripes socks are very lovely and I like the socks especially with the white stripes!"</p>
-                                    <!-- <br> -->
+                                    
                                     <p>Posted on September 13, 2023</p>
                                 </div>
                             </div>
@@ -208,15 +207,15 @@
                             <div class="comment-row">
                                 <div class="comment c-5">
                                     <h3>Alejandro N.</h3>
-                                        <p>"Very unique color shades from these stripes socks, and it offer a variety of options!""
-                                        <!-- <br> -->
+                                        <p>"Very unique color shades from these stripes socks, and it offer a variety of options!""</p>
+                                        
                                         <p>Posted on September 16, 2023</p>
                                 </div>
 
                             <div class="comment c-6">
                                 <h3>Raif K.</h3>
                                 <p>"These unique stripes socks are my favorites, it fits to any special activity events or I can even wear it every day!."</p>
-                                <!-- <br> -->
+                                
                                 <p>Posted on October 29, 2023</p>
                             </div>
                         </div>
@@ -230,13 +229,13 @@
         <section class="section" id="section3">
             <h2>Frequent Asked Question/s</h2>
             <div class="question q-1">
-                    <!-- <h3><br>Will this cause irritation for my skin?</h3> -->
+                    <h3>Will this cause irritation for my skin?</h3>
                     <p>No,  it wont unless you have allergic reaction with cottons. Then you won't be able to use our products due it made 100% cotton.</p>
                 
             </div>
                     
             <div class="question q-2">
-                    <!-- <h3><br>How long does it take for the product to be delivered?</h3> -->
+                    <h3>How long does it take for the product to be delivered?</h3>
                     <p>Normally, it does take to 2-3 business day to deliver to the location.</p>
                 
             </div>
