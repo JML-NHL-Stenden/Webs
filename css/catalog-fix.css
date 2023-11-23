@@ -1,0 +1,306 @@
+/* Change everything */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nexaLight;
+}
+
+header {
+  top: 0;
+  z-index: 100px;
+  margin-top: 115px;;
+}
+
+hr{
+  width: 18dvw;
+}
+
+a {
+  color: black;
+}
+/* Fonts */
+
+@font-face {
+  font-family: nexaBold;
+  src:  url(../Fonts/nexa_bold.otf);
+}
+
+@font-face {
+  font-family: nexaLight;
+  src:  url(../Fonts/nexa-light.otf);
+}
+
+/* Main contents */
+
+main {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+  grid-template-rows: 0.08fr 0.5fr  0.2fr;
+  gap: 1em;
+  padding-bottom: 0.5em;
+  padding-block: 0.5em;
+
+  margin-inline: auto;
+}
+
+/* Some title and header styling */
+
+.home-title{
+  display: flex;
+
+  justify-content: start;
+  align-content: bottom;
+
+  grid-column: 2;
+  grid-row: 1;
+
+  position: relative;
+  padding: 8px;
+  padding-left: 2em;
+  height: 1em;
+}
+
+.home-title p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home-title a {
+  font-weight:  normal;
+  font-size: 18px;
+}
+
+.h2-astyle {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  grid-column: 3;
+}
+
+.h4-astyle {
+  display: flex;
+  align-items: center;
+  flex-direction: end;
+  grid-column: 7/9;
+  grid-row: 1/2;
+}
+
+.h3-style {
+  position: relative;
+  padding-left: 45px;
+}
+
+/* Filter section */
+
+/* now filter */
+
+.filter-grid {
+  display: grid;
+
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.filter-flex{
+  display: flex;
+
+  width: 21dvw;
+  height: 26dvw;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  border: 0.5px solid rgb(188, 188, 188);
+}
+
+.filters {
+  padding-left: 40px;
+}
+
+.filter-p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  font-family: nexaLight;
+  background: none; 
+  border: none; 
+  text-align: center;
+  font-size: 18px;
+  transition: color 0.3s; /* Add transition for color change */
+  color: #000; /* Set initial text color */
+}
+
+.filter-btn:hover {
+  color: #3e3e3e; /* Change text color on hover */
+  font-family: nexaBold;
+}
+
+/* styling item class down */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 3/8;
+  row-gap: 3rem ;
+}
+
+.item {
+  height: 28dvh;
+  width: 20dvw;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  align-items: left;
+}
+
+.sock-img {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.positioning p{
+  display: flex;
+  text-align: left;
+}
+
+.positioning {
+  display: flex;
+  justify-content: start;
+}
+
+.bold p {
+  font-family: nexaBold;
+}
+
+/* Circle color changing thing */
+
+.custom-radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+  
+.custom-radio input[type="radio"] {
+  display: none;
+}
+  
+.custom-radio label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+  
+.custom-radio label::before {
+  display: flex;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+
+/* change size of circle */
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%; 
+
+}
+  
+#red label::before {
+  background-color: #F15B39;
+}
+  
+#green label::before {
+  background-color: #51B2A2;
+}
+  
+#blue label::before {
+  background-color: #1E407A;
+}
+  
+#yellow label::before {
+  background-color: #FECD3E;
+}
+  
+#pink label::before {
+  background-color: #E990B9;
+}
+  
+.custom-radio input[type="radio"]:checked + label::before {
+  border: 2px solid #000; 
+}
+  
+.circle-colors {
+  display: grid;
+  grid-template-columns: repeat(5, 30px);
+  margin-top: 3px; 
+}
+  
+.color-container {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  padding-bottom: 20px;
+  border-width: 1px;
+  border-color: lightgray;
+    
+}
+  
+/* stars rating */
+
+.checked {
+  color: orange;
+}
+
+.fa-star-half-full {
+  color: orange;
+}
+
+.stars {
+  display: flex;
+  justify-content: start;
+}
+
+.item span {
+  display: flex;
+
+  flex-direction: row;
+  align-content: start;
+}
+
+/* circle color */
+  
+.circle.red {
+  background-color: #F15B39;
+}
+  
+.circle.green {
+  background-color: #51B2A2;
+}
+  
+.circle.blue {
+  background-color: #1E407A;
+}
+  
+.circle.yellow {
+  background-color: #FECD3E;
+}
+  
+.circle.pink {
+  background-color: #E990B9;
+}
+  
+/* testing */
+
