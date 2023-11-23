@@ -10,7 +10,10 @@
         <link rel="stylesheet" href="./css/checkout.css">
     </head>
 
+    <header>
     <?php include "./view/layout/header.php" ?>
+    </header>
+    
     <body>
         
         <div class="billing wrapper">
@@ -148,7 +151,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href=""><img src="./img/pictures/socks_green.jpg" alt=""></a>
+                            <a href="#"><img src="./img/pictures/socks_green.jpg" alt=""></a>
                             <a href="#">
                                 <p>Sunny’s Uni Socks</p>
                                 <p>Color: <span>grenn</span></p>
@@ -156,7 +159,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href=""><img src="./img/pictures/socks_yellow.jpg" alt=""></a>
+                            <a href="#"><img src="./img/pictures/socks_yellow.jpg" alt=""></a>
                             <a href="#">
                                 <p>Sunny’s Stripped Socks</p>
                                 <p>Color: <span>yellow</span></p>
@@ -175,6 +178,8 @@
                 </div>
             </div>
         </div>
+        <footer>
         <?php include "./view/layout/footer.php" ?>
+        </footer>
     </body>
 </html>

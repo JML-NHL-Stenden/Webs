@@ -19,8 +19,7 @@
             <div class="logo"><a href="Project1.php">sunny</a></div>
             <div class="navbar">
                 <ul>
-                    <li><a href="catalog.php">Shop</a></li>
-                    <!-- <li><a href="catalog-j.php">On Sales</a></li> -->
+                    <li><a href="catalog-zj.php">Shop</a></li>
                     <li><a href="about_us.php">About Us</a></li>
                 </ul>
             </div>
@@ -28,7 +27,7 @@
             <!-- Search bar -->
             <div class="searchbar">
                 <form action="action_page.php" method="POST">
-                    <button class ="button" type="submit"></button>
+                    <button class="button" type="submit"></button>
                     <input type="text" placeholder="Search for products..." name="search">
                 </form>
             </div>

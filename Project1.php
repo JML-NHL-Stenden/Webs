@@ -20,7 +20,7 @@
           <header>BRIGHT SIDE OF SOCKS</header>
           <p>Sunny’s mission is to brighten peoples day by providing high quality, ethically produced socks.</p>
           <div class="ShopNow"> 
-          <a href="catalog.php" >Shop Now</a>
+          <a href="catalog-zj.php">Shop Now</a>
           </div>
       </div>
 
